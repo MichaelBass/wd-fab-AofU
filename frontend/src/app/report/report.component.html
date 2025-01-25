@@ -1,0 +1,25 @@
+
+<p><label class="label label-primary"> {{message}}</label></p>
+
+  <div>
+    <div style="display: block">
+      <canvas baseChart
+        [datasets]="radarChartData"
+        [options]="radarChartOptions"
+        [labels]="radarChartLabels"
+        [type]="'radar'">
+      </canvas>
+    </div>
+  </div>
+
+    <div>
+    <div style="display: block">
+      <canvas baseChart
+        [datasets]="radarChartData2"
+        [options]="radarChartOptions2"
+        [labels]="radarChartLabels2"
+        [type]="'radar'">
+      </canvas>
+    </div>
+  </div>
+

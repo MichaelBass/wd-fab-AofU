@@ -1,0 +1,40 @@
+<div>
+  <p>{{users_label}} <label class="label label-primary">{{message}}</label></p>
+  <p style="text-align:right">
+    <!--<button (click)="gotoUtility()"class="btn btn-default">{{utility_label}}</button>-->
+    <button (click)="logOff()"class="btn btn-default">{{log_off}}</button>
+</p>
+
+    <table class="table table-hover">
+     <tr class="success" style="text-align:left"><th>{{oid_label}}</th><th>{{study_code_label}}</th><th>{{password_label}}</th><th>{{sponsor_code_label}}</th><th>{{assessment_label}}</th><th>{{report_label}}</th><th>{{summary_label}}</th><th>{{results_label}}</th><th>{{update_label}}</th><th>{{delete_label}}</th>
+    </tr>
+	<tr *ngFor="let person of people" style="text-align:left">
+    
+    <!--<td><input [(ngModel)]="person.oid" placeholder="oid"></td> -->
+    <td>{{person.oid}}</td>
+    <td><input [(ngModel)]="person.study_code" placeholder="username"></td>
+    <td><input [(ngModel)]="person.password" placeholder="password"></td>
+    <td>{{person.sponsor_code}}</td>
+   
+<!--
+    <td><button (click)="selectUser(person._id)"class="btn btn-default">Start Assessment </button></td>
+    <td>{{person.__v}}</td>
+    <td> <span *ngIf="person.demo"> Age: {{person.demo.age}} - gender:{{person.demo.gender}} </span></td>
+    <td> <span *ngIf="person.forms">{{person.forms[0]}},{{person.forms[1]}},{{person.forms[2]}},{{person.forms[3]}},{{person.forms[4]}},{{person.forms[5]}}</span></td>
+ -->
+    <td><button (click)="gotoLogin()"class="btn btn-default">{{start_assessment_label}}</button></td>
+    <td><button (click)="gotoReport(person)"class="btn btn-default">{{report_label}}</button></td> 
+    <td><button (click)="exportSummaryData(person)"class="btn btn-default">{{summary_data_label}}</button></td> 
+    <td><button (click)="exportData(person)"class="btn btn-default">{{export_data_label}} </button></td>   
+    <td><button (click)="updateUser(person)"class="btn btn-default">{{update_label}}</button></td>
+    <td><button (click)="deleteUser(person)"class="btn btn-default">{{delete_label}}</button></td>
+  </tr>
+  <tr style="text-align:left">
+    <td><input [(ngModel)]="oid" placeholder="{{oid_label}}"></td>
+    <td><input [(ngModel)]="study_code" placeholder="{{username_label}}"></td>
+    <td><input [(ngModel)]="password" placeholder="{{password_label}}"></td>
+    <td></td>
+    <td colspan='6'><button (click)="addUser()"class="btn btn-default">{{add_label}}</button></td>
+  </tr>
+	</table>
+</div>

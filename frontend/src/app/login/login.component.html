@@ -1,0 +1,18 @@
+<div class="container-fluid">
+<div style="text-align:center">
+<p>
+<!--<label class="label label-primary">User Name:</label>-->
+<input [(ngModel)]="username" class="form-control" placeholder="{{username_placeholder}}">
+</p>  
+<p>  
+<!--<label class="label label-primary">Password:</label>-->
+<input type="password" [(ngModel)]="password" (keydown)="onKeydown($event)" class="form-control" placeholder="{{password_placeholder}}"> 
+</p>   
+<p>
+<button (click)="login()" class="btn btn-primary btn-lg btn-block"> {{login_btn}} </button>
+</p>
+<p>
+ <label *ngIf="message" class="text-danger"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> {{message}}</label> 
+</p>
+</div>
+</div>

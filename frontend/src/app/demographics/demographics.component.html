@@ -1,0 +1,146 @@
+<div class="container-fluid">
+<form (ngSubmit)="onSubmit()" [formGroup]="form">
+<div style="text-align:center"> 
+
+ <!--
+<div class="section">
+	<p class="bg-info"><label class="label-default2">{{gender_question}}</label></p>
+	<div class="answerset" ngbRadioGroup >
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="1" formControlName="demo_gender" required > {{gender_Male}}
+    </label>
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="0" formControlName="demo_gender" required > {{gender_Female}}
+    </label>
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="2" formControlName="demo_gender" required > {{gender_Refused}}
+    </label>
+	</div>
+</div>
+
+<div class="section">
+    <p class="bg-info"><label class="label-default2">{{age_question}}</label></p>
+    	<div class="answerset">
+      	<input class="form-control" formControlName="demo_age" placeholder="{{age_Placeholder}}" required>
+  		</div>
+
+    <div *ngIf="form.controls['demo_age'].invalid && (form.controls['demo_age'].dirty || form.controls['demo_age'].touched)" class="alert alert-danger">
+        <div *ngIf="form.controls['demo_age'].errors" class="alert alert-danger"> {{age_required}}</div>         
+    </div> 
+    <div *ngIf="!isAgeValid" class="alert alert-danger"> {{age_number}}</div>
+
+</div>
+-->
+<div class="section">
+	<p class="bg-info"><label class="label-default2">{{mobility_question}}</label></p>
+	<div class="answerset" ngbRadioGroup >
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="1" formControlName="demo_walking" required> {{All_the_time}}
+    </label>
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="0" formControlName="demo_walking" required> {{Sometimes}}
+    </label>
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="2" formControlName="demo_walking" required> {{Never}}
+    </label>
+    </div>
+</div>
+
+<div class="section">
+	<p class="bg-info"><label class="label-default2">{{wheelchair_question}}</label></p>
+	<div class="answerset" ngbRadioGroup >
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="1" formControlName="demo_wc" required> {{I_never_walk}}
+    </label>
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="0" formControlName="demo_wc" required> {{Sometimes}}
+    </label>
+    <label ngbButtonLabel class="choices">
+    	<input ngbButton type="radio" [value]="2" formControlName="demo_wc" required> {{Never}}
+    </label>
+	</div>
+</div>
+
+<!--
+<div class="section" *ngIf="locale_value == 'en-US'">
+    <p class="bg-info"><label class="label-default2">{{race_question}}</label></p>
+    <div *ngIf="isRaceMissing" class="alert alert-danger">{{race_required}}</div>
+    <div class="answerset" >
+
+    <ul class="list-unstyled">
+    <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_2" formControlName="demo_2"> {{American_Indian}}
+    </label></li>
+    <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_4" formControlName="demo_4"> {{Asian}}
+    </label></li>
+    <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_8" formControlName="demo_8"> {{African_American}}<br/>
+    </label></li>
+   <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_16" formControlName="demo_16"> {{Native_Hawaiian}}
+    </label></li>
+    <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_1" formControlName="demo_1"> {{White}}
+    </label></li>
+    <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_256" formControlName="demo_256"> {{Hispanic}}
+    </label></li>
+    <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_32" formControlName="demo_32"> {{Dont_know}}
+    </label></li>
+    <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_64" formControlName="demo_64"> {{Refuse}}
+    </label></li>
+    <li><label class="choices">
+        <input type="checkbox" [checked]="race_selected_128" formControlName="demo_128"> {{Other}}
+    </label></li>
+    
+   
+    <div *ngFor="let race of list_checkbox.controls;let i=index">
+        <label class="choices">
+            <input type="checkbox" formControl="race" /> {{races[i].name}}
+        </label>
+    </div>
+    
+    <li><label class="choices">
+        <input class="form-control" formControlName="demo_other" placeholder="{{please_specify}}"> <br/>
+    </label></li>
+    </ul> 
+    </div>
+</div> 
+-->
+<div class="section">
+    <p class="bg-info"><label class="label-default2">{{Drive_question}}</label></p>
+    <div class="answerset" ngbRadioGroup >
+    <label ngbButtonLabel class="choices">
+        <input ngbButton type="radio" [value]="1" formControlName="demo_drive" required> {{Yes}}
+    </label>
+    <label ngbButtonLabel class="choices">
+        <input ngbButton type="radio" [value]="0" formControlName="demo_drive" required> {{No}}
+    </label>
+    </div>
+</div>
+
+<div class="section">
+    <p class="bg-info"><label class="label-default2">{{Public_Transport_question}}</label></p>
+    <div class="answerset" ngbRadioGroup >
+    <label ngbButtonLabel class="choices">
+        <input ngbButton type="radio" [value]="1" formControlName="demo_public_transportation" required> {{Yes}}
+    </label>
+    <label ngbButtonLabel class="choices">
+        <input ngbButton type="radio" [value]="0" formControlName="demo_public_transportation" required> {{No}}
+    </label>
+    </div>
+</div>
+
+<div class="section">
+<button type="submit" [disabled]="form.invalid" class="btn btn-primary btn-lg btn-block" >{{Submit}}</button>
+<label (click)="onClear()" class="btn btn-primary btn-lg btn-block"> {{Clear}}</label>
+</div> 
+
+ <label *ngIf="message" class="text-danger"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> {{message}}</label> 
+
+</div>
+</form>
+</div>

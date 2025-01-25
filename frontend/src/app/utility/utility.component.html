@@ -1,0 +1,14 @@
+<div>
+  	<p style="text-align:right">
+    <button (click)="process()"class="btn btn-default">{{process_label}}</button>
+    <button (click)="download()"class="btn btn-default">{{download_label}}</button>
+	</p>
+	<p><label class="label label-primary">{{message}}</label></p>
+  <table class="table table-hover">
+	  <tr style="text-align:left">
+	    <td><input [(ngModel)]="prefix" placeholder="{{prefix_label}}"></td>
+	    <td><input [(ngModel)]="start" placeholder="{{start_label}}"></td>
+	    <td><input [(ngModel)]="end" placeholder="{{end_label}}"></td>
+	  </tr>
+	</table>
+</div>	
