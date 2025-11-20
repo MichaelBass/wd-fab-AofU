@@ -44,7 +44,7 @@ export class IntroComponent implements OnInit {
     this.intro_5 = this.mongodbService.getLocaleValue("Choose your answer based on your usual ability <b>using any equipment or devices you normally use.</b>");
 
     this.intro_6 = this.mongodbService.getLocaleValue("Choose your answer based on your ability to do the activity <b>by yourself without the help of another person.</b>");
-    this.intro_7 = this.mongodbService.getLocaleValue("If you have not done an activity, do your best to guess what <b>your ability would be if you did it.</b><br/> If you are unable to gues choose <b>\"<u>I don't know</u>\"</b>.");
+    this.intro_7 = this.mongodbService.getLocaleValue("If you have not done an activity, do your best to guess what <b>your ability would be if you did it.</b><br/> If you are unable to guess choose <b>\"<u>I don't know</u>\"</b>.");
     this.intro_8 = this.mongodbService.getLocaleValue("For example, if it takes you a very long time or it is hard for you to do something (or an activity), you would choose the answer <b>\"<u>with a lot of difficulty</u>\"</b>. But, if you need help from another person, you would choose <b>\"<u>Unable</u>\"</b>.");
 
     this.Start = this.mongodbService.getLocaleValue("Start");
