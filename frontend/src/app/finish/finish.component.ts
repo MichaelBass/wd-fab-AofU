@@ -31,9 +31,10 @@ export class FinishComponent implements OnInit {
 
     if(this.user.params != null && this.user.params.length > 1){
         this.message = this.mongodbService.getLocaleValue("Loading. Please do not close your browser.");
+        this.parseScores();
     }
 
-   
+   /*
     this.mongodbService.notifyAdmin(this.user).subscribe(
       data => { 
         //console.log(data);
@@ -42,10 +43,8 @@ export class FinishComponent implements OnInit {
         }
       }
     ); 
+  */
 
-
-
-    ;
   	this.store.dispatch(CounterActions.clear_state());
   }
 

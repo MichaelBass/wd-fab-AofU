@@ -39,7 +39,7 @@ export class IntroComponent implements OnInit {
 
     this.intro_1 = this.mongodbService.getLocaleValue("You will be asked how much you agree with statements about how you function or feel about doing different activities.");
     this.intro_2 = this.mongodbService.getLocaleValue("Choose your answer based on your usual ability, <b>by yourself without the help of another person, and with any equipment or devices you normally use.</b>");
-    this.intro_3 = this.mongodbService.getLocaleValue("Do your best to pick the answer that best matches your agreement with the satement. If you are unable to pick a response the matches, choose <b>\"<u>I don't know</u>\".</b>");
+    this.intro_3 = this.mongodbService.getLocaleValue("Do your best to pick the answer that best matches your agreement with the statement. If you are unable to pick a response the matches, choose <b>\"<u>I don't know</u>\".</b>");
     this.intro_4 = this.mongodbService.getLocaleValue("You will also be asked about how much difficulty you have doing different things.");
     this.intro_5 = this.mongodbService.getLocaleValue("Choose your answer based on your usual ability <b>using any equipment or devices you normally use.</b>");
 
