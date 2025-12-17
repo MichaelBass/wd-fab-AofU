@@ -13,7 +13,10 @@ They are in two locations.  backend-node: environment DATABASE_URL  and backend-
 # Compose.yaml  start
 
 services:
+
+
   wd-fab-go:
+  
     build: gofabulouscat/.
     restart: always
     container_name: compose-go-github
@@ -23,6 +26,7 @@ services:
       - default
 
   frontend-angular:
+  
     build: frontend/.
     restart: always
     container_name: compose-angular-github
@@ -32,6 +36,7 @@ services:
       - default
 
   backend-node:
+  
     build: backend/.
     restart: always
     container_name: compose-express-github
@@ -43,6 +48,7 @@ services:
       - default
 
   backend-db:
+  
     image: mongodb/mongodb-community-server:latest 
     restart: always   
     environment:
@@ -66,13 +72,17 @@ Build and run instructions:
  https://github.com/CC-RMD-EpiBio/gofabulouscat 
 
 
-  The directory structure should be the following before building the images:
+The directory structure should be the following before building the images:
 
-  README.md
-  compose.yaml
-  \backend
-  \frontend
-  \gobulouscat
+    README.md
+  
+    compose.yaml
+  
+    \backend
+  
+    \frontend
+  
+    \gobulouscat
 
 
 2. Build images
