@@ -15,6 +15,7 @@ import * as CounterActions from '../counter.actions';
 
 import { MongoDbService } from '../mongo-db.service';
 
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-assessment',
@@ -45,8 +46,7 @@ export class AssessmentComponent implements OnInit {
 			 this.router.navigate(['/dashboard',this.mongodbService.getLocaleValue("Please select an user first")]);
 		}
 
-   		this.Next = this.mongodbService.getLocaleValue("Next");
-
+   	this.Next = this.mongodbService.getLocaleValue("Next");
 		this.getItem();
 	
 	}
@@ -64,6 +64,9 @@ export class AssessmentComponent implements OnInit {
 
 	getItem(): void {
 
+
+if(!environment.useGo){
+
 		this.clear = false;
 		this.item = this.catService.getNextItemSync();
 		this.localizeItem();
@@ -72,6 +75,23 @@ export class AssessmentComponent implements OnInit {
 			this.router.navigate(['/finish',this.mongodbService.getLocaleValue("The assessment is complete.")]);
 		}
 
+} else{
+
+		this.catService.getNextItemGo().subscribe(
+
+			data =>{
+					this.clear = false;
+					this.item = data;
+					this.localizeItem();
+
+
+					if(this.item  == null){
+						this.router.navigate(['/finish',this.mongodbService.getLocaleValue("The assessment is complete.")]);
+					}
+			}
+
+		);	
+}
 		/*
 		this.catService.getNextItem().subscribe(
 			data => { 
@@ -119,6 +139,37 @@ export class AssessmentComponent implements OnInit {
 		}
 
 	}
+
+
+	getNextItemGo(){
+
+		this.catService.getNextItemGo().subscribe(
+
+			data =>{
+					this.clear = false;
+					this.item = data;
+					this.localizeItem();
+
+					if( this.item == null || this.item.ID == undefined ){
+
+							this.user = this.store.getState().user;
+
+							if(this.user.assessments != null){
+					    	let assessment2 = this.user.assessments.filter((a) => a.Finished == null); // array of current assessment
+					    	if(assessment2.length > 0){
+					    			this.getItem();
+					    	} else{
+					    			this.router.navigate(['/finish',this.mongodbService.getLocaleValue("The assessment is complete.")]);
+					    	}
+
+					  	}
+						
+					}
+			}
+
+		);
+
+	}	
 /*
 	calculateEstimate(): void{
 
@@ -157,14 +208,35 @@ export class AssessmentComponent implements OnInit {
 		
 		//this.calculateEstimate();
 
-		var _result = this.catService.calculateEstimateSync(this.user);
-		if(_result != null){
-			this.user.results.push(_result);
-		}
-		this.store.dispatch(CounterActions.create_user(this.user));
-		this.getNextItem();
+		
+		if(!environment.useGo){
 
-	
+				var _result = this.catService.calculateEstimateSync(this.user);
+				if(_result != null){
+					this.user.results.push(_result);
+				}
+				this.store.dispatch(CounterActions.create_user(this.user));
+				this.getNextItem();
+
+		} else {
+
+				this.catService.calculateEstimateGo(this.user).subscribe(
+
+					data =>{
+						let _result = data;
+						if(_result != null){
+								this.user.results.push(_result);
+						}
+						this.store.dispatch(CounterActions.create_user(this.user));
+						this.getNextItemGo();
+					}
+
+				);	
+
+		}
+
+
+
 	}
 
 }

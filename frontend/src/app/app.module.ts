@@ -17,6 +17,7 @@ import { PortalComponent } from './portal/portal.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CatService } from './cat.service';
 import { IRTService } from './irt.service';
+import { GoEngineService } from './go-engine.service';
 import { MongoDbService } from './mongo-db.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { FinishComponent } from './finish/finish.component';
@@ -51,7 +52,7 @@ import { FormsComponent } from './forms/forms.component';
     AppRoutingModule
     
   ],
-  providers: [CatService,IRTService,MongoDbService, appStoreProviders, { provide: 'Window',  useValue: window }],
+  providers: [CatService,IRTService,MongoDbService,GoEngineService, appStoreProviders, { provide: 'Window',  useValue: window }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

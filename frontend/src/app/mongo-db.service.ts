@@ -108,7 +108,6 @@ export class MongoDbService {
         return JSON.parse("{\"message\":\"Successfully notifying admin.\"}");
     }
     */
-        console.log("mongo-db.service.ts::notifyAdmin");
         return JSON.parse("{\"message\":\"Successfully notifying admin.\"}");
 
 
@@ -133,7 +132,6 @@ export class MongoDbService {
     }
     */
 
-    console.log("mongo-db.service.ts::getForms"); 
     return this.http.post<[]>(`${this.API}/find_forms`,[]).pipe(
         catchError(err => {
             console.log('caught rethrown error, providing fallback value');
@@ -171,7 +169,6 @@ export class MongoDbService {
 
     const query = JSON.parse("{\"locale\":\"" + encodeURI(this.locale_value)  + "\"}");
 
-    console.log("mongo-db.service.ts::setLocale " + "{\"locale\":\"" + encodeURI(this.locale_value)  + "\"}" );
     return this.http.post<Locale>(`${this.API}/locale`,query).pipe(
         map(result => {
             this.locale = result;
@@ -205,7 +202,6 @@ export class MongoDbService {
     }
     */
 
-    console.log("mongo-db.service.ts::searchProxyPerson");
     const query = JSON.parse("{\"sponsor_code\":\"" + sponsor_code + "\"}");
     return this.http.post<ProxyUser[]>(`${this.API}/search_proxyusers`, query).pipe(
         catchError(err => {
@@ -238,7 +234,6 @@ export class MongoDbService {
     }
     */
 
-    console.log("mongo-db.service.ts::loginAdmin");
     var query = JSON.parse("{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}");
 
     return this.http.post<Admin[]>(`${this.API}/login`, query).pipe(
@@ -272,7 +267,6 @@ export class MongoDbService {
     }
     */
 
-    console.log("mongo-db.service.ts::addPerson");
     var query = JSON.parse("{\"oid\":\"" + oid + "\",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\",\"sponsor_code\":\"" + sponsor_code + "\"}");
     return this.http.post<User>(`${this.API}/users`, query).pipe(
         catchError(err => {
@@ -305,7 +299,6 @@ export class MongoDbService {
     }
     */
 
-    console.log("mongo-db.service.ts::loginPerson");
     var query = JSON.parse("{\"study_code\":\"" + encodeURI(study_code)  + "\",\"password\":\"" + encodeURI(password)+ "\"}");
     return this.http.post<User[]>(`${this.API}/find_user`, query).pipe(
         catchError(err => {
@@ -340,7 +333,6 @@ export class MongoDbService {
     }
     */
 
-  console.log("mongo-db.service.ts::saveDemo");
   var query = JSON.parse("{\"oid\":\"" + oid  + "\",\"sponsor_code\":\"" + sponsor_code + "\",\"demo\":" + JSON.stringify(dem) + "}");
   return this.http.post<User>(`${this.API}/demo`, query).pipe(
       catchError(err => {
@@ -372,7 +364,6 @@ export class MongoDbService {
     }
     */
 
-    console.log("mongo-db.service.ts::startAssessment");
     var query = JSON.parse("{\"oid\":\"" + user.oid  + "\",\"sponsor_code\":\"" + user.sponsor_code + "\",\"assessments\":" + JSON.stringify(user.assessments) + "}");
     return this.http.post<User>(`${this.API}/assessments`, query).pipe(
         catchError(err => {
@@ -409,7 +400,6 @@ export class MongoDbService {
     }
     */
  
-    console.log("mongo-db.service.ts::updateUserAssessment");
     var query = JSON.parse("{\"oid\":\"" + user.oid  + "\",\"sponsor_code\":\"" + user.sponsor_code + "\",\"assessments\":" + JSON.stringify(user.assessments) + ",\"responses\":" + JSON.stringify(user.responses) + ",\"results\":" + JSON.stringify(user.results) + "}");
     return this.http.put<User>(`${this.API}/assessments`, query).pipe(
         catchError(err => {
@@ -442,7 +432,6 @@ export class MongoDbService {
     }
     */ 
 
-    console.log("mongo-db.service.ts::getResponses");  
     var query = JSON.parse("{\"oid\":\"" + oid  + "\",\"sponsor_code\":\"" + sponsor_code + "\"}");
     return this.http.post<Response[]>(`${this.API}/responses`, query).pipe(
         catchError(err => {
@@ -475,7 +464,6 @@ export class MongoDbService {
     }
     */
 
-    console.log("mongo-db.service.ts::deletePerson");
      var query = JSON.parse("{\"oid\":\"" + p_user.oid + "\",\"sponsor_code\":\"" + p_user.sponsor_code + "\"}");
      return this.http.delete<any>(`${this.API}/ProxyUser`, query).pipe(
         catchError(err => {
@@ -510,7 +498,6 @@ export class MongoDbService {
     } 
     */ 
 
-    console.log("mongo-db.service.ts::updatePerson");
      var query = JSON.parse("{\"oid\":\"" + oid + "\",\"sponsor_code\":\"" + sponsor_code + "\",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\"}");
      return this.http.put<any>(`${this.API}/ProxyUser`, query).pipe(
         catchError(err => {
@@ -541,7 +528,6 @@ export class MongoDbService {
       }
       */
 
-      console.log("mongo-db.service.ts::addUserParams");
       var query = JSON.parse("{\"params\":" + JSON.stringify(params) + ",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\"}");
       return this.http.put<any>(`${this.API}/UserParams`, query).pipe(
         catchError(err => {
@@ -571,7 +557,6 @@ export class MongoDbService {
       }
       */
 
-    console.log("mongo-db.service.ts::findUser");
     var query = JSON.parse("{\"sponsor_code\":\"" + sponsor_code  + "\",\"oid\":\"" + oid + "\"}");
     return this.http.post<User>(`${this.API}/get_user`, query).pipe(
         catchError(err => {
@@ -601,7 +586,6 @@ export class MongoDbService {
     }
     */
 
-    console.log("mongo-db.service.ts::getUser");
     var query = JSON.parse("{\"sponsor_code\":\"" + user.sponsor_code  + "\",\"oid\":\"" + user.oid + "\"}");
     return this.http.post<User>(`${this.API}/get_user`, query).pipe(
         catchError(err => {

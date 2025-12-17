@@ -10,6 +10,8 @@ import { MongoDbService } from '../mongo-db.service';
 
 import { AppComponent } from '../app.component';
 
+import { GoEngineService } from '../go-engine.service';
+
 @Component({
   selector: 'app-locale',
   templateUrl: './locale.component.html',
@@ -19,7 +21,7 @@ export class LocaleComponent implements OnInit {
  
    user_type!: string;
 
-  constructor(@Inject(AppStore) private store: Store<AppState>, private route: ActivatedRoute, private mongodbService: MongoDbService, private router: Router, private app: AppComponent) { }
+  constructor(@Inject(AppStore) private store: Store<AppState>, private route: ActivatedRoute, private mongodbService: MongoDbService, private goEngineService: GoEngineService, private router: Router, private app: AppComponent) { }
 
   ngOnInit() {
     this.route.params.subscribe(params => {

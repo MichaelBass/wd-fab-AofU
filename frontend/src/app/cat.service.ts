@@ -3,7 +3,7 @@ import { Injectable, Inject } from '@angular/core';
 //import { Observable } from 'rxjs/Observable';
 //import { EmptyObservable } from "rxjs/observable/EmptyObservable"
 import { Observable } from 'rxjs';
-import { EMPTY } from "rxjs";
+import { of, EMPTY } from "rxjs";
 import {map} from 'rxjs/operators';
 
 
@@ -16,11 +16,17 @@ import { Response } from './response';
 import { Result } from './result';
 import { IRTService } from './irt.service';
 import { MongoDbService } from './mongo-db.service';
+import { GoEngineService } from './go-engine.service';
 import { User } from './user';
 import { Store } from 'redux';
 import { AppStore } from './app.store';
 import { AppState } from './app.state';
 import * as CounterActions from './counter.actions';
+
+
+import { GoSessionItem } from './go-session-item';
+import { GoSessionResponses } from './go-session-responses';
+import { GoSessionResponseOption } from './go-session-responseoption';
 
 @Injectable()
 export class CatService {
@@ -28,7 +34,7 @@ export class CatService {
 	private _domain_finished = false;
 	private _answered_items = 0;
 
-	constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private irt: IRTService) {}
+	constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private irt: IRTService, private goEngineService: GoEngineService) {}
 	
 	setAssessments(user:User): Array<Assessment> {
 
@@ -40,6 +46,7 @@ export class CatService {
 		}
 
 		let filtered_results = user.results.filter((a) => a.oid === assessment[0].Domain);
+
 
 		// determine if need to get the next assessment
 		//if ( (filtered_results.length > 5 && filtered_results[ filtered_results.length -1 ].error < 0.3873) || filtered_results.length >= 10 || this._domain_finished ) {
@@ -55,7 +62,8 @@ export class CatService {
 						//assessment = null;
 						assessment = [];						
 					}else{
-						assessment[0] = user.assessments[i + 1];					
+						assessment[0] = user.assessments[i + 1];	
+						this.goEngineService.setAssessment(assessment[0].ID);				
 					}
 					break;
 				}
@@ -111,6 +119,26 @@ export class CatService {
   	}
 
 
+	calculateNextItem_Go(form: Form): Observable<Item>{
+
+		const goSession = this.goEngineService.getSession_key();
+		const goScale = this.goEngineService.getScale_key();
+		console.log("session: " + goSession);
+		console.log("scale: " + goScale);
+
+
+		return  this.goEngineService.getItem(goSession, goScale).pipe(map(
+          data => { 
+            console.log("cat.service.ts::calculateNextItem_Go");
+            let goItems = form.Items.filter((a) => a.Name == data.item_name);
+    				return goItems[0];
+          }
+		)	
+		);
+
+
+	}
+
 // 2025-01-15 enable item select to Go server
   	calculateNextItem(form: Form) : Item | null{
 
@@ -161,9 +189,9 @@ export class CatService {
 		form.Items[informationSet[randomIndex].id].Administered = true;
 		//this._item_index = this._item_index + 1;
 		//return form.Items[this._item_index];
+
 		return form.Items[informationSet[randomIndex].id];
-		//return form.Items[informationSet[0].id];
-		
+
   	}
 
 
@@ -616,6 +644,110 @@ export class CatService {
 */
 
 
+  	calculateEstimateGo(user:User) : Observable<Result>{
+
+
+  		if(user == null || user.assessments == null || user.forms == null || user.responses == null){
+  			return EMPTY;
+  		}
+  		
+			let assessment = user.assessments.filter((a) => a.Active === true);
+
+  		if(assessment == null || assessment[0]  == null){
+  			return EMPTY;
+  		}
+
+
+			let forms = user.forms.filter( (e) => e.Domain === assessment[0].Domain);
+			let item = forms[0].Items.filter((a) => a.ID === user.responses[user.responses.length -1].ID)
+
+
+		// increment responded items counter for non skipped items
+		if(user.responses[user.responses.length -1].Value != '8'){
+				this._answered_items = this._answered_items + 1;
+		}
+
+
+
+		const goValue = parseInt(user.responses[user.responses.length -1].Value);
+		const goItem = item[0].Name;
+		const goSession = this.goEngineService.getSession_key();
+		const goScale = this.goEngineService.getScale_key();
+		const goDomain = this.goEngineService.getDomain_key();
+
+
+		return this.goEngineService.createItemResponse(goSession, goDomain, goItem, goScale, goValue).pipe(map(
+	      data => { 
+					let _result = new Result();
+					_result.oid = forms[0].Domain;
+					_result.ItemID = user.responses[user.responses.length -1].ID;
+					_result.score = this.goEngineService.getScore(data, goDomain, goScale);
+					_result.error = this.goEngineService.getError(data, goDomain, goScale);
+					_result.fit = 0.0;
+
+					return _result;
+	      }
+			)	
+		);
+
+		// return this.calculateGRM(responseProperties, forms[0].Domain, ItemID);
+  	}
+
+
+	getNextItemGo(): Observable<Item| null> {
+
+				let user = this.store.getState().user;
+				let assessment = this.setAssessments(user);
+
+				if(assessment == null || assessment[0] == null){
+					return of(null);
+				}
+
+				if(assessment[0].Started == null){
+					assessment[0].Started = Date.now();
+				}
+
+				assessment[0].Active = true;
+				
+				this.store.dispatch(CounterActions.create_user(user));
+
+				if(user.forms == null){
+					return of(null);
+				}	
+
+				
+				let forms = user.forms.filter( (e) => e.Domain === assessment[0].Domain);
+
+				if(forms.length == 0){
+						return of(null);
+				}else{
+		
+							const goSession = this.goEngineService.getSession_key();
+							const goScale = this.goEngineService.getScale_key();
+
+							let _item = this.goEngineService.getItem(goSession, goScale).pipe(map(
+					          data => { 
+					            let goItems = forms[0].Items.filter((a) => a.Name == data.item_name);
+
+					            // TODO: Verify items need to be marked as administered.
+					            if(goItems.length == 1){
+													goItems[0].Administered = true;
+					    						return goItems[0];
+					    				}else{
+					    					return null;
+					    				}
+					          }
+							)	
+							);
+
+							if(_item == null){
+								this._domain_finished = true;
+							}
+						
+
+						return _item;
+				}
+	}
 
 	getNextItem(): Observable<any> {
 

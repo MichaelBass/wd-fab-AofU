@@ -1,8 +1,10 @@
 import { Component, OnInit, Inject} from '@angular/core';
 import { FormControl, FormGroup, Validators} from '@angular/forms';
 import { MongoDbService } from '../mongo-db.service';
+import { GoEngineService } from '../go-engine.service';
 import { CatService } from '../cat.service';
 import { Demographic } from '../demographic';
+import { GoDemographics } from '../go-demographics';
 import { User } from '../user';
 import { Locale } from '../locale';
 import {Router} from "@angular/router";
@@ -12,6 +14,8 @@ import { AppStore } from '../app.store';
 import { AppState } from '../app.state';
 import * as CounterActions from '../counter.actions';
 
+import { environment } from '../../environments/environment';
+
 @Component({
   selector: 'app-demographics',
   templateUrl: './demographics.component.html',
@@ -19,6 +23,8 @@ import * as CounterActions from '../counter.actions';
 })
 
 export class DemographicsComponent implements OnInit {
+
+
 
   isValidFormSubmitted: boolean = false;
   isRaceMissing: boolean = false;
@@ -93,7 +99,7 @@ export class DemographicsComponent implements OnInit {
   Submit!:string;
   Clear!:string;
 
-  constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private catService: CatService, private router: Router) {}
+  constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private catService: CatService, private goEngineService: GoEngineService, private router: Router) {}
 
   ngOnInit() {
 
@@ -205,9 +211,33 @@ export class DemographicsComponent implements OnInit {
       data => {
         this.user = data;
         this.store.dispatch(CounterActions.create_user(data));
-
         this.message = data.message;
-        this.router.navigate(['/intro']);
+
+        const _drive = (dem.drive == 1 ) ? true: false; 
+        const _trans =(dem.public_transportation == 1) ? true: false; 
+        const _wheelchair = (dem.wc == 2) ? false: true; 
+
+        const goDemo = JSON.parse( "{\"car\":" +  _drive + ",\"item_selector\":\"stochastic\",\"mental\":true,\"physical\":true,\"respondent_id\": \"string\",\"sex\":" + "0" + ",\"transit\":" + _trans + ",\"wheelchair\":" +  _wheelchair + ",\"lang\":0}");
+
+        if (this.user.assessments !== undefined) {
+        if (this.user.assessments[0] !== undefined) {
+
+            if(environment.useGo){
+                this.goEngineService.setAssessment(this.user.assessments[0]?.ID);
+                this.goEngineService.createSession(goDemo).subscribe(
+                  data => { 
+                    this.goEngineService.setSession_key(data.session_id);
+                    this.router.navigate(['/intro']);
+                  }
+                );
+            } else{
+                this.router.navigate(['/intro']);
+            }
+
+        }
+        }
+
+        
       },
       err => {
         this.message = "Error saving demographics";
