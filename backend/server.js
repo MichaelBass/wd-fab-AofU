@@ -27589,7 +27589,7 @@ app.post('/admin', async (req, res, next) => {
         message: 'admin created successfully'
     });
 
-    const insertedadmin = await Admin.save();
+    const insertedadmin = await admin.save();
     return res.status(201).json(insertedadmin);
 });
 
