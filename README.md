@@ -97,3 +97,17 @@ Test admin user credentials are admin1/pwd
 
 5. Once logged in as a admin, you can create a participant.  Participant login url is localhost:8000
 
+6. Creating admin credentials by posting an admin json object to the admin endpoint.
+    An example of an admin object is below, using a docker running on localhost
+
+    curl  --location 'http://localhost:3000/admin' \
+          --header 'Content-Type: application/json' \
+          --data-raw '{
+          "oid":{primary key for record (int)},
+          "username":"{login name for admin user}", 
+          "password":"{password for admin user}",
+          "sponsor_code":"{string that groups particpant data - study/project code}",
+          "email":"{email for admin user}",
+          "sms":""
+}'
+
