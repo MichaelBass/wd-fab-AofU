@@ -6481,8 +6481,8 @@ const Locales = [
     }
 ];
 
-const Admins = [{"oid":"1","username":"admin1","password":"pwd","sponsor_code":"Group 1","message":"","email":"admin@admin.com"},{"oid":"2","username":"admin2","password":"pwd","sponsor_code":"Group 2","message":"","email":"admin@admin.com"}];
-
+// const Admins = [{"oid":"1","username":"admin1","password":"pwd","sponsor_code":"Group 1","message":"","email":"admin@admin.com"},{"oid":"2","username":"admin2","password":"pwd","sponsor_code":"Group 2","message":"","email":"admin@admin.com"}];
+const Admins = [];
 const Forms =[
     {
         "FormOID": "3",
@@ -27593,6 +27593,16 @@ app.post('/admin', async (req, res, next) => {
     return res.status(201).json(insertedadmin);
 });
 
+app.put('/admin', async (req, res, next) => {
+
+  const query = { "oid":req.body.oid, "sponsor_code":req.body.sponsor_code};
+  const update = {"$set": {"email": req.body.email, "password":req.body.password, "username": req.body.username, "message": "admin updated successfully" }};
+  const options = { returnNewDocument: true , new:true};    
+
+  const admin = await Admin.findOneAndUpdate(query, update, options).exec();  
+
+  return res.status(200).json(admin);
+});
 
 /**
  * Get port from environment and store in Express.
@@ -27603,13 +27613,13 @@ app.set('port', port);
 
 /**
  * Create HTTP server.
- */
 
 const httpServer = http.createServer((req, res) => {
-  res.writeHead(301, { Location: `http://${req.headers.host}${req.url}` });
+  res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
   res.end();
 });
 
+ */
 
 const server = http.createServer(app);
 
