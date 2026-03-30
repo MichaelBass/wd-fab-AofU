@@ -76,9 +76,9 @@ export class GoEngineService {
       if (domain == "pf" && scale == "UBF"){
           return session.scores.pf.UBF.mean
       }    
-      if (domain == "pf" && scale == "WC"){
-          return session.scores.pf.WC.mean
-      }
+      //if (domain == "pf" && scale == "WC"){
+      //    return session.scores.pf.WC.mean
+      //}
       if (domain == "bh" && scale == "CC"){
           return session.scores.bh.CC.mean
       } 
@@ -109,9 +109,9 @@ export class GoEngineService {
       if (domain == "pf" && scale == "UBF"){
           return session.scores.pf.UBF.std
       }    
-      if (domain == "pf" && scale == "WC"){
-          return session.scores.pf.WC.std
-      }
+      //if (domain == "pf" && scale == "WC"){
+      //    return session.scores.pf.WC.std
+      //}
       if (domain == "bh" && scale == "CC"){
           return session.scores.bh.CC.std
       } 
@@ -163,10 +163,10 @@ export class GoEngineService {
       this.setDomain_key("bh");
       this.setScale_key("ME");
     }        
-    if(id == 8){
-      this.setDomain_key("pf");
-      this.setScale_key("WC");
-    }  
+    //if(id == 8){
+    //  this.setDomain_key("pf");
+    //  this.setScale_key("WC");
+    //}  
   }
 
   getSessions(): Observable<GoSessions> {

@@ -16,6 +16,7 @@ const { Locale } = require("./Locale");
 const { Form } = require("./Form");
 const { Admin } = require("./Admin");
 const { User } = require("./User");
+const { Errors } = require("./Error");
 
 
 // ssl cert and key
@@ -27361,10 +27362,10 @@ app.post('/demo', async (req, res, next) => {
       phy.push({"ID":1,"Domain":"Upper Body Function","Active":false, "Started":null, "Finished":null});
       phy.push({"ID":2,"Domain":"Fine Motor Function","Active":false, "Started":null, "Finished":null});
       phy.push({"ID":3,"Domain":"Community Mobility","Active":false, "Started":null, "Finished":null});
-      phy.push({"ID":8,"Domain":"Wheelchair","Active":false, "Started":null, "Finished":null});   
+      //phy.push({"ID":8,"Domain":"Wheelchair","Active":false, "Started":null, "Finished":null});   
     
       if(req.body.demo.wc == 2){
-        phy.splice(4,1);
+        //phy.splice(4,1);
       }
       
       if(req.body.demo.public_transportation === 0 && req.body.demo.drive === 0){
@@ -27452,10 +27453,10 @@ app.post('/demo', async (req, res, next) => {
               //for (var item of forms[m].Items) {
               for(var n=0; n < forms[m].Items.length; n++){
                     var item = forms[m].Items[n];
-                   if( parseInt(item.Operator) !== 0 && (parseInt(item.Operator) & bitsum) > 0 ){
-                    }else{
+                   //if( parseInt(item.Operator) !== 0 && (parseInt(item.Operator) & bitsum) > 0 ){
+                   // }else{
                       _form.Items.push(item);
-                    }
+                   // }
                 
               }
              
@@ -27602,6 +27603,21 @@ app.put('/admin', async (req, res, next) => {
   const admin = await Admin.findOneAndUpdate(query, update, options).exec();  
 
   return res.status(200).json(admin);
+});
+
+
+app.post('/errors', async (req, res, next) => {
+
+    let item_error = new Errors({
+        oid: req.body.oid,
+        demo: req.body.demo,
+        FormOID: req.body.FormOID,
+        ID: req.body.ID,
+        message: req.body.message
+    });
+
+    const insertederror = await item_error.save();
+    return res.status(201).json(insertederror);
 });
 
 /**

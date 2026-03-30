@@ -17,6 +17,8 @@ import { Admin } from './admin';
 import { KVObject } from './kvobject';
 import { Locale } from './locale';
 
+import { Error } from './error';
+
 import {map} from 'rxjs/operators';
 // import 'rxjs/add/operator/map';
 
@@ -373,6 +375,18 @@ export class MongoDbService {
     )
 
 
+  }
+
+  logItemError(user: User,formOID:string,item:string,message:string): Observable<any> {
+    
+    var query = JSON.parse("{\"oid\":\"" + user.oid  + "\",\"demo\":" + JSON.stringify(user.demo)  + ",\"FormOID\":\"" + formOID + "\",\"ID\":\"" + item  + "\",\"message\":\"" + message + "\"}");
+
+    return this.http.post<Error>(`${this.API}/errors`, query).pipe(
+        catchError(err => {
+            console.log('caught rethrown error, providing fallback value');
+            return of(Error);
+        })
+    )
   }
 
 // 2024-07-24

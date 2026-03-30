@@ -734,8 +734,14 @@ export class CatService {
 													goItems[0].Administered = true;
 					    						return goItems[0];
 					    				}else{
+							    					if(data.item_name.length > 0 ){
+															this.mongodbService.logItemError(user,forms[0].Name,data.item_name,"Can't find item.").subscribe(
+												      		data2=>{}
+												    	)
+							    					}
+					  
 					    					return null;
-					    				}
+					    				}	
 					          }
 							)	
 							);
