@@ -27606,6 +27606,15 @@ app.put('/admin', async (req, res, next) => {
 });
 
 
+app.get('/errors', async (req, res) => {
+  try {
+    const errors = await Errors.find({});
+    res.status(200).json(errors);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 app.post('/errors', async (req, res, next) => {
 
     let item_error = new Errors({
