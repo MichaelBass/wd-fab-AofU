@@ -7,6 +7,5 @@ export const environment = {
   production: false,
   name: 'local',
   api:'http://0.0.0.0:3000',
-  useRealm: false,
   useGo: true
 };

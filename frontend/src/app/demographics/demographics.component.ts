@@ -1,5 +1,6 @@
 import { Component, OnInit, Inject} from '@angular/core';
-import { FormControl, FormGroup, Validators} from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { FormControl, FormGroup, Validators, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MongoDbService } from '../mongo-db.service';
 import { GoEngineService } from '../go-engine.service';
 import { CatService } from '../cat.service';
@@ -17,6 +18,7 @@ import * as CounterActions from '../counter.actions';
 import { environment } from '../../environments/environment';
 
 @Component({
+  imports:[CommonModule,FormsModule,ReactiveFormsModule],
   selector: 'app-demographics',
   templateUrl: './demographics.component.html',
   styleUrls: ['./demographics.component.css']

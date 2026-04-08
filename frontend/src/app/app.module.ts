@@ -28,7 +28,9 @@ import { QualtricsComponent } from './qualtrics/qualtrics.component';
 import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
-  declarations: [
+  declarations: [],
+  imports: [
+    BrowserModule,
     AppComponent,
     LoginComponent,
     LocaleComponent,
@@ -41,10 +43,7 @@ import { FormsComponent } from './forms/forms.component';
     ReportComponent,
     UtilityComponent,
     QualtricsComponent,
-    FormsComponent
-  ],
-  imports: [
-    BrowserModule,
+    FormsComponent,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,

@@ -33,10 +33,6 @@ import {throwError, of} from 'rxjs';
 
 import { from } from 'rxjs';
 
-
-// import { Stitch, UserApiKeyCredential } from 'mongodb-stitch-browser-sdk';
-// import { Realm, UserApiKeyCredential } from 'realm';
-// import { App, Credentials } from 'realm-web';
 import { environment } from '../environments/environment';
 
 
@@ -44,40 +40,15 @@ import { environment } from '../environments/environment';
 export class MongoDbService {
 
 
- // useRealm: boolean = false;
-
   API!:String;
-
- // stitch_application!:string; 
- // stitch_apiKey!:string;
- // client: any;
   locale!:Locale;
   locale_value!:string; 
- // realm_user!: any;
 
-  // credentials!:Credentials;
 
   constructor(private http: HttpClient, @Inject('Window') window: Window) {
     this.API = window.location.protocol + '//' +  window.location.hostname + ":3000";
-   // this.initializeAndLogin();
-
-    //this.useRealm = environment.useRealm;
    }
 
-/*
-  initializeAndLogin() {
-  
-    this.stitch_application = environment.stitch_application;
-    this.stitch_apiKey = environment.stitch_apiKey;
-    this.client = new App(this.stitch_application);
-    this.credentials = Credentials.apiKey(this.stitch_apiKey); 
-
-    this.client.logIn(this.credentials).then((user:any) => {
-        this.realm_user = user;
-    });
-
-  }
-*/
 
   getLocaleValue(key:string): (string) {
 
@@ -98,41 +69,14 @@ export class MongoDbService {
   }
 
 
-
   notifyAdmin(user:User): Observable<any> {
 
-    /*
-    if(this.useRealm){
-      return from( this.realm_user.callFunction("notifyAdmin", user).then((result:any) => {
-      return result;}) );
-    }else{
-        console.log("mongo-db.service.ts::notifyAdmin");
-        return JSON.parse("{\"message\":\"Successfully notifying admin.\"}");
-    }
-    */
-        return JSON.parse("{\"message\":\"Successfully notifying admin.\"}");
-
+    return of(JSON.parse("{\"message\":\"Successfully notifying admin.\"}"));
 
   }
 
 // 2024-07-24
   getForms() : Observable<any>{
-
-    /*
-    if(this.useRealm){
-        return from( this.realm_user.callFunction("getForms", []).then((result:any) => {
-        return result;}) );
-    }else{
-
-      console.log("mongo-db.service.ts::getForms"); 
-      return this.http.post<[]>(`${this.API}/find_forms`,[]).pipe(
-          catchError(err => {
-              console.log('caught rethrown error, providing fallback value');
-              return of([]);
-          })
-      )           
-    }
-    */
 
     return this.http.post<[]>(`${this.API}/find_forms`,[]).pipe(
         catchError(err => {
@@ -146,28 +90,6 @@ export class MongoDbService {
   setLocale(locale:string): Observable<any> {
 
     this.locale_value = locale;
-
-    /*
-    if(this.useRealm){
-
-        return from( 
-            this.realm_user.callFunction("getLocale",  encodeURI(this.locale_value) ).then((result:Locale) => { 
-            this.locale = result;
-            return result;})
-        );
-
-    }else{
-      const query = JSON.parse("{\"locale\":\"" + encodeURI(this.locale_value)  + "\"}");
-
-      console.log("mongo-db.service.ts::setLocale " + "{\"locale\":\"" + encodeURI(this.locale_value)  + "\"}" );
-      return this.http.post<Locale>(`${this.API}/locale`,query).pipe(
-          map(result => {
-              this.locale = result;
-              return result;
-          })
-        )
-    }
-    */
 
     const query = JSON.parse("{\"locale\":\"" + encodeURI(this.locale_value)  + "\"}");
 
@@ -183,26 +105,7 @@ export class MongoDbService {
 
 // 2024-07-24
   // find a people in the API by sponsor-code
-  searchProxyPerson(sponsor_code: string): Observable<any> {  
-
-    /*
-    if(this.useRealm){
-      return from( this.realm_user.callFunction("searchProxyUsers", sponsor_code).then((result:any) => {
-      return result;}) );
-    }else{
-
-      console.log("mongo-db.service.ts::searchProxyPerson");
-      //return this.http.get<ProxyUser[]>(`${this.API}/search_proxyusers/` + sponsor_code).catch((err) =>{return Observable.throw(err)});
-      const query = JSON.parse("{\"sponsor_code\":\"" + sponsor_code + "\"}");
-      return this.http.post<ProxyUser[]>(`${this.API}/search_proxyusers`, query).pipe(
-          catchError(err => {
-              console.log('caught rethrown error, providing fallback value');
-              return of([]);
-          })
-      )
-
-    }
-    */
+  searchProxyPerson(sponsor_code: string): Observable<any> {
 
     const query = JSON.parse("{\"sponsor_code\":\"" + sponsor_code + "\"}");
     return this.http.post<ProxyUser[]>(`${this.API}/search_proxyusers`, query).pipe(
@@ -216,25 +119,6 @@ export class MongoDbService {
 
 // 2024-07-24
   loginAdmin(username:string, password:string): Observable<any> {
-
-    /*
-    if(this.useRealm){
-      return from( this.realm_user.callFunction("loginAdmin", encodeURI(username), encodeURI(password) ).then((result:any) => {
-      return result;}) );
-    }else{
-
-      console.log("mongo-db.service.ts::loginAdmin");
-      var query = JSON.parse("{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}");
-      //return this.http.post<Admin[]>(`${this.API}/login`, query) ;//.catch((err) =>{return Observable.throw(err)});
-
-      return this.http.post<Admin[]>(`${this.API}/login`, query).pipe(
-          catchError(err => {
-              console.log('caught rethrown error, providing fallback value');
-              return of([]);
-          })
-      )      
-    }
-    */
 
     var query = JSON.parse("{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}");
 
@@ -251,24 +135,6 @@ export class MongoDbService {
   // Add one person to the API
   addPerson(oid: string, study_code:string, password:string, sponsor_code:string): Observable<any> {
 
-    /*
-    if(this.useRealm){
-        return from( this.realm_user.callFunction("saveUser", oid, study_code, password, sponsor_code).then((result:any) => {
-        return result;}) );
-    }else{
-
-        console.log("mongo-db.service.ts::addPerson");
-        var query = JSON.parse("{\"oid\":\"" + oid + "\",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\",\"sponsor_code\":\"" + sponsor_code + "\"}");
-        //return this.http.post<User>(`${this.API}/users`, {oid, study_code, password, sponsor_code}).catch((err) =>{return Observable.throw(err)});
-        return this.http.post<User>(`${this.API}/users`, query).pipe(
-            catchError(err => {
-                console.log('caught rethrown error, providing fallback value');
-                return of(User);
-            })
-        )      
-    }
-    */
-
     var query = JSON.parse("{\"oid\":\"" + oid + "\",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\",\"sponsor_code\":\"" + sponsor_code + "\"}");
     return this.http.post<User>(`${this.API}/users`, query).pipe(
         catchError(err => {
@@ -282,24 +148,6 @@ export class MongoDbService {
 // 2024-07-24
   // log a person in the API
   loginPerson(study_code: string, password:string): Observable<any> {
-
-    /*
-    if(this.useRealm){
-        return from( this.realm_user.callFunction("loginPerson", encodeURI(study_code), encodeURI(password) ).then((result:any) => {
-        return result;}) );
-    }else{
-      // return this.http.get<User[]>(`${this.API}/users/` + encodeURI(study_code) + `/` + encodeURI(password)).catch((err) =>{return Observable.throw(err)});
-      console.log("mongo-db.service.ts::loginPerson");
-      var query = JSON.parse("{\"study_code\":\"" + encodeURI(study_code)  + "\",\"password\":\"" + encodeURI(password)+ "\"}");
-
-      return this.http.post<User[]>(`${this.API}/find_user`, query).pipe(
-          catchError(err => {
-              console.log('caught rethrown error, providing fallback value');
-              return of([]);
-          })
-      ) 
-    }
-    */
 
     var query = JSON.parse("{\"study_code\":\"" + encodeURI(study_code)  + "\",\"password\":\"" + encodeURI(password)+ "\"}");
     return this.http.post<User[]>(`${this.API}/find_user`, query).pipe(
@@ -315,26 +163,6 @@ export class MongoDbService {
 // 2024-07-24
   saveDemo(oid: string,sponsor_code:string, dem: Demographic): Observable<any> {
 
-    /*
-    if(this.useRealm){
-      return from( this.realm_user.callFunction("saveDemo", oid, sponsor_code, dem).then((result:any) => {
-      return result;}) );
-    }else{
-
-      console.log("mongo-db.service.ts::saveDemo");
-
-      var query = JSON.parse("{\"oid\":\"" + oid  + "\",\"sponsor_code\":\"" + sponsor_code + "\",\"demo\":" + JSON.stringify(dem) + "}");
-
-
-      return this.http.post<User>(`${this.API}/demo`, query).pipe(
-          catchError(err => {
-              console.log('caught rethrown error, providing fallback value');
-              return of(User);
-          })
-      ) 
-    }
-    */
-
   var query = JSON.parse("{\"oid\":\"" + oid  + "\",\"sponsor_code\":\"" + sponsor_code + "\",\"demo\":" + JSON.stringify(dem) + "}");
   return this.http.post<User>(`${this.API}/demo`, query).pipe(
       catchError(err => {
@@ -347,24 +175,6 @@ export class MongoDbService {
 
 // 2024-07-24
   startAssessment(user: User): Observable<any> {
-
-    /*
-    if(this.useRealm){
-      return from( this.realm_user.callFunction("updateAssessments", user.oid, user.sponsor_code, user.assessments).then((result:any) => {
-      return result;}) );
-    }else{
-        console.log("mongo-db.service.ts::startAssessment");
-        //return this.http.put<User>(`${this.API}/assessments/`+ _id, assessments).catch((err) =>{return Observable.throw(err)});
-        var query = JSON.parse("{\"oid\":\"" + user.oid  + "\",\"sponsor_code\":\"" + user.sponsor_code + "\",\"assessments\":" + JSON.stringify(user.assessments) + "}");
-
-        return this.http.post<User>(`${this.API}/assessments`, query).pipe(
-            catchError(err => {
-                console.log('caught rethrown error, providing fallback value');
-                return of(User);
-            })
-        ) 
-    }
-    */
 
     var query = JSON.parse("{\"oid\":\"" + user.oid  + "\",\"sponsor_code\":\"" + user.sponsor_code + "\",\"assessments\":" + JSON.stringify(user.assessments) + "}");
     return this.http.post<User>(`${this.API}/assessments`, query).pipe(
@@ -388,32 +198,10 @@ export class MongoDbService {
         })
     )
   }
-
+  
 // 2024-07-24
   updateUserAssessment(user: User): Observable<any> {
 
-    /*
-    if(this.useRealm){
-        return from( this.realm_user.callFunction("updateResponses", user).then((result:any) => {
-        return result;}) );
-    }else{
-      console.log("mongo-db.service.ts::updateUserAssessment");
-      //return this.http.put<User>(`${this.API}/userAssessment/`+ _id, user).catch((err) =>{return Observable.throw(err)});
-
-      //console.log("{\"oid\":\"" + user.oid  + "\",\"sponsor_code\":\"" + user.sponsor_code + "\",\"assessments\":" + JSON.stringify(user.assessments) + "\",\"responses\":" + JSON.stringify(user.responses) + "\",\"results\":" + JSON.stringify(user.results) + "}");
-
-
-      var query = JSON.parse("{\"oid\":\"" + user.oid  + "\",\"sponsor_code\":\"" + user.sponsor_code + "\",\"assessments\":" + JSON.stringify(user.assessments) + ",\"responses\":" + JSON.stringify(user.responses) + ",\"results\":" + JSON.stringify(user.results) + "}");
-
-      return this.http.put<User>(`${this.API}/assessments`, query).pipe(
-          catchError(err => {
-              console.log('caught rethrown error, providing fallback value');
-              return of(User);
-          })
-      ) 
-    }
-    */
- 
     var query = JSON.parse("{\"oid\":\"" + user.oid  + "\",\"sponsor_code\":\"" + user.sponsor_code + "\",\"assessments\":" + JSON.stringify(user.assessments) + ",\"responses\":" + JSON.stringify(user.responses) + ",\"results\":" + JSON.stringify(user.results) + "}");
     return this.http.put<User>(`${this.API}/assessments`, query).pipe(
         catchError(err => {
@@ -426,25 +214,6 @@ export class MongoDbService {
   }
 // 2024-07-24
   getResponses(oid: string,sponsor_code:string): Observable<any> {
-
-    /*
-    if(this.useRealm){
-        return from( this.realm_user.callFunction("getResponses", oid, sponsor_code).then((result:any) => {
-        return result;}) );
-    }else{    
-      console.log("mongo-db.service.ts::getResponses");  
-      //return this.http.get<Response[]>(`${this.API}/responses/`+ _id).catch((err) =>{return Observable.throw(err)});
-
-      var query = JSON.parse("{\"oid\":\"" + oid  + "\",\"sponsor_code\":\"" + sponsor_code + "\"}");
-
-      return this.http.post<Response[]>(`${this.API}/responses`, query).pipe(
-          catchError(err => {
-              console.log('caught rethrown error, providing fallback value');
-              return of([]);
-          })
-      )
-    }
-    */ 
 
     var query = JSON.parse("{\"oid\":\"" + oid  + "\",\"sponsor_code\":\"" + sponsor_code + "\"}");
     return this.http.post<Response[]>(`${this.API}/responses`, query).pipe(
@@ -460,24 +229,6 @@ export class MongoDbService {
   // delete a person in the API
   deletePerson(p_user:ProxyUser): Observable<any> {
 
-    /*
-    if(this.useRealm){
-        return from( this.realm_user.callFunction("deleteUser", p_user.oid, p_user.sponsor_code).then((result:any) => {
-        return result;}) );
-    }else{
-       console.log("mongo-db.service.ts::deletePerson");
-             var query = JSON.parse("{\"oid\":\"" + p_user.oid + "\",\"sponsor_code\":\"" + p_user.sponsor_code + "\"}");
-
-             return this.http.delete<any>(`${this.API}/ProxyUser`, query).pipe(
-                catchError(err => {
-                    console.log('caught rethrown error, providing fallback value');
-                    return of({});
-                })
-            )
-       //return this.http.delete<User>(`${this.API}/users/`+ _id).catch((err) =>{return Observable.throw(err)});
-    }
-    */
-
      var query = JSON.parse("{\"oid\":\"" + p_user.oid + "\",\"sponsor_code\":\"" + p_user.sponsor_code + "\"}");
      return this.http.delete<any>(`${this.API}/ProxyUser`, query).pipe(
         catchError(err => {
@@ -492,26 +243,6 @@ export class MongoDbService {
   // update a person in the API
   updatePerson(oid: string, study_code: string, password:string, sponsor_code:string): Observable<any>{
 
-    /*
-    if(this.useRealm){
-        return from( this.realm_user.callFunction("updateUser", oid, study_code, password, sponsor_code).then((result:any) => {
-        return result;}) );
-    }else{
-        console.log("mongo-db.service.ts::updatePerson");
-
-       var query = JSON.parse("{\"oid\":\"" + oid + "\",\"sponsor_code\":\"" + sponsor_code + "\",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\"}");
-
-       return this.http.put<any>(`${this.API}/ProxyUser`, query).pipe(
-          catchError(err => {
-              console.log('caught rethrown error, providing fallback value');
-              return of({});
-          })
-      )
-
-        //return this.http.put<User>(`${this.API}/users/`+ _id, {oid, study_code, password}).catch((err) =>{return Observable.throw(err)});
-    } 
-    */ 
-
      var query = JSON.parse("{\"oid\":\"" + oid + "\",\"sponsor_code\":\"" + sponsor_code + "\",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\"}");
      return this.http.put<any>(`${this.API}/ProxyUser`, query).pipe(
         catchError(err => {
@@ -525,23 +256,6 @@ export class MongoDbService {
   // 2024-07-24  add parameters to user doc.
   addUserParams(study_code: string,password:string, params: Array<any>): Observable<any> {
 
-      /*
-      if(this.useRealm){    
-          return from( this.realm_user.callFunction("addUserParameters", study_code, password, params).then((result:any) => {
-          return result;}) );
-      }else{
-            console.log("mongo-db.service.ts::addUserParams");
-           var query = JSON.parse("{\"params\":" + JSON.stringify(params) + ",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\"}");
-
-           return this.http.put<any>(`${this.API}/UserParams`, query).pipe(
-              catchError(err => {
-                  console.log('caught rethrown error, providing fallback value');
-                  return of({});
-              })
-          )
-      }
-      */
-
       var query = JSON.parse("{\"params\":" + JSON.stringify(params) + ",\"study_code\":\"" + study_code + "\",\"password\":\"" + password + "\"}");
       return this.http.put<any>(`${this.API}/UserParams`, query).pipe(
         catchError(err => {
@@ -553,23 +267,6 @@ export class MongoDbService {
 
   // 2024-08-24  get User for report.
   findUser(oid:string, sponsor_code:string): Observable<any> {
-
-      /*   
-      if(this.useRealm){    
-        return from( this.realm_user.callFunction("getUser", oid, sponsor_code).then((result:any) => {
-        return result;}) );
-      }else{
-          console.log("mongo-db.service.ts::findUser");
-          var query = JSON.parse("{\"sponsor_code\":\"" + sponsor_code  + "\",\"oid\":\"" + oid + "\"}");
-
-          return this.http.post<User>(`${this.API}/get_user`, query).pipe(
-              catchError(err => {
-                  console.log('caught rethrown error, providing fallback value');
-                  return of(User);
-              })
-          ) 
-      }
-      */
 
     var query = JSON.parse("{\"sponsor_code\":\"" + sponsor_code  + "\",\"oid\":\"" + oid + "\"}");
     return this.http.post<User>(`${this.API}/get_user`, query).pipe(
@@ -583,23 +280,6 @@ export class MongoDbService {
 
   getUser(user: User): Observable<any> {
 
-    /*
-    if(this.useRealm){    
-      return from( this.realm_user.callFunction("getUser", user.oid, user.sponsor_code).then((result:any) => {
-      return result;}) );
-    }else{
-        console.log("mongo-db.service.ts::getUser");
-        var query = JSON.parse("{\"sponsor_code\":\"" + user.sponsor_code  + "\",\"oid\":\"" + user.oid + "\"}");
-
-        return this.http.post<User>(`${this.API}/get_user`, query).pipe(
-            catchError(err => {
-                console.log('caught rethrown error, providing fallback value');
-                return of(User);
-            })
-        ) 
-    }
-    */
-
     var query = JSON.parse("{\"sponsor_code\":\"" + user.sponsor_code  + "\",\"oid\":\"" + user.oid + "\"}");
     return this.http.post<User>(`${this.API}/get_user`, query).pipe(
         catchError(err => {
@@ -609,28 +289,6 @@ export class MongoDbService {
     );
 
   }
-
-/*
-// can not find ATLAS Stitch call   updateDemo  or call in the demo module
-  updateDemo(oid: string,sponsor_code:string, dem: Demographic): Observable<any> {
-      return from( this.realm_user.callFunction("updateDemo", oid, sponsor_code, dem).then((result:any) => {
-      return result;}) );
-     //return this.http.put<User>(`${this.API}/demo/`+ _id, dem).catch((err) =>{return Observable.throw(err)});
-  }
-*/
-
-/*
-  commented out in cat.service  -- old code
-
-  loadForms(oid: string,sponsor_code:string,forms: Array<Form>): Observable<any> {
-      return from( this.realm_user.callFunction("loadForms", oid, sponsor_code, forms).then((result:any) => {
-      return result;}) );
-    // return this.http.put<User>(`${this.API}/forms/`+ _id, forms).catch((err) =>{return Observable.throw(err)});
-  }
-*/
-
-
-
 
   // Get all users from the API
   getAllProxyPeople(): Observable<ProxyUser[]> {

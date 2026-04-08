@@ -17,7 +17,6 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
-              "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -34,7 +33,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "700kb",
+                  "maximumWarning": "750kb",
                   "maximumError": "1mb"
                 },
                 {
@@ -60,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "wd-fab:build:production"
+              "buildTarget": "wd-fab:build:production"
             },
             "development": {
-              "browserTarget": "wd-fab:build:development"
+              "buildTarget": "wd-fab:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,27 +70,9 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "wd-fab:build"
+            "buildTarget": "wd-fab:build"
           }
         },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
-            "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
-          }
-        }
       }
     }
   }

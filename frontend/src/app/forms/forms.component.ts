@@ -1,8 +1,10 @@
 import { Component, OnInit, Inject } from '@angular/core';
+import { JsonPipe } from '@angular/common';
 import { Form } from '../form';
 import { MongoDbService } from '../mongo-db.service';
 
 @Component({
+  imports:[JsonPipe],
   selector: 'app-forms',
   templateUrl: './forms.component.html',
   styleUrls: ['../app.component.css','./forms.component.css']

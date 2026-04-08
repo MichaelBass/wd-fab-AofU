@@ -1,4 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
+import { RouterLink} from '@angular/router';
 import { User } from '../user';
 
 import { Store } from 'redux';
@@ -7,6 +8,8 @@ import { AppState } from '../app.state';
 import { MongoDbService } from '../mongo-db.service';
 
 @Component({
+  standalone: true,
+  imports: [RouterLink],  
   selector: 'app-intro',
   templateUrl: './intro.component.html',
   styleUrls: ['../app.component.css','./intro.component.css']

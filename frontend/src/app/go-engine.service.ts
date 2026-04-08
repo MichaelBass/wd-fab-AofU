@@ -111,7 +111,7 @@ export class GoEngineService {
       }    
       //if (domain == "pf" && scale == "WC"){
       //    return session.scores.pf.WC.std
-      //}
+      // }
       if (domain == "bh" && scale == "CC"){
           return session.scores.bh.CC.std
       } 

@@ -1,4 +1,6 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ChangeDetectorRef } from '@angular/core';
+import {CommonModule} from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { MongoDbService } from '../mongo-db.service';
 import { User } from '../user';
 import { ProxyUser } from '../proxy_user';
@@ -13,13 +15,14 @@ import { AppState } from '../app.state';
 import * as CounterActions from '../counter.actions';
 
 @Component({
+  imports:[CommonModule,FormsModule],
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
 
-  constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private route: ActivatedRoute, private router: Router) {} 
+  constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private route: ActivatedRoute, private router: Router, private cdr: ChangeDetectorRef) {} 
 
 	people!:ProxyUser[];
   person!:User;
@@ -97,7 +100,8 @@ export class DashboardComponent implements OnInit {
     this.mongodbService.searchProxyPerson(this.admin.sponsor_code).subscribe(  
         fields => {
         this.message = this.mongodbService.getLocaleValue("returning {0} users.").replace("{0}", fields.length.toString());
-        this.people = fields; 
+        this.people = fields;
+        this.cdr.detectChanges();  
       }, err => {console.log("Error getting all people");}
     );
   }

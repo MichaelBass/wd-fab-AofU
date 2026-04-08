@@ -1,4 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
+import {CommonModule} from '@angular/common';
 import { MongoDbService } from '../mongo-db.service';
 import { User } from '../user';
 
@@ -13,6 +14,7 @@ import { AppState } from '../app.state';
 import * as CounterActions from '../counter.actions';
 
 @Component({
+  imports:[CommonModule],
   selector: 'app-qualtrics',
   templateUrl: './qualtrics.component.html',
   styleUrls: ['../app.component.css','./qualtrics.component.css']

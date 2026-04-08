@@ -1,4 +1,5 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ChangeDetectorRef } from '@angular/core';
+import {CommonModule} from '@angular/common';
 import {Router} from "@angular/router";
 import { Observable } from 'rxjs';
 //import { Observable } from 'rxjs/Observable';
@@ -18,6 +19,7 @@ import { MongoDbService } from '../mongo-db.service';
 import { environment } from '../../environments/environment';
 
 @Component({
+	imports:[CommonModule],
   selector: 'app-assessment',
   templateUrl: './assessment.component.html',
   styleUrls: ['./assessment.component.css']
@@ -35,7 +37,7 @@ export class AssessmentComponent implements OnInit {
 	clear!: boolean;
 	Next!:string;
 
-	constructor(@Inject(AppStore) private store: Store<AppState>, private catService: CatService, private router: Router, private mongodbService: MongoDbService) { }
+	constructor(@Inject(AppStore) private store: Store<AppState>, private catService: CatService, private router: Router, private mongodbService: MongoDbService, private cdr: ChangeDetectorRef) { }
 
 	ngOnInit() {
 
@@ -70,7 +72,7 @@ if(!environment.useGo){
 		this.clear = false;
 		this.item = this.catService.getNextItemSync();
 		this.localizeItem();
-
+		this.cdr.detectChanges();
 		if(this.item  == null){
 			this.router.navigate(['/finish',this.mongodbService.getLocaleValue("The assessment is complete.")]);
 		}
@@ -83,6 +85,7 @@ if(!environment.useGo){
 					this.clear = false;
 					this.item = data;
 					this.localizeItem();
+					this.cdr.detectChanges();
 
 
 					if(this.item  == null){
@@ -122,7 +125,8 @@ if(!environment.useGo){
 
 		this.clear = false;
 		this.item = this.catService.getNextItemSync();
-		this.localizeItem();	
+		this.localizeItem();
+		this.cdr.detectChanges();	
 		if( this.item== null || this.item.ID == undefined ){
 
 			this.user = this.store.getState().user;
@@ -149,7 +153,7 @@ if(!environment.useGo){
 					this.clear = false;
 					this.item = data;
 					this.localizeItem();
-
+					this.cdr.detectChanges();
 					if( this.item == null || this.item.ID == undefined ){
 
 							this.user = this.store.getState().user;

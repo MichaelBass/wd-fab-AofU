@@ -1,4 +1,6 @@
 import { Component, OnInit, Inject } from '@angular/core';
+import {CommonModule} from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { MongoDbService } from '../mongo-db.service';
 import { User } from '../user';
 
@@ -13,6 +15,7 @@ import { AppState } from '../app.state';
 import * as CounterActions from '../counter.actions';
 
 @Component({
+  imports:[CommonModule,FormsModule],
   selector: 'app-portal',
   templateUrl: './portal.component.html',
   styleUrls: ['../app.component.css','./portal.component.css']

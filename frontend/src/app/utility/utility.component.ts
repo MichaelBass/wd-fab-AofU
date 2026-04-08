@@ -1,4 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { Admin } from '../admin';
 import { ProxyUser } from '../proxy_user';
 import { MongoDbService } from '../mongo-db.service';
@@ -11,6 +12,7 @@ import { AppState } from '../app.state';
 
 
 @Component({
+  imports:[FormsModule],
   selector: 'app-utility',
   templateUrl: './utility.component.html',
   styleUrls: ['./utility.component.css']

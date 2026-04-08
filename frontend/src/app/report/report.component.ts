@@ -1,7 +1,8 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject, ChangeDetectorRef } from '@angular/core';
 
 //import { ChartDataSets, ChartType, RadialChartOptions } from 'chart.js';
 import { ChartConfiguration  } from 'chart.js';
+import { NgChartsModule } from 'ng2-charts';
 //import { Label } from 'ng2-charts';
 
 import {ActivatedRoute} from "@angular/router";
@@ -14,6 +15,8 @@ import { AppState } from '../app.state';
 
 
 @Component({
+  standalone: true,
+  imports:[NgChartsModule],
   selector: 'app-report',
   templateUrl: './report.component.html',
   styleUrls: ['./report.component.css']
@@ -63,7 +66,7 @@ public radarChartOptions2: ChartConfiguration<'radar'>['options'] = {
 
   //public radarChartType: ChartType = 'radar';
 
-  constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private route: ActivatedRoute) {
+  constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private route: ActivatedRoute, private cdr: ChangeDetectorRef) {
     store.subscribe(() => this.readState()); 
   }
 
@@ -172,7 +175,7 @@ public radarChartOptions2: ChartConfiguration<'radar'>['options'] = {
 
       this.radarChartData2[0].data = myData2;
       this.radarChartData2[0].label = this.mongodbService.getLocaleValue("Physical Domains:") + finished.toLocaleDateString();
-
+      this.cdr.detectChanges();
 
 		 }, err => {console.log("Error finding person");}
 		 

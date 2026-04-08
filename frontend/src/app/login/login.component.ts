@@ -1,4 +1,6 @@
 import { Component, OnInit, Inject} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { MongoDbService } from '../mongo-db.service';
 import { Admin } from '../admin';
 import {ActivatedRoute} from "@angular/router";
@@ -13,6 +15,7 @@ import { AppComponent } from '../app.component';
 
 
 @Component({
+  imports:[CommonModule,FormsModule],
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']

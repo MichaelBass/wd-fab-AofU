@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-
+import {CommonModule} from '@angular/common';
 import {ActivatedRoute} from "@angular/router";
 import { Store } from 'redux';
 import { AppStore } from '../app.store';
@@ -9,6 +9,7 @@ import { MongoDbService } from '../mongo-db.service';
 import { User } from '../user';
 
 @Component({
+  imports:[CommonModule],
   selector: 'app-finish',
   templateUrl: './finish.component.html',
   styleUrls: ['./finish.component.css']
