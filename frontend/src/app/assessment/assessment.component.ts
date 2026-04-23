@@ -48,7 +48,7 @@ export class AssessmentComponent implements OnInit {
 			 this.router.navigate(['/dashboard',this.mongodbService.getLocaleValue("Please select an user first")]);
 		}
 
-   	this.Next = this.mongodbService.getLocaleValue("Next");
+   		this.Next = this.mongodbService.getLocaleValue("Next");
 		this.getItem();
 	
 	}
@@ -150,7 +150,7 @@ if(!environment.useGo){
 		this.catService.getNextItemGo().subscribe(
 
 			data =>{
-					this.clear = false;
+					this.clear = false;			
 					this.item = data;
 					this.localizeItem();
 					this.cdr.detectChanges();
@@ -161,7 +161,8 @@ if(!environment.useGo){
 							if(this.user.assessments != null){
 					    	let assessment2 = this.user.assessments.filter((a) => a.Finished == null); // array of current assessment
 					    	if(assessment2.length > 0){
-					    			this.getItem();
+					    		//this.getItem();
+					    		this.getNextItemGo();
 					    	} else{
 					    			this.router.navigate(['/finish',this.mongodbService.getLocaleValue("The assessment is complete.")]);
 					    	}

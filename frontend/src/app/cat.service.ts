@@ -4,7 +4,7 @@ import { Injectable, Inject } from '@angular/core';
 //import { EmptyObservable } from "rxjs/observable/EmptyObservable"
 import { Observable } from 'rxjs';
 import { of, EMPTY } from "rxjs";
-import {map} from 'rxjs/operators';
+import {catchError,map} from 'rxjs/operators';
 
 
 import { Item } from './item';
@@ -25,6 +25,7 @@ import * as CounterActions from './counter.actions';
 
 
 import { GoSessionItem } from './go-session-item';
+import { GoSessionError } from './go-session-error';
 import { GoSessionResponses } from './go-session-responses';
 import { GoSessionResponseOption } from './go-session-responseoption';
 
@@ -47,10 +48,12 @@ export class CatService {
 
 		let filtered_results = user.results.filter((a) => a.oid === assessment[0].Domain);
 
-
 		// determine if need to get the next assessment
 		//if ( (filtered_results.length > 5 && filtered_results[ filtered_results.length -1 ].error < 0.3873) || filtered_results.length >= 10 || this._domain_finished ) {
-		if ( (this._answered_items > 5 && filtered_results[ filtered_results.length -1 ].error < 0.3873) || this._answered_items >= 10 || this._domain_finished ) {
+		if ( (this._answered_items > 5 && filtered_results[ filtered_results.length -1 ].error < 0.3873) || this._answered_items >= 10 || filtered_results.length >= 12 || this._domain_finished ) {
+
+
+
 			this._domain_finished = false;
 			this._answered_items = 0;
 
@@ -119,7 +122,7 @@ export class CatService {
   	}
 
 
-	calculateNextItem_Go(form: Form): Observable<Item>{
+	calculateNextItem_Go(form: Form): Observable<Item|null>{
 
 		const goSession = this.goEngineService.getSession_key();
 		const goScale = this.goEngineService.getScale_key();
@@ -128,14 +131,15 @@ export class CatService {
 
 
 		return  this.goEngineService.getItem(goSession, goScale).pipe(map(
-          data => { 
-            console.log("cat.service.ts::calculateNextItem_Go");
+          data => {
+          	if(data == null){
+          		return null;
+          	}
             let goItems = form.Items.filter((a) => a.Name == data.item_name);
     				return goItems[0];
           }
 		)	
 		);
-
 
 	}
 
@@ -694,7 +698,7 @@ export class CatService {
   	}
 
 
-	getNextItemGo(): Observable<Item| null> {
+	getNextItemGo(): Observable<Item|null> {
 
 				let user = this.store.getState().user;
 				let assessment = this.setAssessments(user);
@@ -727,29 +731,35 @@ export class CatService {
 
 							let _item = this.goEngineService.getItem(goSession, goScale).pipe(map(
 					          data => { 
-					            let goItems = forms[0].Items.filter((a) => a.Name == data.item_name);
 
-					            // TODO: Verify items need to be marked as administered.
-					            if(goItems.length == 1){
-													goItems[0].Administered = true;
-					    						return goItems[0];
-					    				}else{
-							    					if(data.item_name.length > 0 ){
-															this.mongodbService.logItemError(user,forms[0].Name,data.item_name,"Can't find item.").subscribe(
-												      		data2=>{}
-												    	)
-							    					}		
-							    								    					
-					    					return null;
-					    				}
+													if (data == null){ // No more items in domain
+														this.mongodbService.logItemError(user,forms[0].Name,assessment[0].Domain,"No more items.").subscribe(									    						
+															data2=>{}
+														)
+														this._domain_finished = true;
+														return null; 
+													}
+
+							            let goItems = forms[0].Items.filter((a) => a.Name == data.item_name);
+
+							            // TODO: Verify items need to be marked as administered.
+							            if(goItems.length == 1){							            	
+															goItems[0].Administered = true;
+							    						return goItems[0];
+							    				}else{								    					
+									    					if(data.item_name.length > 0 ){ // Item not loaded
+																	this.mongodbService.logItemError(user,forms[0].Name,data.item_name,"Can't find item.").subscribe(									    						
+														      		data2=>{}
+														    	)
+									    					}					    					
+							    							return null;
+							    				}
 					          }
-							)	
-							);
+							));
 
-							if(_item == null){
+							if(_item == null){							
 								this._domain_finished = true;
 							}
-						
 
 						return _item;
 				}

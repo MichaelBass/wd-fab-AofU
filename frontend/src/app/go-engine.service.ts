@@ -22,6 +22,7 @@ import { GoSessionPhysicalDomain } from './go-session-physicaldomain';
 import { GoSessionScale } from './go-session-scale';
 
 import { GoSessionItem } from './go-session-item';
+import { GoSessionError } from './go-session-error';
 import { GoSessionResponses } from './go-session-responses';
 import { GoSessionResponseOption } from './go-session-responseoption';
 
@@ -205,8 +206,12 @@ export class GoEngineService {
     return eval(session +'.scores.' + domain + '.' + scale).std;
   }
 
-  getItem(session_id:string, scale:string): Observable<GoSessionItem> {
-    return this.http.get<GoSessionItem>(`${this.API}/${session_id}/${scale}/item`);
+  getItem(session_id:string, scale:string): Observable<GoSessionItem|null> { 
+    return this.http.get<GoSessionItem>(`${this.API}/${session_id}/${scale}/item`).pipe(
+        catchError((error) => {
+          return of(null);
+        })
+    );
   }
 
   getSession(session_id:string): Observable<GoSessionDetails> {
