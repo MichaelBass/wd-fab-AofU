@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA066",
+  "question": "Are you able to drive in your own neighborhood?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 3
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 3
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 2
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 1
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -6.224608092508144,
+        -5.6593264833876225,
+        -4.024994874267102,
+        -2.5213055869706844
+      ],
+      "discrimination": 1.9374818536699998
+    }
+  },
+  "version": 3.15
+}

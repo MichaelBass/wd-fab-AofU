@@ -1,0 +1,24 @@
+{
+  "bh": {
+    "instructions": [
+      "Mental Function",
+      "You will be asked how much you agree with statements about how you function or feel.\n You will also be asked how much difficulty you have doing different things. ",
+      "1.) Choose your answer based on your usual ability using any equipment or devices you normally use,\n but without the help of another person. ",
+      "2.) Do your best to pick the answer that best matches your agreement with the statement.\n If you are unable to pick a response that matches, choose \"I don't know\". ",
+      "3.) If you have not done an activity, do your best to guess what your ability would be if you did it.\n If you are unable to guess, choose \"I don't know\". ",
+      "For example, if it takes you a very long time or if it is hard for you to do an activity, choose \"Yes, with a lot of difficulty\".\n But if you need help from another person, choose \"Unable\". "
+    ],
+    "name": "Mental Function"
+  },
+  "pf": {
+    "instructions": [
+      "Physical Functioning",
+      "You will be asked about how much difficulty you have doing different things. ",
+      "1.) Choose your answer based on your usual ability using any equipment or devices you normally use. ",
+      "2.) Choose your answer based on your ability to do the activity by yourself without the help of another person. ",
+      "3.) If you have not done an activity, do your best to guess what your ability would be if you did it. If you are unable to guess, choose \"I don't know\". ",
+      "For example, if it takes you a very long time or if it is hard for you to do an activity, choose \"Yes, with a lot of difficulty\". But if you need help from another person, choose \"Unable\". "
+    ],
+    "name": "Physical Function"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "diff": {
+    "excluded": {
+      "wc": 2,
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD566",
+  "question": "Are you able to get in and out of your wheelchair? Please base your response on the most difficult part of this activity.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "WC": {
+      "difficulties": [
+        -3.2394918566775246,
+        -1.7762084690553748,
+        0.3280390879478828,
+        2.017980456026059
+      ],
+      "discrimination": 1.4439514749999998
+    }
+  },
+  "version": 3.15
+}

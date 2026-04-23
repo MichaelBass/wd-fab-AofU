@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA063",
+  "question": "Please specify your level of agreement: I am limited in driving long distances.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 2
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 4
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 5
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -3.445237533550489,
+        -0.7947146671009773,
+        0.46906754527687305,
+        1.7085400638436483
+      ],
+      "discrimination": 0.9468076556749999
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,49 @@
+{
+  "diff": {
+    "required": {
+      "car": 0,
+      "pt": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA069",
+  "question": "Please specify your level of agreement: I have trouble using tickets, cash, or a fare card to get on a bus or train.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 2
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 4
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 5
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -3.4927641615635188,
+        -2.2943867400651468,
+        -1.2909621589576548,
+        0.4885086358306189
+      ],
+      "discrimination": 0.6601961227899998
+    }
+  },
+  "version": 3.15
+}

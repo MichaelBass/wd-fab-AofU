@@ -18,14 +18,14 @@ const { Admin } = require("./Admin");
 const { User } = require("./User");
 const { Errors } = require("./Error");
 
-
 // ssl cert and key
-/*
+
 const options = {
-  key: fs.readFileSync('www_wdfab_net.key'),
-  cert: fs.readFileSync('www_wdfab_net.crt')
+  key: fs.readFileSync('ssl-cert.key'),
+  cert: fs.readFileSync('ssl-cert.crt'),
+  ca: fs.readFileSync('ssl-cert-bundle.crt')
 };
-*/
+
 
 const app = express();
 
@@ -6482,8 +6482,10 @@ const Locales = [
     }
 ];
 
-// const Admins = [{"oid":"1","username":"admin1","password":"pwd","sponsor_code":"Group 1","message":"","email":"admin@admin.com"},{"oid":"2","username":"admin2","password":"pwd","sponsor_code":"Group 2","message":"","email":"admin@admin.com"}];
 const Admins = [];
+
+//const Admins = [{"oid":"1","username":"admin1","password":"pwd","sponsor_code":"Group 1","message":"","email":"admin@admin.com"},{"oid":"2","username":"admin2","password":"pwd","sponsor_code":"Group 2","message":"","email":"admin@admin.com"}];
+
 const Forms =[
     {
         "FormOID": "3",
@@ -27605,7 +27607,6 @@ app.put('/admin', async (req, res, next) => {
   return res.status(200).json(admin);
 });
 
-
 app.get('/errors', async (req, res) => {
   try {
     const errors = await Errors.find({});
@@ -27638,15 +27639,15 @@ app.set('port', port);
 
 /**
  * Create HTTP server.
+*/
 
 const httpServer = http.createServer((req, res) => {
   res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
   res.end();
 });
 
- */
 
-const server = http.createServer(app);
+const server = https.createServer(options,app);
 
 /**
  * Listen on provided port, on all network interfaces.

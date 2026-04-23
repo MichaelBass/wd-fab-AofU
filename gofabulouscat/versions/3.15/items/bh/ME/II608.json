@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II608",
+  "question": "In the past 7 days, I had trouble enjoying the things I used to enjoy.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -2.9862879778501634,
+        -1.911732052117264,
+        0.20114819674267104,
+        1.9422775296416939
+      ],
+      "discrimination": 1.7861391518799996
+    }
+  },
+  "version": 3.15
+}

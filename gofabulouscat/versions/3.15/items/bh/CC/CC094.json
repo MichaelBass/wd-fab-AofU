@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC094",
+  "question": "Are you able to work hard on tasks you don't like?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -6.764138095114008,
+        -2.0833327413680784,
+        1.1867231439739414,
+        3.946802694462541
+      ],
+      "discrimination": 1.7534490934549998
+    }
+  },
+  "version": 3.15
+}

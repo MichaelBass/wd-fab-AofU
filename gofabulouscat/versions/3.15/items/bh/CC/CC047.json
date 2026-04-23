@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC047",
+  "question": "Are you able to get your point across when you are upset?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -7.111932148534202,
+        -1.6699245876221498,
+        1.177365739413681,
+        3.6486178553745927
+      ],
+      "discrimination": 1.8832152181749997
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD539",
+  "question": "Are you able to staple 2 sheets of paper together?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.15173645732899024,
+        0.35257268925081436,
+        0.863785945276873,
+        1.0501773576547233
+      ],
+      "discrimination": 4.469205325489999
+    }
+  },
+  "version": 3.15
+}

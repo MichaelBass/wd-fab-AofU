@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "PDR034",
+  "question": "Are you able to unload a full grocery cart into a car?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -2.2660405446254077,
+        -0.24763714918566776,
+        1.8143253758957656,
+        3.556682346579805
+      ],
+      "discrimination": 2.6533567436474996
+    }
+  },
+  "version": 3.15
+}

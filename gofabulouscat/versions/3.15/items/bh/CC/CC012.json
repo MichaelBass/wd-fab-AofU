@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC012",
+  "question": "Are you able to make small talk?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -7.661549691205212,
+        -4.262466252768729,
+        -1.915607743322476,
+        0.29392411335504887
+      ],
+      "discrimination": 1.5800958823749998
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH056",
+  "question": "Please specify your level of agreement: People have told me that sometimes I act strange.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -1.705782545928339,
+        0.8697420951140066,
+        3.580694125081434,
+        13.83307748534202
+      ],
+      "discrimination": 1.587850512035
+    }
+  },
+  "version": 3.15
+}

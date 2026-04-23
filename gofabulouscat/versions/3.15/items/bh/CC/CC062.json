@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC062",
+  "question": "Are you able to write your signature?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.333897795439741,
+        -6.530434810423454,
+        -4.5988057185667754,
+        -2.784267714657981
+      ],
+      "discrimination": 0.9514969371524998
+    }
+  },
+  "version": 3.15
+}

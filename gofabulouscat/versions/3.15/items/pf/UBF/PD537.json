@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "PD537",
+  "question": "Are you able to carry a full large (check-in size) suitcase for 30 feet? Hint: A full large suitcase weighs 40-50 pounds/18-23 kg.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -3.0263565198697076,
+        -1.6517017928338764,
+        -0.21295272182410427,
+        1.3054249576547234
+      ],
+      "discrimination": 2.4042144701974997
+    }
+  },
+  "version": 3.15
+}

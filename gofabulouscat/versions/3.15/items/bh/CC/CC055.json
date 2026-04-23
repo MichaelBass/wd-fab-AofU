@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC055",
+  "question": "Are you able to make an appointment over the phone? For example a haircut or dentist.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -9.644890671009774,
+        -6.754672336156353,
+        -3.9393792182410428,
+        -1.4305579179153096
+      ],
+      "discrimination": 1.7523070995049999
+    }
+  },
+  "version": 3.15
+}

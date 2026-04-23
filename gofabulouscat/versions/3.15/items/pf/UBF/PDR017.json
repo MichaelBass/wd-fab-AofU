@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR017",
+  "question": "Are you able to clean a floor using a mop?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -2.5696035205211727,
+        -0.7811282110749187,
+        0.8870618475570033,
+        2.3961492612377855
+      ],
+      "discrimination": 2.1247482533275
+    }
+  },
+  "version": 3.15
+}

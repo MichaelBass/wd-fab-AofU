@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA067",
+  "question": "Are you able to back out of a driveway?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 3
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 3
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 2
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 1
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -4.928630153745929,
+        -3.432057538762215,
+        -2.1353959856677527,
+        -1.1490957563517916
+      ],
+      "discrimination": 1.4864679878899998
+    }
+  },
+  "version": 3.15
+}

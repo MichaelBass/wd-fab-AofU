@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II432",
+  "question": "Please specify your level of agreement: When I'm asked to do a really difficult task, I keep at it until I get it done.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.6838324664495117,
+        0.18040445732899024,
+        4.3372947622149844,
+        9.222011030618892
+      ],
+      "discrimination": 1.461669078955
+    }
+  },
+  "version": 3.15
+}

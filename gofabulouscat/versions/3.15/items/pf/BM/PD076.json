@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD076",
+  "question": "Are you able to move from lying on your back to sitting on the edge of your bed?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.025388061237785017,
+        0.5564245081433226,
+        1.2338138058631922,
+        2.234838635830619
+      ],
+      "discrimination": 1.3647328810925
+    }
+  },
+  "version": 3.15
+}

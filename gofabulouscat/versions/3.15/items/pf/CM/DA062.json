@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA062",
+  "question": "Please specify your level of agreement: I am only comfortable driving short distances.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 2
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 4
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 5
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -4.37488663713355,
+        -0.8258364872964169,
+        0.4342544390879479,
+        1.6313262501628665
+      ],
+      "discrimination": 0.8688988788024999
+    }
+  },
+  "version": 3.15
+}

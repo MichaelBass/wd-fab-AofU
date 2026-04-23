@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC070",
+  "question": "Please specify your level of agreement: I have to work really hard to focus so I don't make a mistake.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -3.3135596482084697,
+        1.575465796742671,
+        6.551352239739414,
+        21.30917163517916
+      ],
+      "discrimination": 1.4639970975624998
+    }
+  },
+  "version": 3.15
+}

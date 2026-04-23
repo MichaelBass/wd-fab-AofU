@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD545",
+  "question": "Are you able to pull a pillow case off a pillow?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.26782453420195446,
+        0.22527788143322475,
+        0.8204478840390881,
+        1.2097947726384366
+      ],
+      "discrimination": 3.8479294185824995
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II612",
+  "question": "In the past 7 days, I tried to get even when I was angry at someone.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -3.0523368912052122,
+        -2.2244758892508147,
+        -1.0611799309446255,
+        -0.19302768338762216
+      ],
+      "discrimination": 2.6954241454699996
+    }
+  },
+  "version": 3.15
+}

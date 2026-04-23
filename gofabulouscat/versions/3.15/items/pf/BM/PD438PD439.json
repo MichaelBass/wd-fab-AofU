@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD438PD439",
+  "question": "Are you able to get in and out of a squatting position?  Please base your response on the most difficult part of the activity.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.4582114006514658,
+        0.35369682475570036,
+        0.9809322814332248,
+        1.6274609394136808
+      ],
+      "discrimination": 2.4160265584499996
+    }
+  },
+  "version": 3.15
+}

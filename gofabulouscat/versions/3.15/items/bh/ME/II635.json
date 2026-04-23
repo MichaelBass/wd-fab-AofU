@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II635",
+  "question": "In the past 7 days, I avoided public places or activities.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -1.5904707830618894,
+        -0.8423165967426711,
+        0.8613581563517916,
+        2.2529251100977197
+      ],
+      "discrimination": 1.5198860131574998
+    }
+  },
+  "version": 3.15
+}

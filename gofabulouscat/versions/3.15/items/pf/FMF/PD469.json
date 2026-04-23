@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD469",
+  "question": "How long are you able to use a computer keyboard?",
+  "responses": {
+    "1": {
+      "text": "6 hours",
+      "value": 5
+    },
+    "2": {
+      "text": "4 hours",
+      "value": 4
+    },
+    "3": {
+      "text": "2 hours",
+      "value": 3
+    },
+    "4": {
+      "text": "Less than 2 hours",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.5826783530944626,
+        -0.4082377394136808,
+        -0.109274806514658,
+        0.6172847478827362
+      ],
+      "discrimination": 1.1501340757224998
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II606",
+  "question": "In the past 7 days, I was critical of myself for my mistakes.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -1.93708086514658,
+        -1.0536965211726386,
+        0.7428087022801303,
+        2.135602033876222
+      ],
+      "discrimination": 1.3271019585275
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PF2_049",
+  "question": "Are you able to vacuum for 30 minutes without a break?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -1.5404644299674268,
+        -0.2626189654723127,
+        0.8746322527687298,
+        1.9877362371335505
+      ],
+      "discrimination": 2.2139464118099994
+    }
+  },
+  "version": 3.15
+}

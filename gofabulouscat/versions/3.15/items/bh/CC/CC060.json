@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC060",
+  "question": "Are you able to fill out applications?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -7.286581444951141,
+        -3.328355564820847,
+        -0.7340804846905539,
+        1.5692664664495115
+      ],
+      "discrimination": 1.6562190067949998
+    }
+  },
+  "version": 3.15
+}

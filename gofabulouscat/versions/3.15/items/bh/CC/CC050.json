@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC050",
+  "question": "Are you able to get information you need when talking with people?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.90227506058632,
+        -6.021191336807819,
+        -1.7403879609120523,
+        1.4505884807817593
+      ],
+      "discrimination": 1.9851652011199998
+    }
+  },
+  "version": 3.15
+}

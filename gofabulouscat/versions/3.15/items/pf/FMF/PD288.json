@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD288",
+  "question": "Are you able to use a lever handle to open a door? Hint: A lever handle is a handle that you push down to open a door.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.14424228273615636,
+        0.33815411074918567,
+        0.9037464781758958,
+        1.170648917263844
+      ],
+      "discrimination": 4.30351534096
+    }
+  },
+  "version": 3.15
+}

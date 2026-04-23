@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II602",
+  "question": "In the past 7 days, I felt that I had nothing to look forward to.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -1.5667704299674268,
+        -0.3355236091205212,
+        1.9024683387622152,
+        3.840939317263844
+      ],
+      "discrimination": 2.283885280645
+    }
+  },
+  "version": 3.15
+}

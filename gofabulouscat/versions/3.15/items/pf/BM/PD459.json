@@ -1,0 +1,44 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD459",
+  "question": "How fast are you able to walk?",
+  "responses": {
+    "1": {
+      "text": "Faster than those around me",
+      "value": 4
+    },
+    "2": {
+      "text": "At a normal pace compared to those around me",
+      "value": 3
+    },
+    "3": {
+      "text": "At a slower pace than those around me",
+      "value": 2
+    },
+    "4": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.37395910879478833,
+        0.2570418631921825,
+        1.6770371530944626,
+        1.8600476416938112
+      ],
+      "discrimination": 0.621831933795
+    }
+  },
+  "version": 3.15
+}

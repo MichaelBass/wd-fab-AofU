@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH2_008",
+  "question": "Please specify your level of agreement: I am not easily discouraged.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.167319648208469,
+        0.6870548781758958,
+        2.767596665798046,
+        11.567945675570034
+      ],
+      "discrimination": 0.9976402881774998
+    }
+  },
+  "version": 3.15
+}

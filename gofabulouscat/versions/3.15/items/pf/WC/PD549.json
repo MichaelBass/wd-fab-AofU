@@ -1,0 +1,49 @@
+{
+  "diff": {
+    "excluded": {
+      "wc": 2,
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD549",
+  "question": "Are you able to cross the street at a traffic light in your wheelchair?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "WC": {
+      "difficulties": [
+        -1.1580586319218242,
+        -0.40373941368078176,
+        0.4938631921824105,
+        1.134097719869707
+      ],
+      "discrimination": 1.4439514749999998
+    }
+  },
+  "version": 3.15
+}

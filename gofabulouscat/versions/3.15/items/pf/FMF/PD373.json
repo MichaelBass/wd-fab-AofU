@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD373",
+  "question": "Are you able to hold a book while reading?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.20982653680781763,
+        0.1615842149837134,
+        0.5631667374592835,
+        0.8175585081433225
+      ],
+      "discrimination": 2.9596797825524996
+    }
+  },
+  "version": 3.15
+}

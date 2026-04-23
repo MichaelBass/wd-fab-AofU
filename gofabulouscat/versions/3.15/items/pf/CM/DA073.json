@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "pt": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA073",
+  "question": "Are you able to get on to a bus or train?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -5.005599613029316,
+        -3.3487933641693814,
+        -1.9714273029315963,
+        -0.8677733198697068
+      ],
+      "discrimination": 1.6112412181099998
+    }
+  },
+  "version": 3.15
+}

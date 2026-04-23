@@ -1,0 +1,124 @@
+{
+  "BM": {
+    "domain": "pf",
+    "loc": 0.6983471074380166,
+    "desc": "Basic Mobility",
+    "name": "BM",
+    "scale": 2.0,
+    "version": 3.15
+  },
+  "CC": {
+    "domain": "bh",
+    "loc": 0.059732774430180775,
+    "desc": "Cognition & Communication",
+    "name": "CC",
+    "scale": 2.0,
+    "version": 3.15
+  },
+  "CM": {
+    "domain": "pf",
+    "loc": 0.42866449511400656,
+    "desc": "Community Mobility",
+    "name": "CM",
+    "scale": 2.0,
+    "version": 3.15,
+    "diff": {
+      "excluded": {
+        "car,pt": [
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "FMF": {
+    "domain": "pf",
+    "loc": 0.2868020304568528,
+    "desc": "Fine Motor Function",
+    "name": "FMF",
+    "scale": 2.0,
+    "version": 3.15
+  },
+  "ME": {
+    "domain": "bh",
+    "loc": 0.0,
+    "desc": "Mood & Emotions",
+    "name": "ME",
+    "scale": 1.9999999999999998,
+    "version": 3.15
+  },
+  "RS": {
+    "domain": "bh",
+    "loc": 1.8197424892703864,
+    "desc": "Resilience & Sociability",
+    "name": "RS",
+    "scale": 2.0,
+    "version": 3.15
+  },
+  "SR": {
+    "domain": "bh",
+    "loc": 0.5997842502696872,
+    "desc": "Self-Regulation",
+    "name": "SR",
+    "scale": 2.0,
+    "version": 3.15
+  },
+  "UBF": {
+    "domain": "pf",
+    "loc": 0.6873092019188836,
+    "desc": "Upper Body Function",
+    "name": "UBF",
+    "scale": 2.0,
+    "version": 3.15
+  },
+  "VALIDITY_BH": {
+    "domain": "bh",
+    "loc": 0.0,
+    "desc": "Validity BH",
+    "name": "VALIDITY_BH",
+    "scale": 2.0,
+    "tags": [
+      "hidden"
+    ],
+    "version": 3.15
+  },
+  "VALIDITY_PF": {
+    "domain": "pf",
+    "loc": 0.0,
+    "desc": "Validity PF",
+    "name": "VALIDITY_PF",
+    "scale": 2.0,
+    "tags": [
+      "hidden"
+    ],
+    "version": 3.15
+  },
+  "WC": {
+    "diff": {
+      "excluded": {
+        "wc": 2
+      }
+    },
+    "domain": "pf",
+    "loc": 0.42866449511400656,
+    "desc": "Wheelchair",
+    "name": "WC",
+    "scale": 2.0,
+    "version": 3.15
+  },
+  "UNSCORED_BH": {
+    "domain": "bh",
+    "tags": [
+      "unscored"
+    ]
+  },
+  "UNSCORED_PF": {
+    "domain": "pf",
+    "tags": [
+      "unscored"
+    ]
+  },
+  "UNSCORED": {
+
+  }
+}

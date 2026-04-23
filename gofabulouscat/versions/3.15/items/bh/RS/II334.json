@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II334",
+  "question": "Please specify your level of agreement: I am good at making new friends.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.419111594788274,
+        0.3988255830618893,
+        4.043418325732899,
+        9.36061813029316
+      ],
+      "discrimination": 1.51972525184
+    }
+  },
+  "version": 3.15
+}

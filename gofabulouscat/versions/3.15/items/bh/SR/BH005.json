@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH005",
+  "question": "Please specify your level of agreement: I often get upset with the people around me.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -0.9398407491856678,
+        1.1301737120521174,
+        3.88236902801303,
+        13.99566319218241
+      ],
+      "discrimination": 1.5768148006874998
+    }
+  },
+  "version": 3.15
+}

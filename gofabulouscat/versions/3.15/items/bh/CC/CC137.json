@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC137",
+  "question": "Are you able to follow public signs? For example STOP, DO NOT ENTER, EXIT.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.979154914657983,
+        -8.389635317263844,
+        -6.0959772534201955,
+        -3.6010674553745927
+      ],
+      "discrimination": 1.4447187846599996
+    }
+  },
+  "version": 3.15
+}

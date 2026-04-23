@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II020",
+  "question": "Please specify your level of agreement: I get along well with people outside my family.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -3.4062953615635188,
+        0.28342683908794786,
+        4.586841964820848,
+        11.480447549185667
+      ],
+      "discrimination": 2.0831206328425003
+    }
+  },
+  "version": 3.15
+}

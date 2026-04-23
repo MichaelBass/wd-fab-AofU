@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "PDR014",
+  "question": "Are you able to sit in a car for more than 2 hours?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.32085684299674266,
+        0.2328515543973942,
+        0.6303994918566777,
+        0.9810642983713358
+      ],
+      "discrimination": 1.1351188400349999
+    }
+  },
+  "version": 3.15
+}

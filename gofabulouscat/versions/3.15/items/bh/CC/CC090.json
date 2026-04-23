@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC090",
+  "question": "Are you able to keep track of what you need to do each day?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.241001920521175,
+        -5.169498213680782,
+        -1.0900707022801304,
+        2.1034348403908796
+      ],
+      "discrimination": 2.13615659053
+    }
+  },
+  "version": 3.15
+}

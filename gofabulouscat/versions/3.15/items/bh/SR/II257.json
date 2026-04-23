@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II257",
+  "question": "Please specify your level of agreement: People know that I get angry easily.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -1.9619166788273616,
+        -0.1423877993485342,
+        2.29066751009772,
+        7.09982053811075
+      ],
+      "discrimination": 1.0016623519724999
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II583",
+  "question": "In the past 7 days, I was afraid of what the future holds for me.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -2.273782558957655,
+        -0.8213761876221499,
+        1.4046658032573291,
+        2.7581468482084692
+      ],
+      "discrimination": 1.9956392367799998
+    }
+  },
+  "version": 3.15
+}

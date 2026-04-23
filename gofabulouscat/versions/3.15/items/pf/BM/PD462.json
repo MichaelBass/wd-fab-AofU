@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD462",
+  "question": "Are you able to climb 2 or 3 steps up a step ladder?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.43654919478827364,
+        0.02216777719869707,
+        0.4970072899022802,
+        0.9255141355048861
+      ],
+      "discrimination": 1.9116698485724999
+    }
+  },
+  "version": 3.15
+}

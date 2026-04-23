@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC121",
+  "question": "Please specify your level of agreement: I notice my mistakes when they happen.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.434564337459285,
+        -6.3258473342019546,
+        -1.8499138866449514,
+        4.348200243648209
+      ],
+      "discrimination": 1.4636617369024998
+    }
+  },
+  "version": 3.15
+}

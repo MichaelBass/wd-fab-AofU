@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC141",
+  "question": "Are you able to keep yourself safe at home?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.768806091205214,
+        -7.881179155700328,
+        -4.856735674267101,
+        -2.590281166123779
+      ],
+      "discrimination": 1.4789814191174997
+    }
+  },
+  "version": 3.15
+}

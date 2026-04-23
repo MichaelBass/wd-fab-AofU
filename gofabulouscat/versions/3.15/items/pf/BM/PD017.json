@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD017",
+  "question": "Are you able to get up off the floor from lying on your back? You can use a chair or other object to get up.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.604059348534202,
+        0.19218236091205212,
+        0.7840960820846906,
+        1.4381407700325735
+      ],
+      "discrimination": 2.1563469298224995
+    }
+  },
+  "version": 3.15
+}

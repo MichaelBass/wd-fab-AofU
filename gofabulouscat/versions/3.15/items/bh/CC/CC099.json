@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC099",
+  "question": "Are you able to think things through before making a decision?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -9.422496861237786,
+        -4.941778153745929,
+        -0.8134272482084691,
+        2.481111581758958
+      ],
+      "discrimination": 2.4578574121675
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,51 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    },
+    "required": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD159",
+  "question": "Are you able to walk on uneven surfaces? For example on grass, dirt road or sidewalk.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.4307882762214984,
+        0.1580086332247557,
+        0.6741379439739416,
+        1.0808850827361565
+      ],
+      "discrimination": 1.1987316223549997
+    }
+  },
+  "version": 3.15
+}

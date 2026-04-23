@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC042",
+  "question": "Please specify your level of agreement: I have trouble finding the right word when talking with people.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -4.199730419543974,
+        0.9999535413680782,
+        6.441499446254072,
+        21.116601068403913
+      ],
+      "discrimination": 1.5190903313249997
+    }
+  },
+  "version": 3.15
+}

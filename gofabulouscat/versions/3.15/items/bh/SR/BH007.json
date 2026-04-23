@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH007",
+  "question": "Please specify your level of agreement: I am always watching or on guard for threats.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -0.6092114801302932,
+        1.3642951452768732,
+        3.528238523778502,
+        12.692065838436484
+      ],
+      "discrimination": 1.1468270064849997
+    }
+  },
+  "version": 3.15
+}

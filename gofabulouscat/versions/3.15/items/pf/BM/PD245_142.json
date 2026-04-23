@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD245_142",
+  "question": "Are you able to walk at least 15 minutes?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        0.41756330423452775,
+        0.6865446449511402,
+        1.0317484273615636,
+        1.264345094462541
+      ],
+      "discrimination": 0.7477424040699999
+    }
+  },
+  "version": 3.15
+}

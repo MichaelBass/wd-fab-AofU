@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC135",
+  "question": "Please specify your level of agreement: I recognize danger when I see it.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.743965206514659,
+        -7.575584789576548,
+        -4.62203373029316,
+        2.3052010058631924
+      ],
+      "discrimination": 1.23416479639
+    }
+  },
+  "version": 3.15
+}

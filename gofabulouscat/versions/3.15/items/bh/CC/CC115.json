@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC115",
+  "question": "Please specify your level of agreement: I am able to plan ahead for things that I want to do.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -9.667565137459285,
+        -6.1226274149837145,
+        -1.8445249485342023,
+        4.488325356351792
+      ],
+      "discrimination": 1.7855391787099997
+    }
+  },
+  "version": 3.15
+}

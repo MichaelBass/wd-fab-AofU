@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II206",
+  "question": "Please specify your level of agreement: I get very loud when I do not get what I want.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.62135720781759,
+        -0.9981190736156353,
+        1.7262926410423456,
+        7.038631296416939
+      ],
+      "discrimination": 0.7945382989449999
+    }
+  },
+  "version": 3.15
+}

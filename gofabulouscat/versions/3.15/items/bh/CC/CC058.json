@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC058",
+  "question": "Please specify your level of agreement: I often make mistakes when writing down numbers. For example a phone number, checkbook entry.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -4.794038902931597,
+        -0.7902901433224756,
+        4.5217902110749195,
+        19.63669094462541
+      ],
+      "discrimination": 1.2645636785099998
+    }
+  },
+  "version": 3.15
+}

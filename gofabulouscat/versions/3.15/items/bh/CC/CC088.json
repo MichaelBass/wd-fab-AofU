@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC088",
+  "question": "Are you able to pay attention for a long period of time?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -7.531631097068406,
+        -2.7983957511400654,
+        0.6399492247557004,
+        3.6367766110749185
+      ],
+      "discrimination": 1.9353871228275
+    }
+  },
+  "version": 3.15
+}

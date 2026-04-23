@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR001",
+  "question": "Are you able to stand in the shower to wash your hair?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.8151978475570032,
+        -0.3708321758957655,
+        0.15171972117263846,
+        0.5860892469055375
+      ],
+      "discrimination": 1.450495875355
+    }
+  },
+  "version": 3.15
+}

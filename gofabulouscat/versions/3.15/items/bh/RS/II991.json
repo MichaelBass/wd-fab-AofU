@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II991",
+  "question": "Please specify your level of agreement: Most people like what I have to say.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -3.1000118657980456,
+        0.22135228534201956,
+        4.6832560964169385,
+        7.287691205211726
+      ],
+      "discrimination": 1.3548690562849999
+    }
+  },
+  "version": 3.15
+}

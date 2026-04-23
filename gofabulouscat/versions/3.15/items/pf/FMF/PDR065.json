@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR065",
+  "question": "Are you able to put on a watch or bracelet?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.22130006384364823,
+        0.12791556742671012,
+        0.5133757433224756,
+        0.9225776273615636
+      ],
+      "discrimination": 3.0728645816949993
+    }
+  },
+  "version": 3.15
+}

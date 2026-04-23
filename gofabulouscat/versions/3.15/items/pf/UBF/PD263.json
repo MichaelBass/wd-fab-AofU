@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD263",
+  "question": "Are you able to push a vacuum?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -1.6556823791530946,
+        -0.46517189446254076,
+        0.8430456964169382,
+        1.9676436065146585
+      ],
+      "discrimination": 1.6003391146974997
+    }
+  },
+  "version": 3.15
+}

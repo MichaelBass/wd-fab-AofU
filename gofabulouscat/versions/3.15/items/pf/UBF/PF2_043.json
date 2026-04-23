@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PF2_043",
+  "question": "Are you able to fold several loads of laundry?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -0.4812406918566776,
+        0.4196240495114007,
+        1.683755813680782,
+        2.8067547166123785
+      ],
+      "discrimination": 1.5256301366575
+    }
+  },
+  "version": 3.15
+}

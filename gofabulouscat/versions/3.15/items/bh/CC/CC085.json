@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC085",
+  "question": "Please specify your level of agreement: I am easily confused when in a busy or noisy environment.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -3.103254831270359,
+        1.6600767543973942,
+        7.3585809224755705,
+        22.455686892508147
+      ],
+      "discrimination": 1.6941728097025
+    }
+  },
+  "version": 3.15
+}

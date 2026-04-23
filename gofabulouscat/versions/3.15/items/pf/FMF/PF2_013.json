@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PF2_013",
+  "question": "Are you able to use your finger to select options on a touch screen? (for example a cellphone or tablet)",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        0.34745161693811083,
+        0.6680712416938112,
+        1.0026986501628665,
+        1.4217749889250817
+      ],
+      "discrimination": 1.7337218061
+    }
+  },
+  "version": 3.15
+}

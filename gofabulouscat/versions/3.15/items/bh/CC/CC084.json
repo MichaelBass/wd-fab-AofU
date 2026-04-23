@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC084",
+  "question": "Are you able to think quickly?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -8.332487278175897,
+        -4.448472823452769,
+        -0.34766084820846915,
+        3.0326697954397397
+      ],
+      "discrimination": 2.3455418873625
+    }
+  },
+  "version": 3.15
+}

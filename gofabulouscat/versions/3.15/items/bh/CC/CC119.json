@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC119",
+  "question": "Are you able to get to places on time?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -8.019372239739415,
+        -4.3520862983713355,
+        -1.6632316013029318,
+        0.7201153889250814
+      ],
+      "discrimination": 1.4199623691299998
+    }
+  },
+  "version": 3.15
+}

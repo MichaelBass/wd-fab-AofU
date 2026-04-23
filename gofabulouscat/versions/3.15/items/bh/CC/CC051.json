@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC051",
+  "question": "Are you able to tell others your needs? For example when you're tired and need to rest.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -8.784760999348535,
+        -4.455956282736157,
+        -1.8006275726384364,
+        0.22228962736156355
+      ],
+      "discrimination": 1.4135744021599999
+    }
+  },
+  "version": 3.15
+}

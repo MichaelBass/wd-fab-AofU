@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PF2_051",
+  "question": "Are you able to paint walls for 30 minutes without taking a break?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -2.701709924429968,
+        -1.4850143348534204,
+        -0.08004913224755703,
+        1.3973395374592836
+      ],
+      "discrimination": 2.4074887418574997
+    }
+  },
+  "version": 3.15
+}

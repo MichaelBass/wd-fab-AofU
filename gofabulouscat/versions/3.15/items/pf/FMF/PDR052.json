@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR052",
+  "question": "Are you able to push the correct buttons on a remote control?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.8028127570032575,
+        -0.31507120521172644,
+        0.1977873133550489,
+        0.6349980026058633
+      ],
+      "discrimination": 3.4280238942699994
+    }
+  },
+  "version": 3.15
+}

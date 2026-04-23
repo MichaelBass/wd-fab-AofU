@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC083",
+  "question": "Please specify your level of agreement: I have trouble putting my thoughts together.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -4.484314953745929,
+        0.7642136651465798,
+        6.6326867374592835,
+        22.759278449511406
+      ],
+      "discrimination": 1.7846367821425
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD045",
+  "question": "Are you able to stand up from an armless, straight chair? Hint: Without holding on to anything.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.12037264755700326,
+        0.3758716273615635,
+        0.7983649798045603,
+        1.0843650723127036
+      ],
+      "discrimination": 1.869013895515
+    }
+  },
+  "version": 3.15
+}

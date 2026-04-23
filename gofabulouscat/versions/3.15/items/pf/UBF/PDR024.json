@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR024",
+  "question": "Are you able to clean out a closet?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -2.0849302306188924,
+        -0.23190262931596095,
+        1.5290783583061889,
+        3.0776835231270363
+      ],
+      "discrimination": 2.0812937280324992
+    }
+  },
+  "version": 3.15
+}

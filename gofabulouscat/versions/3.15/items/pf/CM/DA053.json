@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA053",
+  "question": "Please specify your level of agreement: I can drive to a local store and back home on my own.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 3
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -3.955264424755701,
+        -3.350582664495114,
+        -2.7470497250814336,
+        -0.2815057237785017
+      ],
+      "discrimination": 0.8701596172824999
+    }
+  },
+  "version": 3.15
+}

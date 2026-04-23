@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD447",
+  "question": "Are you able to to stand up from a low, soft couch? \rWithout holding on to anything.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.3171222149837134,
+        0.253147613029316,
+        0.7109869706840392,
+        1.1549538149837135
+      ],
+      "discrimination": 1.9157956929499997
+    }
+  },
+  "version": 3.15
+}

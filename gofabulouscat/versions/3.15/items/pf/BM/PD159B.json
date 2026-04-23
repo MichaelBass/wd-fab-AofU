@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD159B",
+  "question": "Are you able to walk on uneven surfaces (e.g. grass, dirt road or sidewalk) using your walking aid?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.5345375270358307,
+        0.08921428403908795,
+        0.647566358306189,
+        1.2776478527687298
+      ],
+      "discrimination": 1.0153037572874999
+    }
+  },
+  "version": 3.15
+}

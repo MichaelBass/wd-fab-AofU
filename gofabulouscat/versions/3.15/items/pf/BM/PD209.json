@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD209",
+  "question": "Are you able to run a short distance, such as to catch a bus? A short distance is roughly half a block or about 15-20 yards.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        0.16179545276872967,
+        0.46383601563517923,
+        0.6714390553745929,
+        0.8966940794788274
+      ],
+      "discrimination": 1.5529115872775
+    }
+  },
+  "version": 3.15
+}

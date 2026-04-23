@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR064",
+  "question": "Are you able to button your shirt?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.602923267752443,
+        -0.04606628143322476,
+        0.5154461172638437,
+        1.0377015114006516
+      ],
+      "discrimination": 4.39550464597
+    }
+  },
+  "version": 3.15
+}

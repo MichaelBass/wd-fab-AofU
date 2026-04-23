@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II139",
+  "question": "Please specify your level of agreement: I feel good about myself.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -1.7533434592833879,
+        0.05515115179153095,
+        2.348287968729642,
+        5.871142656677524
+      ],
+      "discrimination": 0.914730165095
+    }
+  },
+  "version": 3.15
+}

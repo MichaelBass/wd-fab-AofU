@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH029",
+  "question": "Please specify your level of agreement: I seem to worry about my health a lot.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        0.37775590879478826,
+        1.8850572156351795,
+        3.417222866449512,
+        11.443497481433226
+      ],
+      "discrimination": 0.4754200956199999
+    }
+  },
+  "version": 3.15
+}

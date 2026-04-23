@@ -1,0 +1,49 @@
+{
+  "diff": {
+    "excluded": {
+      "wc": 2,
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD248",
+  "question": "Are you able to get into and out of a truck, bus, shuttle van, or sport utility vehicle from your wheelchair?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "WC": {
+      "difficulties": [
+        -1.533498371335505,
+        0.038592833876221505,
+        1.6355700325732903,
+        2.776781758957655
+      ],
+      "discrimination": 1.4439514749999998
+    }
+  },
+  "version": 3.15
+}

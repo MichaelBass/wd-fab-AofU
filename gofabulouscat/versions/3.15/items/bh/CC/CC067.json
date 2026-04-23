@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC067",
+  "question": "Please specify your level of agreement: If I can't do something one way I will find another way to do it.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.387823107491858,
+        -7.336067038436484,
+        -3.9299029094462545,
+        3.3123161120521174
+      ],
+      "discrimination": 1.4749095484099997
+    }
+  },
+  "version": 3.15
+}

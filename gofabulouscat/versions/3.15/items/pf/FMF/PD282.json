@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD282",
+  "question": "Are you able to open a can with a hand can opener?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.14830224885993487,
+        0.19359724560260588,
+        0.5549711465798046,
+        0.8601718592833878
+      ],
+      "discrimination": 1.815664841575
+    }
+  },
+  "version": 3.15
+}

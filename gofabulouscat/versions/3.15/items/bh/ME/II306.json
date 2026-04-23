@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II306",
+  "question": "In the past 7 days, I was bothered if I had to depend on others for help.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -1.6221091726384365,
+        -0.8539868117263845,
+        0.8911804000000002,
+        2.019111385016287
+      ],
+      "discrimination": 1.198178463615
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC068",
+  "question": "Please specify your level of agreement: I am able to do my work carefully.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -9.207283904885996,
+        -5.970173145276873,
+        -2.494601472312704,
+        4.206141309446255
+      ],
+      "discrimination": 1.6837805542374997
+    }
+  },
+  "version": 3.15
+}

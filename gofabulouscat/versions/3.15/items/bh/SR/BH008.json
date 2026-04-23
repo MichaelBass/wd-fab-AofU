@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH008",
+  "question": "Please specify your level of agreement: I have difficulty following the rules.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.334301907491857,
+        -0.605636861237785,
+        2.709940622801303,
+        13.786738853420198
+      ],
+      "discrimination": 1.5950307462299997
+    }
+  },
+  "version": 3.15
+}

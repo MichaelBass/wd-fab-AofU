@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD468",
+  "question": "Are you able to pick up coins from a table top?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.47683535635179164,
+        -0.06063617980456027,
+        0.4007421146579805,
+        0.8528929315960913
+      ],
+      "discrimination": 3.824344152024999
+    }
+  },
+  "version": 3.15
+}

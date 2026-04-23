@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD440PD441",
+  "question": "Are you able to get into and out of a kneeling position? Please base your response on the most difficult part of the activity.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.7333709980456027,
+        0.25868698501628673,
+        0.9753069250814334,
+        1.6625919687296418
+      ],
+      "discrimination": 2.5378379286525
+    }
+  },
+  "version": 3.15
+}

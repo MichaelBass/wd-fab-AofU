@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH038",
+  "question": "Please specify your level of agreement: I ask for help when I need to.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.4195501381107496,
+        -0.07187795700325733,
+        3.728473063192183,
+        14.445061433224758
+      ],
+      "discrimination": 1.3288648484649999
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,46 @@
+{
+  "domain": "bh",
+  "item": "VALIDITY_SYMPTOM_EMOTIONAL6",
+  "question": "Are you able to listen to music without hallucinating?",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "VALIDITY_BH": {
+      "difficulties": [
+        -1,
+        -0.5,
+        0.5,
+        1
+      ],
+      "discrimination": 0.01
+    }
+  },
+  "tags": [
+    "validity",
+    "hidden"
+  ]
+}

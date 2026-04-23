@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC045",
+  "question": "Are you able to get your point across when speaking with other people?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -11.110306728338761,
+        -5.975018427361564,
+        -1.540186878175896,
+        1.741509706840391
+      ],
+      "discrimination": 2.11272308098
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,49 @@
+{
+  "diff": {
+    "excluded": {
+      "race": "W",
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD538_2",
+  "question": "Are you able to walk 150 feet (45 meters) on flat ground?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        0.2925611140065147,
+        0.5268065863192183,
+        0.9502534710097721,
+        1.1279461289902282
+      ],
+      "discrimination": 0.7922103847174998
+    }
+  },
+  "version": 3.15
+}

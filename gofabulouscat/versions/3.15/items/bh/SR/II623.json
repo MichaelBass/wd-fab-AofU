@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II623",
+  "question": "In the past 7 days, people told me that I talked in a loud or excessive manner.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.0235560638436487,
+        -1.2449054931596093,
+        0.22683308403908795,
+        0.9905189628664497
+      ],
+      "discrimination": 1.6789612582599998
+    }
+  },
+  "version": 3.15
+}

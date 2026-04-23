@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH052",
+  "question": "Please specify your level of agreement: I always try to get along with others.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -3.4824120104234533,
+        -1.6371069628664496,
+        4.116913900977199,
+        15.396538280130295
+      ],
+      "discrimination": 1.8047121223049998
+    }
+  },
+  "version": 3.15
+}

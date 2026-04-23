@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC079",
+  "question": "Please specify your level of agreement: When I have something hard to do, I have trouble getting started.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -0.5466896716612378,
+        1.685876255374593,
+        3.570095609120522,
+        11.691986760912053
+      ],
+      "discrimination": 0.767255273415
+    }
+  },
+  "version": 3.15
+}

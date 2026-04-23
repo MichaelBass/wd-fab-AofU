@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH028",
+  "question": "Please specify your level of agreement: I often think that something is really wrong with my health.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        0.12798230749185668,
+        1.6994356221498375,
+        3.2180001159609124,
+        8.55880909315961
+      ],
+      "discrimination": 0.5584955021299999
+    }
+  },
+  "version": 3.15
+}

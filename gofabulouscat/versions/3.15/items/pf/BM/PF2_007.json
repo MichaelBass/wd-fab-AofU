@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PF2_007",
+  "question": "Are you able to kick a ball?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        0.28160336547231274,
+        0.6883633641693812,
+        1.0814860052117266,
+        1.4565552885993487
+      ],
+      "discrimination": 1.6652823812924997
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR055",
+  "question": "Are you able to close a zip lock bag?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.734105822801303,
+        -0.24220792964169388,
+        0.34843965081433226,
+        0.873042738762215
+      ],
+      "discrimination": 4.2652754094475
+    }
+  },
+  "version": 3.15
+}

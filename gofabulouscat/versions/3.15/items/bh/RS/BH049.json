@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH049",
+  "question": "Please specify your level of agreement: I make an effort to get to know other people.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.86222926514658,
+        0.6908189368078176,
+        5.286554161563518,
+        16.316524534201957
+      ],
+      "discrimination": 1.9366591765599999
+    }
+  },
+  "version": 3.15
+}

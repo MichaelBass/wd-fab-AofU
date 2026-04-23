@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR016",
+  "question": "Are you able to crawl under a table to pick up something you dropped?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.3919837342019545,
+        0.3433289172638436,
+        0.960413529641694,
+        1.6168232508143325
+      ],
+      "discrimination": 2.6373124147949993
+    }
+  },
+  "version": 3.15
+}

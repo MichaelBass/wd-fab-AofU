@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC063",
+  "question": "Are you able to learn to do new things?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -10.06245135504886,
+        -4.561539154397395,
+        -0.5556854201954399,
+        2.4755802188925085
+      ],
+      "discrimination": 1.9383153410174998
+    }
+  },
+  "version": 3.15
+}

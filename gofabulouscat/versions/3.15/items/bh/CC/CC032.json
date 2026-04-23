@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC032",
+  "question": "Are you able to understand people in noisy places?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -6.31930413029316,
+        -1.562210622801303,
+        1.3685202514657981,
+        3.5638466566775246
+      ],
+      "discrimination": 1.3957038270125
+    }
+  },
+  "version": 3.15
+}

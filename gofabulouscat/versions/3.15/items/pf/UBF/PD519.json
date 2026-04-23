@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD519",
+  "question": "Are you able to do yard work (e.g. plant shrubs or a garden) for 2 hours? For example: With occasional rest but continuous work.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -0.27947331596091207,
+        1.063992164169381,
+        1.9451531244299678,
+        2.642422771335505
+      ],
+      "discrimination": 1.5613667356774998
+    }
+  },
+  "version": 3.15
+}

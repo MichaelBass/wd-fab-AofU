@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC105",
+  "question": "Are you able to remember a list of 4 or 5 errands without writing it down?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -5.160610058631923,
+        -1.5101409172638438,
+        1.643353512703583,
+        4.5313996872964175
+      ],
+      "discrimination": 1.7435180732549997
+    }
+  },
+  "version": 3.15
+}

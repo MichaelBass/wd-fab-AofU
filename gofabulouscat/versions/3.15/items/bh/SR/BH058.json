@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH058",
+  "question": "Please specify your level of agreement: I often say things that upset others.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.132291929641694,
+        0.36091833355048863,
+        4.099685078827362,
+        14.092133693811077
+      ],
+      "discrimination": 1.7273384049874998
+    }
+  },
+  "version": 3.15
+}

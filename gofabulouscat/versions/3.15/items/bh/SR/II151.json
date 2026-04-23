@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II151",
+  "question": "Please specify your level of agreement: I feel people are against me.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.31538172247557,
+        -0.42554210814332255,
+        2.284979064495114,
+        7.014210759609121
+      ],
+      "discrimination": 1.054849017495
+    }
+  },
+  "version": 3.15
+}

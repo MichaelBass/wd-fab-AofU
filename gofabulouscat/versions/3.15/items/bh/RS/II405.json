@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II405",
+  "question": "Please specify your level of agreement: I'm comfortable trying different ways to do things.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.998303684690554,
+        0.367281464495114,
+        5.007692633224757,
+        10.942027855374594
+      ],
+      "discrimination": 1.7623704228899997
+    }
+  },
+  "version": 3.15
+}

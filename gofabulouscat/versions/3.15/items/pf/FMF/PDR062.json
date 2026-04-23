@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR062",
+  "question": "Are you able to use the trigger on a spray bottle?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.745120222801303,
+        -0.22169532899022804,
+        0.37825705407166127,
+        0.90996486514658
+      ],
+      "discrimination": 4.4237138329375
+    }
+  },
+  "version": 3.15
+}

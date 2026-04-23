@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH025",
+  "question": "Please specify your level of agreement: I can handle stressful situations.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -0.5289148703583062,
+        1.0958961628664496,
+        3.8377253667752442,
+        13.629222592833878
+      ],
+      "discrimination": 1.0369689084625
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II284",
+  "question": "In the past 7 days, I was resentful when I didn't get my way.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.455319546579805,
+        -1.570492519869707,
+        0.12872863192182413,
+        1.4024807361563518
+      ],
+      "discrimination": 1.856192743545
+    }
+  },
+  "version": 3.15
+}

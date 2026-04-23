@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC081",
+  "question": "Are you able to follow instructions given over the phone?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -8.78452934723127,
+        -4.890148994136808,
+        -0.7431225889250817,
+        2.7051327765472317
+      ],
+      "discrimination": 2.2758723941425
+    }
+  },
+  "version": 3.15
+}

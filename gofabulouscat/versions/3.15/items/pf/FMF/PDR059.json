@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR059",
+  "question": "Are you able to insert a plug into an electric outlet?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.560987897068404,
+        -0.1369465667752443,
+        0.35134092638436487,
+        0.7300455622149837
+      ],
+      "discrimination": 2.701833935535
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II618",
+  "question": "In the past 7 days, it was hard to adjust to unexpected changes.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -2.6579568234527686,
+        -1.2259231244299675,
+        1.2847097993485341,
+        2.7953481263843654
+      ],
+      "discrimination": 1.8704370078299999
+    }
+  },
+  "version": 3.15
+}

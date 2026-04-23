@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD265",
+  "question": "Are you able to push a full wheelbarrow?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -3.1215562084690553,
+        -1.9713208651465801,
+        -0.6802118592833877,
+        0.6955829654723128
+      ],
+      "discrimination": 2.3047323098224997
+    }
+  },
+  "version": 3.15
+}

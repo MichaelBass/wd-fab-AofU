@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC066",
+  "question": "Are you able to adjust to a new situation or change?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -8.643233494462542,
+        -2.582715639087948,
+        1.0328093850162867,
+        4.209056788273616
+      ],
+      "discrimination": 1.8610601963099997
+    }
+  },
+  "version": 3.15
+}

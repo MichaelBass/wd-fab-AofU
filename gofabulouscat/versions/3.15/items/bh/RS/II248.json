@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II248",
+  "question": "Please specify your level of agreement: I respect other people's point of view.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -3.3281459439739414,
+        -0.4281017381107492,
+        4.781894340065147,
+        11.224613177850165
+      ],
+      "discrimination": 2.0176797361325
+    }
+  },
+  "version": 3.15
+}

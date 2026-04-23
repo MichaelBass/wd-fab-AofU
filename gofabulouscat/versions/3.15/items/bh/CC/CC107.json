@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC107",
+  "question": "Please specify your level of agreement: I often forget where I put things. For example like your keys or wallet.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.6695779048859936,
+        1.437988185016287,
+        6.207507953094463,
+        20.106540221498374
+      ],
+      "discrimination": 1.2367744153525
+    }
+  },
+  "version": 3.15
+}

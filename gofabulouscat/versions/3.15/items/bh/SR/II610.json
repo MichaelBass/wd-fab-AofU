@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II610",
+  "question": "In the past 7 days, I threatened violence toward people or property.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.6137099048859938,
+        -2.190353814983714,
+        -1.4241661498371339,
+        -0.6828427817589577
+      ],
+      "discrimination": 2.6733791378225
+    }
+  },
+  "version": 3.15
+}

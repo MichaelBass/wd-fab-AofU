@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA060",
+  "question": "Are you able to park your car in a parking lot?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 3
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 3
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 2
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 1
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -5.925701312052118,
+        -4.2306812508143326,
+        -2.539515223452769,
+        -1.2039857798045603
+      ],
+      "discrimination": 2.0325477691575
+    }
+  },
+  "version": 3.15
+}

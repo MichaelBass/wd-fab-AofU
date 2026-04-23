@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC004",
+  "question": "Please specify your level of agreement: People tell me I stand too close when I am talking to them.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.8457484442996743,
+        -1.5297660065146583,
+        1.6673166254071663,
+        11.286541821498373
+      ],
+      "discrimination": 0.5837487380624999
+    }
+  },
+  "version": 3.15
+}

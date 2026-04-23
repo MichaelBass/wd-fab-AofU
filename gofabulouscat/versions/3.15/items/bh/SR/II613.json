@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II613",
+  "question": "In the past 7 days, I held grudges toward others.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.427868753094463,
+        -1.5919759400651468,
+        0.07711207817589578,
+        1.08337431009772
+      ],
+      "discrimination": 1.7526477935225
+    }
+  },
+  "version": 3.15
+}

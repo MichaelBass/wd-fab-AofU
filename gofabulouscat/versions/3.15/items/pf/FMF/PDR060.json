@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR060",
+  "question": "Are you able to use a chip clip to close a bag?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.9313074058631924,
+        -0.5268746214983714,
+        0.11749112833876221,
+        0.7491240000000001
+      ],
+      "discrimination": 5.110259574619999
+    }
+  },
+  "version": 3.15
+}

@@ -1,0 +1,37 @@
+{
+  "attributes": {
+    "unscored": 1
+  },
+  "domain": "bh",
+  "item": "UNSCORED_BH4",
+  "question": "Are you able to use body language and facial expressions?",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "tags": [
+    "unscored"
+  ]
+}

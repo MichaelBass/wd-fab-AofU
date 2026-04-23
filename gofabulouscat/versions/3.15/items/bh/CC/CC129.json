@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC129",
+  "question": "Please specify your level of agreement: I have to read something several times to understand it.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -3.245662585016287,
+        1.7634234371335509,
+        6.868461334201954,
+        20.87947291205212
+      ],
+      "discrimination": 1.4486798153199998
+    }
+  },
+  "version": 3.15
+}

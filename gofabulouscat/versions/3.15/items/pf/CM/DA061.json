@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA061",
+  "question": "Are you able to stay within your lane while driving?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 3
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 3
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 2
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 1
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -5.861433132247558,
+        -4.871721689902281,
+        -3.1138201628664497,
+        -1.834487310749186
+      ],
+      "discrimination": 1.78238353492
+    }
+  },
+  "version": 3.15
+}

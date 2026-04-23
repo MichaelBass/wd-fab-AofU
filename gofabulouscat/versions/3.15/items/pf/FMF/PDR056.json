@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR056",
+  "question": "Are you able to close a twist tie on a bag of bread?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.8312545745928339,
+        -0.3642480442996743,
+        0.21933055895765474,
+        0.7744990905537461
+      ],
+      "discrimination": 5.4787719726925
+    }
+  },
+  "version": 3.15
+}

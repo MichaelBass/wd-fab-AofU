@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC033",
+  "question": "Please specify your level of agreement: People can understand me when I talk.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -6.9887120807817595,
+        -3.214148101628665,
+        3.1849223791530945,
+        18.30660248859935
+      ],
+      "discrimination": 0.9981545914624999
+    }
+  },
+  "version": 3.15
+}

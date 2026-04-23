@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH039",
+  "question": "Please specify your level of agreement: I don't mind when people give me advice.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -3.088842087296417,
+        -0.8442051570032574,
+        4.624427503583062,
+        15.524895348534205
+      ],
+      "discrimination": 1.7964487852025
+    }
+  },
+  "version": 3.15
+}

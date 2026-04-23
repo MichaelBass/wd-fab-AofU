@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II561",
+  "question": "Please specify your level of agreement: I am comfortable making eye contact with others.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.367218900325733,
+        0.08622176547231271,
+        4.194153555700326,
+        11.00691757263844
+      ],
+      "discrimination": 1.7777299268424998
+    }
+  },
+  "version": 3.15
+}

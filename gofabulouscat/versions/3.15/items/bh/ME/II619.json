@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II619",
+  "question": "In the past 7 days, just being around people irritated me.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -1.2079972846905538,
+        -0.32747812247557007,
+        1.6174032677524433,
+        2.866536690553746
+      ],
+      "discrimination": 1.6127696598224999
+    }
+  },
+  "version": 3.15
+}

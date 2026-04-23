@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PF2_048",
+  "question": "Are you able to mop your kitchen floor?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -0.7985504299674268,
+        0.48314383973941377,
+        2.0974287504885996,
+        3.4065164899022804
+      ],
+      "discrimination": 1.9998004920724997
+    }
+  },
+  "version": 3.15
+}

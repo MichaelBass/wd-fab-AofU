@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD525",
+  "question": "Are you able to put batteries in a flashlight, or remote control for your television?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.6325083765472314,
+        -0.16504466970684042,
+        0.4382322410423453,
+        1.0310171700325734
+      ],
+      "discrimination": 5.9859961469949985
+    }
+  },
+  "version": 3.15
+}

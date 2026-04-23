@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC156",
+  "question": "Are you able to remember important numbers? For example a phone number.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -5.73145115960912,
+        -1.7877996208469058,
+        1.1418470371335505,
+        3.324246121172639
+      ],
+      "discrimination": 1.5341144239625
+    }
+  },
+  "version": 3.15
+}

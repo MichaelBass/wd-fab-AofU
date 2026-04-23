@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH2_020",
+  "question": "Please specify your level of agreement: I am able to work toward long term goals.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -1.83276105276873,
+        0.6678673498371336,
+        2.326492990228013,
+        9.9078478267101
+      ],
+      "discrimination": 0.005063168334999999
+    }
+  },
+  "version": 3.15
+}

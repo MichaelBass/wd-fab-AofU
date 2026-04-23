@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II982",
+  "question": "Please specify your level of agreement: I like large family gatherings.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.7775163817589579,
+        0.4301782201954397,
+        3.0420478149837136,
+        7.37554692117264
+      ],
+      "discrimination": 0.9308173265874999
+    }
+  },
+  "version": 3.15
+}

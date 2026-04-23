@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH004",
+  "question": "Please specify your level of agreement: I often get angry when I'm told what to do.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.135738684039088,
+        0.10500011074918568,
+        3.996370307491857,
+        14.911744951140067
+      ],
+      "discrimination": 1.8797131732374999
+    }
+  },
+  "version": 3.15
+}

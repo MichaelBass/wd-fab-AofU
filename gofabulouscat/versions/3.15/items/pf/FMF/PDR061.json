@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR061",
+  "question": "Are you able to turn a dial? For example on a stove.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -1.0020541394136808,
+        -0.5568808833876222,
+        -0.009180478175895766,
+        0.5628567947882737
+      ],
+      "discrimination": 4.4275343819324995
+    }
+  },
+  "version": 3.15
+}
