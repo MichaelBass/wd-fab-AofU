@@ -75,6 +75,19 @@ export class MongoDbService {
 
   }
 
+
+  getProofSheet() : Observable<any>{
+
+    return this.http.get<[]>(`${this.API}/form`).pipe(
+        catchError(err => {
+            console.log('caught rethrown error, providing fallback value');
+            return of([]);
+        })
+    );    
+  }
+
+
+
 // 2024-07-24
   getForms() : Observable<any>{
 

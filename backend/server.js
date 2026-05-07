@@ -4927,7 +4927,7 @@ const Locales = [
       "value": "¿Puede llevar una maleta pequeña por la manija?"
     },
     {
-      "key": "Are you able to lift a 2 liter soda bottle from the floor to a high shelf? A 2 liter soda bottle=3.5 lbs/1.5kg.",
+      "key": "Are you able to  lift a 2 liter soda bottle from the floor to a high shelf? A 2 liter soda bottle=3.5lbs/1.5kg.",
       "value": "¿Puede levantar una botella de refresco de 2 litros del piso a un estante/repisa alto/a? Una botella de refresco de 2 litros equivale a 1.5 kg o 3.5 lb."
     },
     {
@@ -5091,7 +5091,7 @@ const Locales = [
       "value": "¿Puede pasar de estar acostado/a boca arriba a sentarse en el borde de la cama?"
     },
     {
-      "key": "Are you able to to stand up from a low, soft couch? Without holding on to anything.",
+      "key": "Are you able to to stand up from a low, soft couch?  Without holding on to anything.",
       "value": "¿Puede levantarse de un sofá bajo y blando, y ponerse de pie? Sin sostenerse de nada."
     },
     {
@@ -5934,6 +5934,10 @@ const Locales = [
       "key": "Unable to do",
       "value": "No puedo hacerlo"
     },
+    {
+      "key": "unable to do",
+      "value": "no puedo hacerlo"
+    },    
     {
       "key": "I don't know",
       "value": "No sé"
@@ -14100,7 +14104,7 @@ const Forms =[
                     {
                         "ItemResponseOID": "72F7C518-6FAF-4617-A62B-2114514CB6CB",
                         "Value": "5",
-                        "ResponseOption": " More than an hour",
+                        "ResponseOption": "More than an hour",
                         "Position": "1",
                         "Category": "3",
                         "Calibration": "0.6753"
@@ -27564,6 +27568,15 @@ app.post('/form', async (req, res, next) => {
 
     const insertedform = await form.save();
     return res.status(201).json(insertedform);
+});
+
+app.get('/form', async (req, res) => {
+  try {
+    const forms = await Form.find({});
+    res.status(200).json(forms);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
 });
 
 app.post('/locales', async (req, res, next) => {

@@ -14,6 +14,8 @@ import { QualtricsComponent } from './qualtrics/qualtrics.component';
 import { LocaleComponent } from './locale/locale.component';
 import { FormsComponent } from './forms/forms.component';
 
+import { ProofsheetComponent } from './proofsheet/proofsheet.component';
+
 const routes: Routes = [
   { path: '', redirectTo: '/locale', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
@@ -34,7 +36,8 @@ const routes: Routes = [
   { path: 'utility', component: UtilityComponent },
   { path: 'qualtrics', component: QualtricsComponent },
 
-  { path: 'forms', component: FormsComponent }  
+  { path: 'forms', component: FormsComponent },
+  { path: 'proofsheet', component: ProofsheetComponent}  
 ];
 
 @NgModule({
