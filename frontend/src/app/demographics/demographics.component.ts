@@ -118,7 +118,7 @@ export class DemographicsComponent implements OnInit {
     this.age_required = this.mongodbService.getLocaleValue("age is required.");
     this.age_number = this.mongodbService.getLocaleValue("age must be a number.");
 
-    this.mobility_question = this.mongodbService.getLocaleValue("I usually use a walking aid (cane, crutches, walker)");
+    this.mobility_question = this.mongodbService.getLocaleValue("I usually use a walking aid (cane, crutches, walker).");
     this.All_the_time = this.mongodbService.getLocaleValue("All the time");
     this.Sometimes = this.mongodbService.getLocaleValue("Sometimes");
     this.Never = this.mongodbService.getLocaleValue("Never");

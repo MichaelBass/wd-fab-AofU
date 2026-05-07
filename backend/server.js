@@ -4396,2089 +4396,2089 @@ const Locales = [
         ]
     },
     {
-        "locale": "es",
-        "Items": [
-            {
-                "key": "Work Disability Functional Assessment Battery",
-                "value": "Batería de evaluación funcional de discapacidad laboral"
-            },
-            {
-                "key": "Basic Mobility",
-                "value": "Movilidad básica"
-            },
-            {
-                "key": "Communication & Cognition",
-                "value": "Comunicación y cognición"
-            },
-            {
-                "key": "Community Mobility",
-                "value": "Movilidad comunitaria"
-            },
-            {
-                "key": "Fine Motor Function",
-                "value": "Motricidad fina"
-            },
-            {
-                "key": "Mood & Emotions",
-                "value": "Estado de ánimo y emociones"
-            },
-            {
-                "key": "Resilience & Sociability",
-                "value": "Resiliencia y sociabilidad"
-            },
-            {
-                "key": "Self-Regulation",
-                "value": "Autorregulación"
-            },
-            {
-                "key": "Upper Body Function",
-                "value": "Función del tren superior"
-            },
-            {
-                "key": "Wheelchair",
-                "value": "Silla de ruedas"
-            },
-            {
-                "key": "Are you able figure out the correct price for something that is on sale? For example 25% off.",
-                "value": "¿Puede calcular el precio correcto de algo que está en oferta? Por ejemplo, si tiene un 25 % de descuento."
-            },
-            {
-                "key": "Are you able pull a small suitcase by the handle?",
-                "value": "¿Puede llevar una maleta pequeña por el asa?"
-            },
-            {
-                "key": "Are you able to  lift a 2 liter soda bottle from the floor to a high shelf? A 2 liter soda bottle=3.5lbs/1.5kg.",
-                "value": "¿Puede levantar una botella de refresco de 2 litros del piso a un estante alto? Una botella de refresco de 2 litros equivale a 1,5 kg o 3,5 lb."
-            },
-            {
-                "key": "Are you able to address an envelope with a pen?",
-                "value": "¿Puede poner la dirección en un sobre con un bolígrafo?"
-            },
-            {
-                "key": "Are you able to adjust to a new situation or change?",
-                "value": "¿Puede adaptarse a nuevas situaciones o cambios?"
-            },
-            {
-                "key": "Are you able to ask for help from others when difficult problems come up?",
-                "value": "¿Puede pedir ayuda a otras personas cuando surgen problemas difíciles?"
-            },
-            {
-                "key": "Are you able to back out of a driveway?",
-                "value": "¿Puede retroceder para salir de una entrada de vehículos?"
-            },
-            {
-                "key": "Are you able to bend down to pick up clothing from the floor?",
-                "value": "¿Puede agacharse para recoger ropa del piso?"
-            },
-            {
-                "key": "Are you able to bend over from a sitting position to pick up an object you dropped on the floor?",
-                "value": "Cuando está sentado, ¿puede agacharse para recoger un objeto que se le ha caído al piso?"
-            },
-            {
-                "key": "Are you able to bend over to pick up coins that are scattered on the floor?",
-                "value": "¿Puede agacharse para recoger monedas esparcidas por el piso?"
-            },
-            {
-                "key": "Are you able to bend to look under a car?",
-                "value": "¿Puede agacharse para mirar debajo de un auto?"
-            },
-            {
-                "key": "Are you able to buckle a strap (e.g. on a bicycle helmet, child's car seat, or backpack)?",
-                "value": "¿Puede abrochar una correa (por ejemplo, de un casco de bicicleta, una mochila o el asiento para niños de un auto)?"
-            },
-            {
-                "key": "Are you able to button your shirt?",
-                "value": "¿Puede abotonarse la camisa?"
-            },
-            {
-                "key": "Are you able to carry a full kitchen trash bag outside?",
-                "value": "¿Puede llevar afuera una bolsa llena de basura de la cocina?"
-            },
-            {
-                "key": "Are you able to carry a full large (check-in size) suitcase for 30 feet? Hint: A full large suitcase weighs 40-50 pounds/18-23 kg.",
-                "value": "¿Puede transportar una maleta grande (tamaño de equipaje que se despacha) llena 9 metros/30 pies? Ayuda: Una maleta grande llena pesa entre 18 y 23 kg (entre 40 y 50 libras)."
-            },
-            {
-                "key": "Are you able to carry a full laundry basket for 30 feet?",
-                "value": "¿Puede transportar 9 metros/30 pies una cesta llena de ropa para lavar?"
-            },
-            {
-                "key": "Are you able to carry a full laundry basket up a flight of stairs? Hint: A flight of stairs is 12-15 steps.",
-                "value": "¿Puede subir un tramo de escaleras con una cesta llena de ropa para lavar? Ayuda: Un tramo de escaleras tiene entre 12 y 15 escalones."
-            },
-            {
-                "key": "Are you able to carry a full paper grocery bag for 30 feet?",
-                "value": "¿Puede transportar 9 metros/30 pies una bolsa de compras de papel llena?"
-            },
-            {
-                "key": "Are you able to carry a full plastic shopping bag for 30 feet?",
-                "value": "¿Puede transportar 9 metros/30 pies una bolsa de compras de plástico llena?"
-            },
-            {
-                "key": "Are you able to carry a full small (carry-on size) suitcase for 30 feet? Hint: A full carry-on suitcase weighs 20 pounds/8 kg.",
-                "value": "¿Puede transportar 9 metros/30 pies una maleta pequeña (de mano) llena? Ayuda: Una maleta de mano llena pesa 8 kg/20 libras."
-            },
-            {
-                "key": "Are you able to change the bulb in a table lamp?",
-                "value": "¿Puede cambiar la bombilla de una lámpara de mesa?"
-            },
-            {
-                "key": "Are you able to check that your bills are correct?",
-                "value": "¿Puede revisar si sus facturas tienen errores?"
-            },
-            {
-                "key": "Are you able to clean a floor using a mop?",
-                "value": "¿Puede limpiar el piso con un trapeador?"
-            },
-            {
-                "key": "Are you able to clean out a closet?",
-                "value": "¿Puede limpiar un armario?"
-            },
-            {
-                "key": "Are you able to climb 2 or 3 steps up a step ladder?",
-                "value": "¿Puede subir 2 o 3 escalones de una escalerilla?"
-            },
-            {
-                "key": "Are you able to close a twist tie on a bag of bread?",
-                "value": "¿Puede cerrar el plastinudo de una bolsa de pan?"
-            },
-            {
-                "key": "Are you able to close a zip lock bag?",
-                "value": "¿Puede cerrar una bolsa tipo Ziploc?"
-            },
-            {
-                "key": "Are you able to crawl under a table to pick up something you dropped?",
-                "value": "¿Puede meterse debajo de una mesa para recoger algo que se le haya caído?"
-            },
-            {
-                "key": "Are you able to cross the street at a traffic light in your wheelchair?",
-                "value": "¿Puede cruzar la calle con su silla de ruedas donde haya un semáforo?"
-            },
-            {
-                "key": "Are you able to cut a piece of paper with scissors?",
-                "value": "¿Puede cortar un trozo de papel con tijeras?"
-            },
-            {
-                "key": "Are you able to discuss your ideas with others?",
-                "value": "¿Puede conversar sobre sus ideas con otras personas?"
-            },
-            {
-                "key": "Are you able to do heavy housework? For example scrubbing floors, washing windows, moving furniture to clean.",
-                "value": "¿Puede hacer tareas domésticas exigentes? Por ejemplo, fregar pisos, limpiar ventanas, mover muebles para limpiarlos."
-            },
-            {
-                "key": "Are you able to do two things at once?",
-                "value": "¿Puede hacer dos cosas a la vez?"
-            },
-            {
-                "key": "Are you able to do yard work (e.g. plant shrubs or a garden) for 2 hours? For example: With occasional rest but continuous work.",
-                "value": "¿Puede hacer trabajos de jardinería (p. ej., plantar arbustos o trabajar en el jardín) durante 2 horas? Por ejemplo: Con descanso ocasional pero trabajo continuo."
-            },
-            {
-                "key": "Are you able to do your regular chores?",
-                "value": "¿Puede hacer sus quehaceres habituales?"
-            },
-            {
-                "key": "Are you able to drive at night?",
-                "value": "¿Puede conducir de noche?"
-            },
-            {
-                "key": "Are you able to drive in heavy traffic?",
-                "value": "¿Puede conducir cuando hay mucho tránsito?"
-            },
-            {
-                "key": "Are you able to drive in the rain?",
-                "value": "¿Puede conducir cuando llueve?"
-            },
-            {
-                "key": "Are you able to drive in your own neighborhood?",
-                "value": "¿Puede conducir en su propio vecindario?"
-            },
-            {
-                "key": "Are you able to figure out why a joke is funny?",
-                "value": "¿Puede entender por qué un chiste es gracioso?"
-            },
-            {
-                "key": "Are you able to fill out applications?",
-                "value": "¿Puede llenar formularios de solicitud?"
-            },
-            {
-                "key": "Are you able to find your way around in familiar places?",
-                "value": "¿Puede orientarse en lugares conocidos?"
-            },
-            {
-                "key": "Are you able to find your way around in unfamiliar places?",
-                "value": "¿Puede orientarse en lugares desconocidos?"
-            },
-            {
-                "key": "Are you able to finish things that you start?",
-                "value": "¿Puede terminar las cosas que empezó a hacer?"
-            },
-            {
-                "key": "Are you able to finish things within a reasonable amount of time?",
-                "value": "¿Puede terminar las cosas en un tiempo razonable?"
-            },
-            {
-                "key": "Are you able to fold several loads of laundry?",
-                "value": "¿Puedes doblar varias cargas de ropa lavada?"
-            },
-            {
-                "key": "Are you able to follow instructions given over the phone?",
-                "value": "¿Puede seguir instrucciones que le den por teléfono?"
-            },
-            {
-                "key": "Are you able to follow public signs? For example STOP, DO NOT ENTER, EXIT.",
-                "value": "¿Puede seguir los letreros públicos? Por ejemplo, PARE, PROHIBIDO INGRESAR, SALIDA."
-            },
-            {
-                "key": "Are you able to get a ride to where you need to go?",
-                "value": "¿Puede conseguir que lo/a lleven adonde necesita ir?"
-            },
-            {
-                "key": "Are you able to get down on the floor? For example: Moving from standing or your wheelchair to kneel or sit on the floor",
-                "value": "¿Puede ponerse en el piso? Por ejemplo: Pasar de estar de pie o en silla de ruedas a arrodillarse o sentarse en el piso"
-            },
-            {
-                "key": "Are you able to get in and out of a car from your wheelchair? Please consider a sedan sized car when considering your answer.",
-                "value": "¿Puede subir a un vehículo desde su silla de ruedas y bajar de un vehículo a su silla de ruedas? Cuando piense su respuesta, suponga que el vehículo tiene el tamaño de un auto tipo sedán."
-            },
-            {
-                "key": "Are you able to get in and out of a squatting position?  Please base your response on the most difficult part of the activity.",
-                "value": "¿Puede ponerse en cuclillas y levantarse desde la posición de cuclillas? Base su respuesta en la parte más difícil de la actividad."
-            },
-            {
-                "key": "Are you able to get in and out of bed? Hint: Base response on the most difficult part of the activity.",
-                "value": "¿Puede acostarse y levantarse de la cama? Ayuda: Base su respuesta en la parte más difícil de la actividad."
-            },
-            {
-                "key": "Are you able to get in and out of the bathtub?",
-                "value": "¿Puede entrar y salir de la bañera?"
-            },
-            {
-                "key": "Are you able to get in and out of your wheelchair? Please base your response on the most difficult part of this activity.",
-                "value": "¿Puede sentarse en su silla de ruedas y salir de ella? Base su respuesta en la parte más difícil de la actividad."
-            },
-            {
-                "key": "Are you able to get information you need when talking with people?",
-                "value": "¿Puede obtener la información que necesita cuando habla con gente?"
-            },
-            {
-                "key": "Are you able to get into and out of a car? Please base your response on the most difficult part of this activity.",
-                "value": "¿Puede entrar y salir de un auto? Base su respuesta en la parte más difícil de la actividad."
-            },
-            {
-                "key": "Are you able to get into and out of a kneeling position? Please base your response on the most difficult part of the activity.",
-                "value": "¿Puede arrodillarse y levantarse desde esa posición? Base su respuesta en la parte más difícil de la actividad."
-            },
-            {
-                "key": "Are you able to get into and out of a truck, bus, shuttle van, or sport utility vehicle from your wheelchair?",
-                "value": "¿Puede subir desde su silla de ruedas a un camión, autobús, furgoneta o vehículo utilitario deportivo y bajar de esos vehículos a su silla de ruedas?"
-            },
-            {
-                "key": "Are you able to get moving after you've been lying down on a couch? For example: Get to the sitting position, then walk or use your wheelchair.",
-                "value": "¿Puede volver a moverse después de haber estado acostado/a en un sofá? Por ejemplo: Sentarse y luego caminar o usar la silla de ruedas."
-            },
-            {
-                "key": "Are you able to get off the bus or train before the doors close?",
-                "value": "¿Puede bajarse del autobús o del tren antes de que las puertas se cierren?"
-            },
-            {
-                "key": "Are you able to get on the right bus or train?",
-                "value": "¿Puede tomar el autobús o tren correctos?"
-            },
-            {
-                "key": "Are you able to get on to a bus or train?",
-                "value": "¿Puede subirse a un autobús o a un tren?"
-            },
-            {
-                "key": "Are you able to get to places on time?",
-                "value": "¿Puede llegar a sus destinos a tiempo?"
-            },
-            {
-                "key": "Are you able to get up off the floor from lying on your back? You can use a chair or other object to get up.",
-                "value": "¿Puede levantarse del piso estando acostado/a boca arriba? Puede utilizar una silla u otro objeto para levantarse."
-            },
-            {
-                "key": "Are you able to get where you need to go each day?",
-                "value": "¿Puede llegar adonde necesita ir cada día?"
-            },
-            {
-                "key": "Are you able to get your point across when speaking with other people?",
-                "value": "¿Puede comunicar lo que quiere decir cuando habla con otras personas?"
-            },
-            {
-                "key": "Are you able to get your point across when you are upset?",
-                "value": "¿Puede comunicar lo que quiere decir cuando está molesto/a?"
-            },
-            {
-                "key": "Are you able to give directions to another person?",
-                "value": "¿Puede dar indicaciones a otra persona?"
-            },
-            {
-                "key": "Are you able to go down one flight of stairs using a handrail? A flight of stairs is 12-15 steps.",
-                "value": "¿Puede bajar un tramo de escaleras si se sujeta de una barandilla? Un tramo de escaleras tiene entre 12 y 15 escalones."
-            },
-            {
-                "key": "Are you able to go up one flight of stairs using a handrail? Hint: A flight of stairs is 12-15 steps.",
-                "value": "¿Puede subir un tramo de escaleras si se sujeta de una barandilla? Ayuda: Un tramo de escaleras tiene entre 12 y 15 escalones."
-            },
-            {
-                "key": "Are you able to go up three flights of stairs using a handrail? Hint: A flight of stairs is 12-15 steps.",
-                "value": "¿Puede subir tres tramos de escaleras si se sujeta de una barandilla? Ayuda: Un tramo de escaleras tiene entre 12 y 15 escalones."
-            },
-            {
-                "key": "Are you able to hang a shower curtain without taking a break?",
-                "value": "¿Puede colgar una cortina de baño sin tomarse un descanso?"
-            },
-            {
-                "key": "Are you able to hear people over the phone?",
-                "value": "¿Puede oír a las personas por teléfono?"
-            },
-            {
-                "key": "Are you able to hold a book while reading?",
-                "value": "¿Puede sostener un libro mientras lee?"
-            },
-            {
-                "key": "Are you able to hold a full glass of water in one hand?",
-                "value": "¿Puede sostener con una mano un vaso lleno de agua?"
-            },
-            {
-                "key": "Are you able to hold an umbrella?",
-                "value": "¿Puede sostener un paraguas?"
-            },
-            {
-                "key": "Are you able to insert a plug into an electric outlet?",
-                "value": "¿Puede insertar un enchufe en un tomacorriente?"
-            },
-            {
-                "key": "Are you able to keep important papers organized? For example bills, insurance documents and tax forms.",
-                "value": "¿Puede mantener organizados documentos importantes? Por ejemplo, facturas, documentos de seguros y formularios de impuestos."
-            },
-            {
-                "key": "Are you able to keep track of the day of the week?",
-                "value": "¿Está al tanto de qué día de la semana es?"
-            },
-            {
-                "key": "Are you able to keep track of what you need to do each day?",
-                "value": "¿Sabe qué tiene que hacer cada día?"
-            },
-            {
-                "key": "Are you able to keep your medical appointments?",
-                "value": "¿Puede asistir a sus citas médicas?"
-            },
-            {
-                "key": "Are you able to keep yourself safe at home?",
-                "value": "¿Puede mantenerse fuera de peligro en casa?"
-            },
-            {
-                "key": "Are you able to kick a ball?",
-                "value": "¿Puede patear un balón?"
-            },
-            {
-                "key": "Are you able to kneel down to tie a shoe?",
-                "value": "¿Puede arrodillarse para atarse los cordones de un zapato?"
-            },
-            {
-                "key": "Are you able to kneel on the floor for a long time? For example when cleaning the bathtub or playing with kids or pet.",
-                "value": "¿Puede estar de rodillas en el piso durante mucho tiempo? Por ejemplo, al limpiar la bañera o jugar con niños o mascotas."
-            },
-            {
-                "key": "Are you able to learn to do new things?",
-                "value": "¿Puede aprender a hacer cosas nuevas?"
-            },
-            {
-                "key": "Are you able to lift a 12 pack of soda cans from a grocery shelf to a grocery cart?",
-                "value": "¿Puede mover un paquete de 12 latas de refresco de un estante de supermercado a un carro de compras?"
-            },
-            {
-                "key": "Are you able to lift a full 2 liter soda bottle from table height to a high shelf?  A 2 liter soda bottle= 3.5 lbs/1.5 kg.",
-                "value": "¿Puede levantar una botella de refresco de 2 litros llena desde la altura de una mesa hasta un estante alto? Una botella de refresco de 2 litros equivale a 1,5 kg o 3,5 lb."
-            },
-            {
-                "key": "Are you able to lift a full large (check-in size) suitcase from table height to a high shelf? Hint: A full large suitcase weighs 40-50 pounds/18-23 kg.",
-                "value": "¿Puede levantar una maleta grande (tamaño de equipaje que se despacha) llena desde la altura de una mesa hasta un estante alto? Ayuda: Una maleta grande llena pesa entre 18 y 23 kg (entre 40 y 50 libras)."
-            },
-            {
-                "key": "Are you able to lift a full large (check-in size) suitcase from the floor to table height? Hint: A full large suitcase weighs 40-50 pounds/18-23 kg.",
-                "value": "¿Puede levantar una maleta grande (tamaño de equipaje que se despacha) llena desde el piso hasta la altura de una mesa? Ayuda: Una maleta grande llena pesa entre 18 y 23 kg (entre 40 y 50 libras)."
-            },
-            {
-                "key": "Are you able to lift a full small (carry-on size) suitcase from table height to a high shelf? Hint: A full carry-on suitcase weighs 20 pounds/8 kg.",
-                "value": "¿Puede levantar una maleta pequeña (de mano) llena desde la altura de una mesa hasta un estante alto? Ayuda: Una maleta de mano llena pesa 8 kg/20 libras."
-            },
-            {
-                "key": "Are you able to lift a full small (carry-on size) suitcase from the floor to table height? Hint: A full carry-on suitcase weighs 20 pounds/8 kg.",
-                "value": "¿Puede levantar una maleta pequeña (de mano) llena desde el piso hasta la altura de una mesa? Ayuda: Una maleta de mano llena pesa 8 kg/20 libras."
-            },
-            {
-                "key": "Are you able to lift a heavy box from the floor to table height?",
-                "value": "¿Puede levantar una caja pesada desde el piso hasta la altura de una mesa?"
-            },
-            {
-                "key": "Are you able to lift a package weighing 10 lbs?",
-                "value": "¿Puede levantar un paquete de 4,5 kg/10 libras?"
-            },
-            {
-                "key": "Are you able to lift something weighing 100 pounds? (for example a large dog)",
-                "value": "¿Puedes levantar algo que pese 45 kg/100 libras? (Por ejemplo, un perro grande)"
-            },
-            {
-                "key": "Are you able to make a bed?",
-                "value": "¿Puedes hacer la cama?"
-            },
-            {
-                "key": "Are you able to make an appointment over the phone? For example a haircut or dentist.",
-                "value": "¿Puede pedir una cita por teléfono? Por ejemplo, para la peluquería o el dentista."
-            },
-            {
-                "key": "Are you able to make everyday decisions? For example what to wear, what to eat or what time to get up.",
-                "value": "¿Puede tomar decisiones de la vida diaria? Por ejemplo, qué ropa usar, qué comer o a qué hora levantarse."
-            },
-            {
-                "key": "Are you able to make small talk?",
-                "value": "¿Puede mantener una conversación superficial?"
-            },
-            {
-                "key": "Are you able to manage your time each day?",
-                "value": "¿Puede administrar su tiempo todos los días?"
-            },
-            {
-                "key": "Are you able to merge onto a busy road?",
-                "value": "Al conducir, ¿puede incorporarse a una calle con mucho tránsito?"
-            },
-            {
-                "key": "Are you able to mop your kitchen floor?",
-                "value": "¿Puede limpiar el piso de la cocina con el trapeador?"
-            },
-            {
-                "key": "Are you able to move a sofa to clean under it?",
-                "value": "¿Puede mover un sofá para limpiar debajo de él?"
-            },
-            {
-                "key": "Are you able to move around in the bathroom, including getting on and off the toilet from your wheelchair?",
-                "value": "¿Puede moverse en el baño, por ejemplo, para pasar de la silla de ruedas al inodoro y viceversa?"
-            },
-            {
-                "key": "Are you able to move around on your hands and knees in a crawling position?",
-                "value": "¿Puede andar a gatas, con las manos y las rodillas?"
-            },
-            {
-                "key": "Are you able to move around one floor of your home in your wheelchair without bumping into things?",
-                "value": "¿Puede moverse con la silla de ruedas por un piso de su casa sin chocar contra nada?"
-            },
-            {
-                "key": "Are you able to move from lying on your back to sitting on the edge of your bed?",
-                "value": "¿Puede pasar de estar acostado/a boca arriba a sentarse en el borde de la cama?"
-            },
-            {
-                "key": "Are you able to move your wheelchair for at least 15 minutes?",
-                "value": "¿Puede trasladarse con la silla de ruedas durante al menos 15 minutos?"
-            },
-            {
-                "key": "Are you able to move your wheelchair up and down curbs? Please base your response on the most difficult part of this activity.",
-                "value": "Puede subir y bajar el bordillo de la acera con la silla de ruedas? Base su respuesta en la parte más difícil de la actividad."
-            },
-            {
-                "key": "Are you able to open a can with a hand can opener?",
-                "value": "¿Puede abrir latas con un abrelatas manual?"
-            },
-            {
-                "key": "Are you able to open previously opened jars?",
-                "value": "¿Puede abrir frascos que se hayan abierto antes?"
-            },
-            {
-                "key": "Are you able to organize what you want to say?",
-                "value": "¿Puede organizar lo que quiere decir?"
-            },
-            {
-                "key": "Are you able to paint the ceiling of a large room?",
-                "value": "¿Puede pintar el techo interior de una habitación grande?"
-            },
-            {
-                "key": "Are you able to paint walls for 30 minutes without taking a break?",
-                "value": "¿Puede pintar paredes durante 30 minutos sin tomarse un descanso?"
-            },
-            {
-                "key": "Are you able to park your car in a parking lot?",
-                "value": "¿Puede estacionar su auto en un estacionamiento?"
-            },
-            {
-                "key": "Are you able to pay attention for a long period of time?",
-                "value": "¿Puede prestar atención durante mucho tiempo?"
-            },
-            {
-                "key": "Are you able to pay attention when someone is talking to you for a long time?",
-                "value": "¿Puede prestar atención cuando alguien le habla durante mucho tiempo?"
-            },
-            {
-                "key": "Are you able to pay attention when someone is talking to you for a short time?",
-                "value": "¿Puede prestar atención cuando alguien le habla durante poco tiempo?"
-            },
-            {
-                "key": "Are you able to peel 15 potatoes?",
-                "value": "¿Puede pelar 15 papas?"
-            },
-            {
-                "key": "Are you able to peel an orange?",
-                "value": "¿Puede pelar una naranja?"
-            },
-            {
-                "key": "Are you able to peel the sticker off something you bought?",
-                "value": "¿Puede despegar la calcomanía de un producto que haya comprado?"
-            },
-            {
-                "key": "Are you able to pick out a paper clip from group of clips?",
-                "value": "¿Puede agarrar un solo clip de un conjunto de clips?"
-            },
-            {
-                "key": "Are you able to pick out one key from group of keys?",
-                "value": "¿Puede agarrar una sola llave de un conjunto de llaves?"
-            },
-            {
-                "key": "Are you able to pick up a kitchen chair and move it, in order to clean?",
-                "value": "¿Puede levantar una silla de la cocina y moverla para limpiar?"
-            },
-            {
-                "key": "Are you able to pick up and put down a pen or pencil?",
-                "value": "¿Puede levantar y dejar un bolígrafo o un lápiz?"
-            },
-            {
-                "key": "Are you able to pick up coins from a table top?",
-                "value": "¿Puede levantar monedas de una mesa?"
-            },
-            {
-                "key": "Are you able to pull a cord on a lawn mower, chain saw, generator or boat motor?",
-                "value": "¿Puede tirar de una cuerda para poner en marcha una cortadora de césped, una motosierra, un generador o el motor de un bote?"
-            },
-            {
-                "key": "Are you able to pull a pillow case off a pillow?",
-                "value": "¿Puede quitar la funda de una almohada?"
-            },
-            {
-                "key": "Are you able to pull open a dresser drawer?",
-                "value": "¿Puede abrir un cajón de una cómoda?"
-            },
-            {
-                "key": "Are you able to pull open a heavy door?",
-                "value": "¿Puede tirar de una puerta pesada para abrirla?"
-            },
-            {
-                "key": "Are you able to push a full grocery cart?",
-                "value": "¿Puede empujar un carro de compras lleno?"
-            },
-            {
-                "key": "Are you able to push a full wheelbarrow?",
-                "value": "¿Puede empujar una carretilla llena?"
-            },
-            {
-                "key": "Are you able to push a vacuum?",
-                "value": "¿Puede utilizar una aspiradora?"
-            },
-            {
-                "key": "Are you able to push open a heavy door?",
-                "value": "¿Puede empujar una puerta pesada para abrirla?"
-            },
-            {
-                "key": "Are you able to push the correct buttons on a remote control?",
-                "value": "¿Puede presionar los botones correctos de un control remoto?"
-            },
-            {
-                "key": "Are you able to put batteries in a flashlight, or remote control for your television?",
-                "value": "¿Puede poner pilas en una linterna o en el control remoto de su televisor?"
-            },
-            {
-                "key": "Are you able to put coins into a slot? For example a vending machine.",
-                "value": "¿Puede insertar monedas en una ranura? Por ejemplo, de una máquina expendedora."
-            },
-            {
-                "key": "Are you able to put on a watch or bracelet?",
-                "value": "¿Puede ponerse un reloj o una pulsera?"
-            },
-            {
-                "key": "Are you able to reach behind you to get your seatbelt? Hint: A shoulder harness seatbelt.",
-                "value": "¿Puede tomar el cinturón de seguridad si está detrás de usted? Ayuda: Un cinturón de seguridad de tres puntos, que pasa sobre el hombro."
-            },
-            {
-                "key": "Are you able to reach into a cabinet from a step ladder or stool?",
-                "value": "¿Puede alcanzar el interior de un armario desde una escalerilla o un banco?"
-            },
-            {
-                "key": "Are you able to reach into a low cupboard?",
-                "value": "¿Puede alcanzar el interior de un armario bajo?"
-            },
-            {
-                "key": "Are you able to reach overhead into a high cabinet?",
-                "value": "¿Puede alcanzar el interior de un armario alto, que esté por encima de la altura de su cabeza?"
-            },
-            {
-                "key": "Are you able to recall information that you have always known?",
-                "value": "¿Puede recordar información que siempre haya sabido?"
-            },
-            {
-                "key": "Are you able to remain on your feet for 2 hours with short breaks?",
-                "value": "¿Puede permanecer de pie durante 2 horas con descansos breves?"
-            },
-            {
-                "key": "Are you able to remain on your feet for 6 hours with short breaks?",
-                "value": "¿Puede permanecer de pie durante 6 horas con descansos breves?"
-            },
-            {
-                "key": "Are you able to remain on your feet for at least 20 minutes using your walking aid?",
-                "value": "¿Puede permanecer de pie durante al menos 20 minutos con su dispositivo de asistencia para caminar?"
-            },
-            {
-                "key": "Are you able to remain on your feet for at least 20 minutes?",
-                "value": "¿Puede permanecer de pie durante al menos 20 minutos?"
-            },
-            {
-                "key": "Are you able to remember a list of 4 or 5 errands without writing it down?",
-                "value": "¿Puede recordar una lista de 4 o 5 mandados sin escribirla?"
-            },
-            {
-                "key": "Are you able to remember important numbers? For example a phone number.",
-                "value": "¿Puede recordar números importantes? Por ejemplo, un número de teléfono."
-            },
-            {
-                "key": "Are you able to remember something you read or heard earlier in the day?",
-                "value": "¿Puede recordar algo que haya oído o leído antes ese mismo día?"
-            },
-            {
-                "key": "Are you able to remember the name of people you know when you see them?",
-                "value": "¿Puede recordar el nombre de personas que conoce cuando las ve?"
-            },
-            {
-                "key": "Are you able to remember things for a short time?",
-                "value": "¿Puede recordar cosas durante poco tiempo?"
-            },
-            {
-                "key": "Are you able to remove a dollar bill from your wallet?",
-                "value": "¿Puede sacar un billete de un dólar de su billetera?"
-            },
-            {
-                "key": "Are you able to remove a gas cap from a car?",
-                "value": "¿Puede quitar la tapa del tanque de combustible de un auto?"
-            },
-            {
-                "key": "Are you able to remove something from your back pocket?",
-                "value": "¿Puede sacar algo de su bolsillo de atrás?"
-            },
-            {
-                "key": "Are you able to remove wrappings from small objects? For example: Like removing the packaging from a pack of batteries.",
-                "value": "¿Puede quitar los envoltorios de objetos pequeños? Por ejemplo: Quitar el envoltorio de un paquete de pilas."
-            },
-            {
-                "key": "Are you able to run a short distance, such as to catch a bus? A short distance is roughly half a block or about 15-20 yards.",
-                "value": "¿Puede correr una distancia corta, por ejemplo, para alcanzar el autobús? Una distancia corta es alrededor de media cuadra o 13-18 metros (15-20 yardas)."
-            },
-            {
-                "key": "Are you able to run fast for 2 minutes?",
-                "value": "¿Puede correr rápido durante 2 minutos?"
-            },
-            {
-                "key": "Are you able to sew on a button?",
-                "value": "¿Puede coser un botón?"
-            },
-            {
-                "key": "Are you able to sit in a car for more than 2 hours?",
-                "value": "¿Puede permanecer sentado/a en un auto durante más de 2 horas?"
-            },
-            {
-                "key": "Are you able to speak clearly?",
-                "value": "¿Puede hablar con claridad?"
-            },
-            {
-                "key": "Are you able to stand in the shower to wash your hair?",
-                "value": "¿Puede mantenerse de pie en la ducha para lavarse el cabello?"
-            },
-            {
-                "key": "Are you able to stand on your feet for one hour?",
-                "value": "¿Puede permanecer de pie durante una hora?"
-            },
-            {
-                "key": "Are you able to stand up from an armless, straight chair? Hint: Without holding on to anything.",
-                "value": "¿Puede levantarse de una silla recta sin apoyabrazos? Ayuda: Sin aferrarse a nada."
-            },
-            {
-                "key": "Are you able to staple 2 sheets of paper together?",
-                "value": "¿Puede engrapar dos hojas de papel?"
-            },
-            {
-                "key": "Are you able to stay organized?",
-                "value": "¿Puede mantenerse organizado/a?"
-            },
-            {
-                "key": "Are you able to stay within your lane while driving?",
-                "value": "¿Puede mantenerse en su carril cuando conduce?"
-            },
-            {
-                "key": "Are you able to take your medications correctly?",
-                "value": "¿Puede tomar sus medicamentos como corresponde?"
-            },
-            {
-                "key": "Are you able to talk to people over the phone?",
-                "value": "¿Puede mantener una conversación por teléfono?"
-            },
-            {
-                "key": "Are you able to tell a doctor about a health problem?",
-                "value": "¿Puede comunicarle a un doctor que tiene un problema de salud?"
-            },
-            {
-                "key": "Are you able to tell others your needs? For example when you're tired and need to rest.",
-                "value": "¿Puede comunicarles a otras personas lo que necesita? Por ejemplo, cuando siente cansancio y necesita descansar."
-            },
-            {
-                "key": "Are you able to think quickly?",
-                "value": "¿Puede pensar rápido?"
-            },
-            {
-                "key": "Are you able to think things through before making a decision?",
-                "value": "¿Puede pensar bien las cosas antes de tomar una decisión?"
-            },
-            {
-                "key": "Are you able to tie a knot?",
-                "value": "¿Puede hacer un nudo?"
-            },
-            {
-                "key": "Are you able to tighten screws by hand with a screwdriver?",
-                "value": "¿Puede ajustar tornillos a mano con un destornillador?"
-            },
-            {
-                "key": "Are you able to to bend down to use a dust pan?",
-                "value": "¿Puede agacharse para usar un recogedor o pala de mano?"
-            },
-            {
-                "key": "Are you able to to stand up from a low, soft couch?  Without holding on to anything.",
-                "value": "¿Puede levantarse de un sofá bajo y blando, y ponerse de pie? Sin aferrarse a nada."
-            },
-            {
-                "key": "Are you able to trim a tree with a long handle saw?",
-                "value": "¿Puede podar un árbol con una sierra de mano larga?"
-            },
-            {
-                "key": "Are you able to turn a dial? For example on a stove.",
-                "value": "¿Puede girar una perilla? Por ejemplo, de una cocina o estufa."
-            },
-            {
-                "key": "Are you able to turn a door knob?",
-                "value": "¿Puede girar el pomo de una puerta?"
-            },
-            {
-                "key": "Are you able to turn a key in a door lock?",
-                "value": "¿Puede hacer girar una llave en una cerradura?"
-            },
-            {
-                "key": "Are you able to turn faucets on and off?",
-                "value": "¿Puede abrir y cerrar grifos?"
-            },
-            {
-                "key": "Are you able to type on a computer keyboard?",
-                "value": "¿Puede escribir en el teclado de una computadora?"
-            },
-            {
-                "key": "Are you able to understand body language and facial expressions when talking to people?",
-                "value": "¿Puede entender lenguaje corporal y expresiones faciales cuando habla con la gente?"
-            },
-            {
-                "key": "Are you able to understand people in noisy places?",
-                "value": "¿Puede entender a la gente en lugares ruidosos?"
-            },
-            {
-                "key": "Are you able to understand people on the phone?",
-                "value": "¿Puede entender a la gente cuando habla por teléfono?"
-            },
-            {
-                "key": "Are you able to understand what you hear on television?",
-                "value": "¿Puede entender lo que escucha en la televisión?"
-            },
-            {
-                "key": "Are you able to understand written instructions?",
-                "value": "¿Puede entender instrucciones escritas?"
-            },
-            {
-                "key": "Are you able to unload a full grocery cart into a car?",
-                "value": "¿Puede cargar en un auto el contenido de un carro de compras lleno?"
-            },
-            {
-                "key": "Are you able to unload the dishwasher?",
-                "value": "¿Puede descargar el lavavajillas?"
-            },
-            {
-                "key": "Are you able to use a bus or train schedule to get to familiar places?",
-                "value": "¿Puede usar un horario de autobús o tren para llegar a lugares conocidos?"
-            },
-            {
-                "key": "Are you able to use a bus or train schedule to get to unfamiliar places?",
-                "value": "¿Puede usar un horario de autobús o tren para llegar a lugares desconocidos?"
-            },
-            {
-                "key": "Are you able to use a chip clip to close a bag?",
-                "value": "¿Puede usar un broche para cerrar una bolsa?"
-            },
-            {
-                "key": "Are you able to use a computer for more than 2 hours?",
-                "value": "¿Puede usar una computadora durante más de 2 horas?"
-            },
-            {
-                "key": "Are you able to use a computer to get in touch with someone?",
-                "value": "¿Puede usar una computadora para ponerse en contacto con alguien?"
-            },
-            {
-                "key": "Are you able to use a computer to get information you need?",
-                "value": "¿Puede usar una computadora para buscar información que necesita?"
-            },
-            {
-                "key": "Are you able to use a hammer to pound a nail?",
-                "value": "¿Puede usar un martillo para clavar un clavo?"
-            },
-            {
-                "key": "Are you able to use a lever handle to open a door? Hint: A lever handle is a handle that you push down to open a door.",
-                "value": "¿Puede abrir una puerta con picaporte? Ayuda: Un picaporte es una manija que se empuja hacia abajo para abrir la puerta."
-            },
-            {
-                "key": "Are you able to use bank cards and automatic teller machines (ATMs)?",
-                "value": "¿Puede usar tarjetas bancarias y cajeros automáticos?"
-            },
-            {
-                "key": "Are you able to use the break pedal in a car?",
-                "value": "¿Puede usar el pedal de freno de un auto?"
-            },
-            {
-                "key": "Are you able to use the trigger on a spray bottle?",
-                "value": "¿Puede usar el gatillo de un rociador?"
-            },
-            {
-                "key": "Are you able to use tweezers?",
-                "value": "¿Puede utilizar pinzas/tenacillas?"
-            },
-            {
-                "key": "Are you able to use your finger to select options on a touch screen? (for example a cellphone or tablet)",
-                "value": "¿Puede usar el dedo para seleccionar opciones en una pantalla táctil? (Por ejemplo, en un teléfono celular o una tableta electrónica)"
-            },
-            {
-                "key": "Are you able to vacuum for 30 minutes without a break?",
-                "value": "¿Puede usar la aspiradora durante 30 minutos sin tomarse un descanso?"
-            },
-            {
-                "key": "Are you able to wait your turn to speak?",
-                "value": "¿Puede esperar su turno para hablar?"
-            },
-            {
-                "key": "Are you able to walk a mile without resting?",
-                "value": "¿Puede caminar un kilómetro y medio / una milla sin tomarse un descanso?"
-            },
-            {
-                "key": "Are you able to walk around one floor of your home without tripping or losing your balance?",
-                "value": "¿Puede caminar por un piso de su casa sin tropezarse ni perder el equilibrio?"
-            },
-            {
-                "key": "Are you able to walk at least 15 minutes?",
-                "value": "¿Puede caminar al menos 15 minutos?"
-            },
-            {
-                "key": "Are you able to walk from store to store while shopping ? For example in a shopping mall.",
-                "value": "¿Puede caminar de tienda en tienda cuando está de compras? Por ejemplo, en un centro comercial."
-            },
-            {
-                "key": "Are you able to walk in and out of stores carrying heavy bags without losing your balance?",
-                "value": "¿Puede entrar y salir de las tiendas con bolsas pesadas sin perder el equilibrio?"
-            },
-            {
-                "key": "Are you able to walk on uneven surfaces (e.g. grass, dirt road or sidewalk) using your walking aid?",
-                "value": "¿Puede caminar sobre superficies irregulares (p. ej., césped, caminos de tierra o aceras) con su dispositivo de asistencia para caminar?"
-            },
-            {
-                "key": "Are you able to walk on uneven surfaces? For example on grass, dirt road or sidewalk.",
-                "value": "¿Puede caminar sobre superficies irregulares? Por ejemplo, en césped, caminos de tierra o aceras."
-            },
-            {
-                "key": "Are you able to walk quickly indoors? For example to answer the telephone or the front door.",
-                "value": "¿Puede caminar rápido en interiores? Por ejemplo, para atender el teléfono o abrir la puerta."
-            },
-            {
-                "key": "Are you able to walk the aisles of a grocery store using a shopping cart?",
-                "value": "¿Puede caminar por los pasillos de una tienda de comestibles con un carro de compras?"
-            },
-            {
-                "key": "Are you able to walk to the bathoom?",
-                "value": "¿Puede ir caminando al baño?"
-            },
-            {
-                "key": "Are you able to walk up a flight of stairs without a handrail?",
-                "value": "¿Puede subir un tramo de escaleras sin barandilla?"
-            },
-            {
-                "key": "Are you able to walk up a steep slope (e.g. on a hill) using your walking aid?",
-                "value": "¿Puede subir una pendiente pronunciada (p. ej., una colina) con su dispositivo de asistencia para caminar?"
-            },
-            {
-                "key": "Are you able to walk up a steep slope? For example on a hill.",
-                "value": "¿Puede subir una pendiente pronunciada? Por ejemplo, una colina."
-            },
-            {
-                "key": "Are you able to work at floor level? For example changing the face plate on an electric outlet.",
-                "value": "¿Puede trabajar a nivel del piso? Por ejemplo, cambiar la cubierta de un tomacorriente."
-            },
-            {
-                "key": "Are you able to work hard on tasks you don't like?",
-                "value": "¿Puede trabajar con dedicación en tareas que no le gustan?"
-            },
-            {
-                "key": "Are you able to work overhead for 20 minutes (e.g. organizing a high shelf in a closet)?",
-                "value": "¿Puede realizar tareas por encima de la altura de su cabeza durante 20 minutos (p. ej., organizar un estante alto de un armario)?"
-            },
-            {
-                "key": "Are you able to write a short email to someone?",
-                "value": "¿Puede escribirle un mensaje de correo electrónico corto a alguien?"
-            },
-            {
-                "key": "Are you able to write for 20 minutes?",
-                "value": "¿Puede escribir durante 20 minutos?"
-            },
-            {
-                "key": "Are you able to write reminder notes to yourself?",
-                "value": "¿Puede escribirse notas de recordatorio a sí mismo/a?"
-            },
-            {
-                "key": "Are you able to write your signature?",
-                "value": "¿Puede firmar?"
-            },
-            {
-                "key": "How fast are you able to walk?",
-                "value": "¿Qué tan rápido puede caminar?"
-            },
-            {
-                "key": "How long are you able to kneel?",
-                "value": "¿Cuánto tiempo puede estar de rodillas?"
-            },
-            {
-                "key": "How long are you able to sit with short breaks?",
-                "value": "¿Cuánto tiempo puede permanecer sentado/a con pequeños descansos?"
-            },
-            {
-                "key": "How long are you able to squat?",
-                "value": "¿Cuánto tiempo puede estar en cuclillas?"
-            },
-            {
-                "key": "How long are you able to use a computer keyboard?",
-                "value": "¿Cuánto tiempo puede usar el teclado de una computadora?"
-            },
-            {
-                "key": "How long are you able to use a computer mouse?",
-                "value": "¿Cuánto tiempo puede usar el ratón de una computadora?"
-            },
-            {
-                "key": "How long are you able to walk without stopping? If you cannot walk without stopping for 15 minutes please select unable.",
-                "value": "¿Cuánto tiempo puede caminar sin detenerse? Si no puede caminar durante 15 minutos sin detenerse, seleccione \"No puedo\""
-            },
-            {
-                "key": "In the past 7 days, I avoided public places or activities.",
-                "value": "En los últimos 7 días, evité ir a lugares públicos o hacer actividades en público."
-            },
-            {
-                "key": "In the past 7 days, I felt emotionally exhausted.",
-                "value": "En los últimos 7 días, sentí agotamiento emocional."
-            },
-            {
-                "key": "In the past 7 days, I felt hopeless about the future.",
-                "value": "En los últimos 7 días, sentí desesperanza por el futuro."
-            },
-            {
-                "key": "In the past 7 days, I felt indecisive.  Hint: Indecisive meaning having trouble making decisions.",
-                "value": "En los últimos 7 días, sentí indecisión. Ayuda: \"Indecisión\" se refiere a dificultad para tomar decisiones."
-            },
-            {
-                "key": "In the past 7 days, I felt nervous when my normal routine was disturbed.",
-                "value": "En los últimos 7 días, sentí nervios cuando mi rutina normal se vio alterada."
-            },
-            {
-                "key": "In the past 7 days, I felt something awful would happen.",
-                "value": "En los últimos 7 días, sentí que iba a suceder algo terrible."
-            },
-            {
-                "key": "In the past 7 days, I felt that I had nothing to look forward to.",
-                "value": "En los últimos 7 días, sentí que mi vida no tenía nada por delante."
-            },
-            {
-                "key": "In the past 7 days, I felt that nothing could cheer me up.",
-                "value": "En los últimos 7 días, sentí que nada podría alegrarme."
-            },
-            {
-                "key": "In the past 7 days, I felt that nothing was interesting.",
-                "value": "En los últimos 7 días, sentí que nada era interesante."
-            },
-            {
-                "key": "In the past 7 days, I got fidgety. Hint: Fidgety meaning unable to sit still.",
-                "value": "En los últimos 7 días, me sentí inquieto/a. Ayuda: \"Inquieto/a\" significa no poder quedarse quieto/a."
-            },
-            {
-                "key": "In the past 7 days, I had sudden feelings of panic.",
-                "value": "En los últimos 7 días, tuve sensaciones repentinas de pánico."
-            },
-            {
-                "key": "In the past 7 days, I had trouble controlling my temper.",
-                "value": "En los últimos 7 días, me resultó difícil controlar mi temperamento."
-            },
-            {
-                "key": "In the past 7 days, I had trouble enjoying the things I used to enjoy.",
-                "value": "En los últimos 7 días, me resultó difícil disfrutar de las cosas que antes disfrutaba."
-            },
-            {
-                "key": "In the past 7 days, I had trouble keeping in touch with others.",
-                "value": "En los últimos 7 días, me resultó difícil mantenerme en contacto con otras personas."
-            },
-            {
-                "key": "In the past 7 days, I had trouble paying attention.",
-                "value": "En los últimos 7 días, me resultó difícil prestar atención."
-            },
-            {
-                "key": "In the past 7 days, I held grudges toward others.",
-                "value": "En los últimos 7 días, sentí rencor hacia otras personas."
-            },
-            {
-                "key": "In the past 7 days, I looked forward with enjoyment to upcoming events.",
-                "value": "En los últimos 7 días, sentí entusiasmo y alegría por acontecimientos próximos."
-            },
-            {
-                "key": "In the past 7 days, I said or did things that other people probably thought were inappropriate.",
-                "value": "En los últimos 7 días, dije o hice cosas que otras personas quizá hayan considerado inapropiadas."
-            },
-            {
-                "key": "In the past 7 days, I threatened violence toward people or property.",
-                "value": "En los últimos 7 días, hice amenazas de actuar con violencia contra personas o bienes."
-            },
-            {
-                "key": "In the past 7 days, I tried to get even when I was angry at someone.",
-                "value": "En los últimos 7 días, intenté vengarme de alguien que me hizo enojar."
-            },
-            {
-                "key": "In the past 7 days, I was afraid of what the future holds for me.",
-                "value": "En los últimos 7 días, tuve miedo de lo que me depara el futuro."
-            },
-            {
-                "key": "In the past 7 days, I was bothered if I had to depend on others for help.",
-                "value": "En los últimos 7 días, me molestó tener que depender de la ayuda de otros."
-            },
-            {
-                "key": "In the past 7 days, I was critical of myself for my mistakes.",
-                "value": "En los últimos 7 días, me critiqué por mis errores."
-            },
-            {
-                "key": "In the past 7 days, I was preoccupied with my worries.",
-                "value": "En los últimos 7 días, estuve pendiente de mis preocupaciones."
-            },
-            {
-                "key": "In the past 7 days, I was resentful when I didn't get my way.",
-                "value": "En los últimos 7 días, sentí resentimiento cuando las cosas no salían como yo quería"
-            },
-            {
-                "key": "In the past 7 days, it was hard to adjust to unexpected changes.",
-                "value": "En los últimos 7 días, fue difícil adaptarme a cambios imprevistos."
-            },
-            {
-                "key": "In the past 7 days, it was hard to keep up enthusiasm to get things done.",
-                "value": "En los últimos 7 días, fue difícil mantener el entusiasmo para hacer las cosas."
-            },
-            {
-                "key": "In the past 7 days, just being around people irritated me.",
-                "value": "En los últimos 7 días, me irritó el simple hecho de estar con gente."
-            },
-            {
-                "key": "In the past 7 days, many situations made me worry.",
-                "value": "En los últimos 7 días, muchas situaciones me hicieron preocupar."
-            },
-            {
-                "key": "In the past 7 days, people told me that I talked in a loud or excessive manner.",
-                "value": "En los últimos 7 días, me dijeron que hablaba muy fuerte o demasiado."
-            },
-            {
-                "key": "Please specify your level of agreement: I always try to get along with others.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Siempre intento llevarme bien con los demás."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to add and subtract numbers in my head.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo sumar y restar mentalmente."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to adjust to other people's ways.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo adaptarme a las costumbres de otras personas."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to correct my mistakes when they happen.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Cuando cometo un error, puedo corregirlo."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to do many things at once.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo hacer muchas cosas a la vez."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to do my work carefully.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo hacer mi trabajo con diligencia."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to make important decisions in my life.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo tomar decisiones importantes en mi vida."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to plan ahead for things that I want to do.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo planificar con anticipación lo que quiero hacer."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to solve problems on my own.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo resolver problemas por mi cuenta."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to think clearly.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo pensar con claridad."
-            },
-            {
-                "key": "Please specify your level of agreement: I am able to work toward long term goals.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo trabajar para alcanzar metas a largo plazo."
-            },
-            {
-                "key": "Please specify your level of agreement: I am always watching or on guard for threats.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Siempre estoy atento/a o en guardia ante amenazas."
-            },
-            {
-                "key": "Please specify your level of agreement: I am comfortable making eye contact with others.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: No me incomoda mirar a otra persona a los ojos."
-            },
-            {
-                "key": "Please specify your level of agreement: I am easily confused when in a busy or noisy environment.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me confundo con facilidad cuando estoy en un lugar ruidoso o lleno de gente."
-            },
-            {
-                "key": "Please specify your level of agreement: I am easily distracted in a busy or noisy environment.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me distraigo con facilidad cuando estoy en un lugar ruidoso o lleno de gente."
-            },
-            {
-                "key": "Please specify your level of agreement: I am good at following through with plans I make.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Tengo facilidad para concretar los planes que armo."
-            },
-            {
-                "key": "Please specify your level of agreement: I am good at getting to know new people.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Tengo facilidad para llegar a conocer a la gente nueva."
-            },
-            {
-                "key": "Please specify your level of agreement: I am good at making new friends.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Tengo facilidad para formar nuevas amistades."
-            },
-            {
-                "key": "Please specify your level of agreement: I am limited in driving long distances.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Tengo limitaciones para conducir distancias largas."
-            },
-            {
-                "key": "Please specify your level of agreement: I am not easily discouraged.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: No me desanimo con facilidad."
-            },
-            {
-                "key": "Please specify your level of agreement: I am only comfortable driving short distances.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Solo me siento cómodo/a al conducir distancias cortas."
-            },
-            {
-                "key": "Please specify your level of agreement: I am uncomfortable talking in a group.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me incomoda hablar en grupo."
-            },
-            {
-                "key": "Please specify your level of agreement: I am willing to accept help from others.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Estoy dispuesto/a a aceptar la ayuda de otras personas."
-            },
-            {
-                "key": "Please specify your level of agreement: I ask for help when I need to.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Pido ayuda cuando la necesito."
-            },
-            {
-                "key": "Please specify your level of agreement: I believe that things end up alright most of the time.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Creo que la mayoría de las veces todo termina bien."
-            },
-            {
-                "key": "Please specify your level of agreement: I can admit my mistakes.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo admitir mis errores."
-            },
-            {
-                "key": "Please specify your level of agreement: I can drive to a local store and back home on my own.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo conducir a una tienda local y volver a casa por mis propios medios."
-            },
-            {
-                "key": "Please specify your level of agreement: I can follow what is being said when a group of people are talking.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo seguir el hilo de la conversación cuando hay un grupo de personas hablando."
-            },
-            {
-                "key": "Please specify your level of agreement: I can follow what is being said when talking with family and friends.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo seguir el hilo de la conversación cuando hablo con familiares y amigos."
-            },
-            {
-                "key": "Please specify your level of agreement: I can follow what is being said when talking with someone I don't know.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo seguir el hilo de la conversación cuando hablo con alguien que no conozco."
-            },
-            {
-                "key": "Please specify your level of agreement: I can get back on track when I am distracted.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo volver a concentrarme cuando me distraigo."
-            },
-            {
-                "key": "Please specify your level of agreement: I can handle stressful situations.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo manejar las situaciones estresantes."
-            },
-            {
-                "key": "Please specify your level of agreement: I can keep up a conversation.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo mantener una conversación."
-            },
-            {
-                "key": "Please specify your level of agreement: I can understand simple instructions.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Puedo entender instrucciones simples."
-            },
-            {
-                "key": "Please specify your level of agreement: I can usually get to the bus or train station on time.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Por lo general, puedo llegar a tiempo a la estación de autobús o de tren."
-            },
-            {
-                "key": "Please specify your level of agreement: I can't stop myself from doing the same thing over and over.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: No puedo evitar hacer lo mismo una y otra vez."
-            },
-            {
-                "key": "Please specify your level of agreement: I don't mind when people give me advice.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: No me molesta que me den consejos."
-            },
-            {
-                "key": "Please specify your level of agreement: I feel good about myself.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me siento bien conmigo mismo/a."
-            },
-            {
-                "key": "Please specify your level of agreement: I feel people are against me.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Siento que la gente está en mi contra."
-            },
-            {
-                "key": "Please specify your level of agreement: I feel that there are people I can turn to.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Siento que hay personas con las que puedo contar."
-            },
-            {
-                "key": "Please specify your level of agreement: I find that I have a hard time sitting still when I need to.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me resulta difícil quedarme sentado/a quieto/a cuando necesito hacerlo."
-            },
-            {
-                "key": "Please specify your level of agreement: I get along well with people outside my family.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me llevo bien con personas que no pertenecen a mi familia."
-            },
-            {
-                "key": "Please specify your level of agreement: I get very loud when I do not get what I want.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me quejo en voz muy alta cuando no consigo lo que quiero."
-            },
-            {
-                "key": "Please specify your level of agreement: I have a hard time accepting criticism.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta aceptar las críticas."
-            },
-            {
-                "key": "Please specify your level of agreement: I have a lot of energy.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Tengo mucha energía."
-            },
-            {
-                "key": "Please specify your level of agreement: I have difficulty calming down.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta calmarme."
-            },
-            {
-                "key": "Please specify your level of agreement: I have difficulty following the rules.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta seguir las reglas."
-            },
-            {
-                "key": "Please specify your level of agreement: I have difficulty letting people know how I feel.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta decirles a otras personas cómo me siento."
-            },
-            {
-                "key": "Please specify your level of agreement: I have to read something several times to understand it.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Para entender algo, necesito leerlo varias veces."
-            },
-            {
-                "key": "Please specify your level of agreement: I have to work really hard to focus so I don't make a mistake.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Tengo que esforzarme mucho para concentrarme y no cometer errores."
-            },
-            {
-                "key": "Please specify your level of agreement: I have trouble finding the right word when talking with people.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta encontrar las palabras justas cuando hablo con alguien."
-            },
-            {
-                "key": "Please specify your level of agreement: I have trouble keeping my mind on what I am doing.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta concentrarme en lo que hago."
-            },
-            {
-                "key": "Please specify your level of agreement: I have trouble putting my thoughts together.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta ordenar mis ideas."
-            },
-            {
-                "key": "Please specify your level of agreement: I have trouble remembering important events. For example birthdays.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta recordar acontecimientos importantes. Por ejemplo, los cumpleaños."
-            },
-            {
-                "key": "Please specify your level of agreement: I have trouble using tickets, cash, or a fare card to get on a bus or train.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Tengo dificultad para usar boletos, dinero en efectivo o tarjetas de viaje para viajar en tren o autobús."
-            },
-            {
-                "key": "Please specify your level of agreement: I know what to do in case of an emergency.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Sé qué hacer en caso de emergencia."
-            },
-            {
-                "key": "Please specify your level of agreement: I like large family gatherings.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me gustan las reuniones familiares con mucha gente."
-            },
-            {
-                "key": "Please specify your level of agreement: I look at both sides of an issue.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Cuando hay un desacuerdo, considero los dos puntos de vista."
-            },
-            {
-                "key": "Please specify your level of agreement: I look for the good in difficult situations.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Busco lo bueno de las situaciones difíciles."
-            },
-            {
-                "key": "Please specify your level of agreement: I make an effort to get to know other people.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me esfuerzo por llegar a conocer a las otras personas."
-            },
-            {
-                "key": "Please specify your level of agreement: I notice my mistakes when they happen.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me doy cuenta de mis errores cuando los cometo."
-            },
-            {
-                "key": "Please specify your level of agreement: I often forget where I put things. For example like your keys or wallet.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces me olvido de dónde dejé las cosas. Por ejemplo, las llaves o la billetera."
-            },
-            {
-                "key": "Please specify your level of agreement: I often forget whether or not I did important things, like take medications.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces me olvido de si hice o no ciertas cosas importantes, como tomar medicamentos."
-            },
-            {
-                "key": "Please specify your level of agreement: I often get angry when I'm told what to do.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Suelo enojarme cuando me dicen qué hacer."
-            },
-            {
-                "key": "Please specify your level of agreement: I often get upset with the people around me.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Suelo molestarme con la gente que me rodea."
-            },
-            {
-                "key": "Please specify your level of agreement: I often have difficulty dealing with people.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: A menudo me cuesta tratar con la gente."
-            },
-            {
-                "key": "Please specify your level of agreement: I often have trouble keeping track of time.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: A menudo me cuesta tener noción del tiempo."
-            },
-            {
-                "key": "Please specify your level of agreement: I often make mistakes when writing down numbers. For example a phone number, checkbook entry.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces cometo errores al escribir números. Por ejemplo, un número de teléfono o una entrada en la chequera."
-            },
-            {
-                "key": "Please specify your level of agreement: I often misspell words.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces escribo mal las palabras."
-            },
-            {
-                "key": "Please specify your level of agreement: I often say things that upset others.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces digo cosas que molestan a otros."
-            },
-            {
-                "key": "Please specify your level of agreement: I often think that something is really wrong with my health.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: A menudo pienso que tengo un problema de salud grave."
-            },
-            {
-                "key": "Please specify your level of agreement: I recognize danger when I see it.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Reconozco el peligro cuando lo veo."
-            },
-            {
-                "key": "Please specify your level of agreement: I respect other people's point of view.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Respeto el punto de vista de los demás."
-            },
-            {
-                "key": "Please specify your level of agreement: I respect other people's property.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Respeto las pertenencias de los demás."
-            },
-            {
-                "key": "Please specify your level of agreement: I seem to worry about my health a lot.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Pareciera que me preocupo mucho por mi salud."
-            },
-            {
-                "key": "Please specify your level of agreement: I sometimes get physical when I'm angry.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: A veces actúo con violencia física cuando me enojo."
-            },
-            {
-                "key": "Please specify your level of agreement: I think people trust me.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Creo que la gente confía en mí."
-            },
-            {
-                "key": "Please specify your level of agreement: I usually accomplish what I set out to do.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Por lo general, logro lo que me propongo hacer."
-            },
-            {
-                "key": "Please specify your level of agreement: I work well in a group.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Trabajo bien en grupo."
-            },
-            {
-                "key": "Please specify your level of agreement: I worry a lot about my health.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me preocupa mucho mi salud."
-            },
-            {
-                "key": "Please specify your level of agreement: I'm comfortable just seeing what the day brings.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: No me incomoda ver qué me depara el día."
-            },
-            {
-                "key": "Please specify your level of agreement: I'm comfortable trying different ways to do things.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: No me incomoda probar diferentes formas de hacer las cosas."
-            },
-            {
-                "key": "Please specify your level of agreement: I'm usually able to help solve other people's problems.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Por lo general, puedo ayudar a resolver los problemas de otras personas."
-            },
-            {
-                "key": "Please specify your level of agreement: If I can't do something one way I will find another way to do it.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Si no puedo hacer algo de una manera, encuentro otra forma de hacerlo."
-            },
-            {
-                "key": "Please specify your level of agreement: If I make a mistake, I know I can deal with it.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Si cometo un error, sé que puedo manejarlo."
-            },
-            {
-                "key": "Please specify your level of agreement: It takes me a long time to run errands. For example going to the bank or drugstore.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Me lleva mucho tiempo hacer mandados. Por ejemplo, ir al banco o a la farmacia."
-            },
-            {
-                "key": "Please specify your level of agreement: It's easy to do what people in authority ask me to do.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Es fácil hacer lo que las personas con autoridad me piden que haga."
-            },
-            {
-                "key": "Please specify your level of agreement: Most people like what I have to say.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: A la mayoría de la gente le gusta lo que opino."
-            },
-            {
-                "key": "Please specify your level of agreement: Others have told me that I do things that put me at risk.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Otras personas me han dicho que hago cosas que me exponen a riesgos."
-            },
-            {
-                "key": "Please specify your level of agreement: People can understand me when I talk.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: La gente me entiende cuando hablo."
-            },
-            {
-                "key": "Please specify your level of agreement: People have told me that sometimes I act strange.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: La gente me ha dicho que a veces me comporto de manera extraña."
-            },
-            {
-                "key": "Please specify your level of agreement: People know that I get angry easily.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: La gente sabe que me enojo con facilidad."
-            },
-            {
-                "key": "Please specify your level of agreement: People often tell me I make mistakes in my work.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces la gente me dice que cometo errores en el trabajo."
-            },
-            {
-                "key": "Please specify your level of agreement: People say I show no emotion.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: La gente dice que no muestro ninguna emoción."
-            },
-            {
-                "key": "Please specify your level of agreement: People tell me I stand too close when I am talking to them.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: La gente me dice que me paro demasiado cerca cuando le hablo."
-            },
-            {
-                "key": "Please specify your level of agreement: People tell me I'm flexible and agreeable.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: La gente me dice que soy flexible y agradable."
-            },
-            {
-                "key": "Please specify your level of agreement: Sometimes I do things to hurt myself.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: A veces hago cosas para lastimarme."
-            },
-            {
-                "key": "Please specify your level of agreement: Sometimes I feel on top of the world for no reason.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: A veces me siento en la cima del mundo sin ningún motivo."
-            },
-            {
-                "key": "Please specify your level of agreement: Sometimes I shout or yell for no reason.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: A veces grito sin motivo."
-            },
-            {
-                "key": "Please specify your level of agreement: The same thoughts keep running through my head.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Por mi cabeza pasan una y otra vez los mismos pensamientos."
-            },
-            {
-                "key": "Please specify your level of agreement: When I am stressed, I find myself losing control.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Cuando estoy estresado/a, siento que pierdo el control."
-            },
-            {
-                "key": "Please specify your level of agreement: When I have something easy to do, I have trouble getting started.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Cuando tengo algo fácil que hacer, me cuesta empezar."
-            },
-            {
-                "key": "Please specify your level of agreement: When I have something hard to do, I have trouble getting started.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Cuando tengo algo difícil que hacer, me cuesta empezar."
-            },
-            {
-                "key": "Please specify your level of agreement: When I'm asked to do a really difficult task, I keep at it until I get it done.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Cuando me piden que haga una tarea muy difícil, no paro hasta completarla."
-            },
-            {
-                "key": "Please specify your level of agreement: When I'm stressed, I can't figure out what to do.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Cuando estoy estresado/a, no sé qué hacer."
-            },
-            {
-                "key": "Please specify your level of agreement: When there is a problem I am able to work things out with other people.",
-                "value": "Indique qué tan de acuerdo está con la afirmación: Cuando hay un problema, puedo resolverlo con otras personas."
-            },
-            {
-                "key": "More than an hour",
-                "value": "Más de una hora"
-            },
-            {
-                "key": "10 minutes",
-                "value": "10 minutos"
-            },
-            {
-                "key": "15 minutes",
-                "value": "15 minutos"
-            },
-            {
-                "key": "2 hours",
-                "value": "2 horas"
-            },
-            {
-                "key": "2 minutes",
-                "value": "2 minutos"
-            },
-            {
-                "key": "20 minutes",
-                "value": "20 minutos"
-            },
-            {
-                "key": "30 minutes",
-                "value": "30 minutos"
-            },
-            {
-                "key": "4 hours",
-                "value": "4 horas"
-            },
-            {
-                "key": "6 hours",
-                "value": "6 horas"
-            },
-            {
-                "key": "Agree",
-                "value": "De acuerdo"
-            },
-            {
-                "key": "Always",
-                "value": "Siempre"
-            },
-            {
-                "key": "An hour",
-                "value": "Una hora"
-            },
-            {
-                "key": "At a normal pace compared to those around me",
-                "value": "A un ritmo normal en comparación con quienes me rodean"
-            },
-            {
-                "key": "At a slower pace than those around me",
-                "value": "A un ritmo más lento que quienes me rodean"
-            },
-            {
-                "key": "Disagree",
-                "value": "En desacuerdo"
-            },
-            {
-                "key": "Faster than those around me",
-                "value": "Más rápido que quienes me rodean"
-            },
-            {
-                "key": "I don't know",
-                "value": "No sé"
-            },
-            {
-                "key": "Less than 2 hours",
-                "value": "Menos de 2 horas"
-            },
-            {
-                "key": "Never",
-                "value": "Nunca"
-            },
-            {
-                "key": "Often",
-                "value": "A menudo"
-            },
-            {
-                "key": "Rarely",
-                "value": "Casi nunca"
-            },
-            {
-                "key": "Sometimes",
-                "value": "A veces"
-            },
-            {
-                "key": "Strongly agree",
-                "value": "Muy de acuerdo"
-            },
-            {
-                "key": "Strongly disagree",
-                "value": "Muy en desacuerdo"
-            },
-            {
-                "key": "Unable to do",
-                "value": "No puedo hacerlo"
-            },
-            {
-                "key": "Up to 2 hours",
-                "value": "Hasta 2 horas"
-            },
-            {
-                "key": "Up to 4 hours",
-                "value": "Hasta 4 horas"
-            },
-            {
-                "key": "Up to 6 hours",
-                "value": "Hasta 6 horas"
-            },
-            {
-                "key": "Up to 8 hours",
-                "value": "Hasta 8 horas"
-            },
-            {
-                "key": "Yes, with a little difficulty",
-                "value": "Sí, con un poco de dificultad"
-            },
-            {
-                "key": "Yes, with a lot of difficulty",
-                "value": "Sí, con mucha dificultad"
-            },
-            {
-                "key": "Yes, with some difficulty",
-                "value": "Sí, con alguna dificultad"
-            },
-            {
-                "key": "Yes, without difficulty",
-                "value": "Sí, sin dificultad"
-            },
-            {
-                "key": "unable to do",
-                "value": "no puedo hacerlo"
-            },
-            {
-                "key": "Please login to the assessment using the Identification Code and Sponsor Code provided by coordinator.",
-                "value": "Para iniciar sesión en la evaluación, use el código de identificación y el código de patrocinador que le dio el coordinador."
-            },
-            {
-                "key": "username",
-                "value": "nombre de usuario"
-            },
-            {
-                "key": "password",
-                "value": "contraseña"
-            },
-            {
-                "key": "Login",
-                "value": "Iniciar sesión"
-            },
-            {
-                "key": "Invalid credentials.",
-                "value": "Credenciales no válidas."
-            },
-            {
-                "key": "Error logging in person",
-                "value": "Error al iniciar sesión de persona"
-            },
-            {
-                "key": "Error logging in.",
-                "value": "Error al iniciar sesión."
-            },
-            {
-                "key": "new User.",
-                "value": "usuario nuevo."
-            },
-            {
-                "key": "returning user starting",
-                "value": "returning user starting"
-            },
-            {
-                "key": "returning user not started yet.",
-                "value": "returning user not started yet."
-            },
-            {
-                "key": "You have already finished your scheduled assessment.",
-                "value": "Ya ha terminado la evaluación programada."
-            },
-            {
-                "key": "Error returning your assessment. Please contact the administrator",
-                "value": "Error al devolver su evaluación. Comuníquese con el administrador"
-            },
-            {
-                "key": "I usually use a walking aid (cane, crutches, walker)",
-                "value": "Por lo general, uso asistencia para caminar (bastón, muletas, andador)"
-            },
-            {
-                "key": "All the time",
-                "value": "Todo el tiempo"
-            },
-            {
-                "key": "I usually use a manual wheelchair or power wheelchair or a scooter to get around.",
-                "value": "Para desplazarme, uso por lo general una silla de ruedas manual, una silla de ruedas eléctrica o un scooter."
-            },
-            {
-                "key": "All the time; I never walk",
-                "value": "Todo el tiempo; nunca camino"
-            },
-            {
-                "key": "Do you currently drive a car?",
-                "value": "¿Conduce un vehículo en la actualidad?"
-            },
-            {
-                "key": "Yes",
-                "value": "Sí"
-            },
-            {
-                "key": "No",
-                "value": "No"
-            },
-            {
-                "key": "Do you currently use a bus, train or subway to get around?",
-                "value": "¿En la actualidad toma autobuses, trenes o metros para desplazarte?"
-            },
-            {
-                "key": "Submit",
-                "value": "Enviar"
-            },
-            {
-                "key": "Error saving demographics",
-                "value": "Error al guardar los datos demográficos"
-            },
-            {
-                "key": "Start",
-                "value": "Empezar"
-            },
-            {
-                "key": "You will be asked how much you agree with statements about how you function or feel about doing different activities.",
-                "value": "Se le preguntará qué tan de acuerdo está con las afirmaciones sobre cómo funciona o se siente acerca de hacer diferentes actividades."
-            },
-            {
-                "key": "Choose your answer based on your usual ability, <b>by yourself without the help of another person, and with any equipment or devices you normally use.</b>",
-                "value": "Elija la respuesta en función de su habilidad habitual, <>por su cuenta, sin ayuda de otra persona y con cualquier equipo o dispositivo que suela utilizar.</b>"
-            },
-            {
-                "key": "Do your best to pick the answer that best matches your agreement with the statement. If you are unable to pick a response the matches, choose <b>\"<u>I don't know</u>\".</b>",
-                "value": "Haga todo lo posible por elegir la respuesta que más coincida con su nivel de acuerdo con la afirmación. Si no puede elegir una respuesta que coincida, elija <b>\"<u>No sé</u>\".</b>"
-            },
-            {
-                "key": "You will also be asked about how much difficulty you have doing different things.",
-                "value": "También se le preguntará cuánto le cuesta hacer diferentes cosas."
-            },
-            {
-                "key": "Choose your answer based on your usual ability <b>using any equipment or devices you normally use.</b>",
-                "value": "Elija la respuesta en función de su habilidad habitual <b>con cualquier equipo o dispositivo que suela utilizar.</b>"
-            },
-            {
-                "key": "Choose your answer based on your ability to do the activity <b>by yourself without the help of another person.</b>",
-                "value": "Elija la respuesta en función de su capacidad para hacer la actividad <>por su cuenta, sin ayuda de otra persona.</b>"
-            },
-            {
-                "key": "If you have not done an activity, do your best to guess what <b>your ability would be if you did it.</b><br/> If you are unable to guess choose <b>\"<u>I don't know</u>\"</b>.",
-                "value": "Si no ha hecho alguna de las actividades, haga todo lo posible por suponer cuál sería<b>su habilidad si la hiciera.</b><br/> Si no puede suponer, elija <b>\"<u>No sé</u>\"</b>."
-            },
-            {
-                "key": "For example, if it takes you a very long time or it is hard for you to do something (or an activity), you would choose the answer <b>\"<u>with a lot of difficulty</u>\"</b>. But, if you need help from another person, you would choose <b>\"<u>Unable</u>\"</b>.",
-                "value": "Por ejemplo, si hacer algo (o una actividad) le llevaría mucho tiempo o le resultaría difícil, debería elegir la respuesta <b>\"<u>con mucha dificultad</u>\"</b>. Sin embargo, si necesitaría ayuda de otra persona, debería elegir <b>\"<u>No puedo hacerlo</u>\"</b>."
-            },
-            {
-                "key": "Next",
-                "value": "Continuar"
-            },
-            {
-                "key": "{0} + is logged in",
-                "value": "{0} + ha iniciado sesión"
-            },
-            {
-                "key": "Please select a user first",
-                "value": "Elija primero un usuario"
-            },
-            {
-                "key": "The assessment is complete.",
-                "value": "La evaluación está completa."
-            },
-            {
-                "key": "Thank you!",
-                "value": "¡Gracias!"
-            },
-            {
-                "key": "Loading. Please do not close your browser.",
-                "value": "Cargando. Por favor, no cierre el navegador."
-            },
-            {
-                "key": "Clear",
-                "value": "Borrar"
-            },
-            {
-                "key": "Refuse",
-                "value": "Rechazar"
-            },
-            {
-                "key": "Add",
-                "value": "Agregar"
-            },
-            {
-                "key": "Void",
-                "value": "Anular"
-            },
-            {
-                "key": "Delete",
-                "value": "Eliminar"
-            },
-            {
-                "key": "Update",
-                "value": "Actualizar"
-            },
-            {
-                "key": "Export Data",
-                "value": "Exportar datos"
-            },
-            {
-                "key": "Report",
-                "value": "Informe"
-            },
-            {
-                "key": "Start Assessment",
-                "value": "Empezar la evaluación"
-            },
-            {
-                "key": "study code",
-                "value": "código del estudio"
-            },
-            {
-                "key": "sponsor code",
-                "value": "código del patrocinador"
-            },
-            {
-                "key": "Assessment",
-                "value": "Evaluación"
-            },
-            {
-                "key": "Summary",
-                "value": "Resumen"
-            },
-            {
-                "key": "Results",
-                "value": "Resultados"
-            },
-            {
-                "key": "Update",
-                "value": "Actualizar"
-            },
-            {
-                "key": "Users -",
-                "value": "Usuarios -"
-            },
-            {
-                "key": "Utility",
-                "value": "Utilidad"
-            },
-            {
-                "key": "Log off",
-                "value": "Cerrar sesión"
-            },
-            {
-                "key": "Error getting all people",
-                "value": "Error al intentar obtener a todas las personas"
-            },
-            {
-                "key": "Please login first",
-                "value": "Primero inicie sesión"
-            },
-            {
-                "key": "returning {0} users.",
-                "value": "devolviendo {0} usuarios."
-            },
-            {
-                "key": "oid can not be 0.",
-                "value": "El identificador de objeto no puede ser 0."
-            },
-            {
-                "key": "User name/password must be unique system-wide.",
-                "value": "El nombre de usuario y la contraseña deben ser únicos en todo el sistema."
-            },
-            {
-                "key": "Error updating a person",
-                "value": "Error al actualizar a una persona"
-            },
-            {
-                "key": "Error deleting person",
-                "value": "Error al eliminar persona"
-            },
-            {
-                "key": "Scale",
-                "value": "Escala"
-            },
-            {
-                "key": "Administration Time",
-                "value": "Tiempo de administración"
-            },
-            {
-                "key": "Number of Items",
-                "value": "Cantidad de preguntas"
-            },
-            {
-                "key": "Score",
-                "value": "Puntuación"
-            },
-            {
-                "key": "Standard Error",
-                "value": "Error estándar"
-            },
-            {
-                "key": "Normed Score",
-                "value": "Puntuación normalizada"
-            },
-            {
-                "key": "Normed SE",
-                "value": "Error estándar normalizado"
-            },
-            {
-                "key": "N/A",
-                "value": "N/A"
-            },
-            {
-                "key": "Summary.csv",
-                "value": "Summary.csv"
-            },
-            {
-                "key": "Error finding person",
-                "value": "Error al buscar persona"
-            },
-            {
-                "key": "download",
-                "value": "descargar"
-            },
-            {
-                "key": "Details.csv",
-                "value": "Details.csv"
-            },
-            {
-                "key": "Error adding person",
-                "value": "Error al agregar persona"
-            },
-            {
-                "key": "Login to begin assessment",
-                "value": "Inicie sesión para comenzar con la evaluación"
-            },
-            {
-                "key": "user - {0}",
-                "value": "usuario - {0}"
-            },
-            {
-                "key": "Mental Function Domains:",
-                "value": "Dominios de funciones mentales:"
-            },
-            {
-                "key": "Physical Function Domains:",
-                "value": "Dominios de funciones físicas:"
-            },
-            {
-                "key": "Summary Data",
-                "value": "Datos de resumen"
-            },
-            {
-                "key": "Mean",
-                "value": "Media"
-            },
-            {
-                "key": "Max",
-                "value": "Máx."
-            },
-            {
-                "key": "Min",
-                "value": "Mín."
-            },
-            {
-                "key": "drive",
-                "value": "conducción"
-            },
-            {
-                "key": "other",
-                "value": "otro"
-            },
-            {
-                "key": "public_transportation",
-                "value": "transporte_público"
-            },
-            {
-                "key": "walking",
-                "value": "caminar"
-            },
-            {
-                "key": "wc",
-                "value": "silla de ruedas"
-            },
-            {
-                "key": "ID",
-                "value": "ID"
-            },
-            {
-                "key": "Domain",
-                "value": "Dominio"
-            },
-            {
-                "key": "Active",
-                "value": "Activa"
-            },
-            {
-                "key": "Started",
-                "value": "Empezada"
-            },
-            {
-                "key": "Finished",
-                "value": "Terminada"
-            },
-            {
-                "key": "Prompt",
-                "value": "Prompt"
-            },
-            {
-                "key": "ItemResponseOID",
-                "value": "ItemResponseOID"
-            },
-            {
-                "key": "Value",
-                "value": "Valor"
-            },
-            {
-                "key": "ItemID",
-                "value": "ItemID"
-            },
-            {
-                "key": "score",
-                "value": "puntuación"
-            },
-            {
-                "key": "error",
-                "value": "error"
-            },
-            {
-                "key": "fit",
-                "value": "fit"
-            },
-            {
-                "key": "Process",
-                "value": "Proceso"
-            },
-            {
-                "key": "Download",
-                "value": "Descargar"
-            },
-            {
-                "key": "prefix",
-                "value": "prefijo"
-            },
-            {
-                "key": "start",
-                "value": "iniciar"
-            },
-            {
-                "key": "end",
-                "value": "final"
-            },
-            {
-                "key": "Error adding person",
-                "value": "Error al agregar persona"
-            },
-            {
-                "key": "creating user {0}",
-                "value": "creando usuario {0}"
-            }
-        ]
+  "locale": "es",
+  "Items": [
+    {
+      "key": "At a slower pace than those around me",
+      "value": "A un ritmo más lento que quienes me rodean"
+    },
+    {
+      "key": "Score",
+      "value": "Puntuación"
+    },
+    {
+      "key": "Work Disability Functional Assessment Battery",
+      "value": "Batería de evaluación funcional de discapacidad laboral"
+    },
+    {
+      "key": "Are you able to make an appointment over the phone? For example a haircut or dentist.",
+      "value": "¿Puede pedir una cita por teléfono? Por ejemplo, para la peluquería o el dentista."
+    },
+    {
+      "key": "Are you able to finish things that you start?",
+      "value": "¿Puede terminar las cosas que empieza a hacer?"
+    },
+    {
+      "key": "Are you able to finish things within a reasonable amount of time?",
+      "value": "¿Puede terminar las cosas en un tiempo razonable?"
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to do many things at once.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo hacer muchas cosas a la vez."
+    },
+    {
+      "key": "Are you able to use bank cards and automatic teller machines (ATMs)?",
+      "value": "¿Puede usar tarjetas bancarias y cajeros automáticos?"
+    },
+    {
+      "key": "Are you able to work hard on tasks you don't like?",
+      "value": "¿Puede trabajar con dedicación en tareas que no le gustan?"
+    },
+    {
+      "key": "Are you able to do your regular chores?",
+      "value": "¿Puede hacer sus quehaceres habituales?"
+    },
+    {
+      "key": "Please specify your level of agreement: I am good at following through with plans I make.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Tengo facilidad para concretar los planes que armo."
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to make important decisions in my life.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo tomar decisiones importantes en mi vida."
+    },
+    {
+      "key": "Are you able to recall information that you have always known?",
+      "value": "¿Puede recordar información que siempre haya sabido?"
+    },
+    {
+      "key": "Are you able to remember things for a short time?",
+      "value": "¿Puede recordar cosas durante poco tiempo?"
+    },
+    {
+      "key": "Are you able to remember something you read or heard earlier in the day?",
+      "value": "¿Puede recordar algo que haya oído o leído antes ese mismo día?"
+    },
+    {
+      "key": "Please specify your level of agreement: I have trouble remembering important events. For example birthdays.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta recordar acontecimientos importantes. Por ejemplo, los cumpleaños."
+    },
+    {
+      "key": "Are you able to remember a list of 4 or 5 errands without writing it down?",
+      "value": "¿Puede recordar una lista de 4 o 5 mandados sin escribirla?"
+    },
+    {
+      "key": "Please specify your level of agreement: I often have trouble keeping track of time.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: A menudo me cuesta tener noción del tiempo."
+    },
+    {
+      "key": "Please specify your level of agreement: I often forget where I put things. For example like your keys or wallet.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces me olvido de dónde dejé las cosas. Por ejemplo, las llaves o la billetera."
+    },
+    {
+      "key": "Please specify your level of agreement: I often forget whether or not I did important things, like take medications.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces me olvido de si hice o no ciertas cosas importantes, como tomar medicamentos."
+    },
+    {
+      "key": "Are you able to find your way around in unfamiliar places?",
+      "value": "¿Puede orientarse en lugares desconocidos?"
+    },
+    {
+      "key": "Are you able to find your way around in familiar places?",
+      "value": "¿Puede orientarse en lugares conocidos?"
+    },
+    {
+      "key": "Are you able to keep track of the day of the week?",
+      "value": "¿Está al tanto de qué día de la semana es?"
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to plan ahead for things that I want to do.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo planificar con anticipación lo que quiero hacer."
+    },
+    {
+      "key": "Are you able to stay organized?",
+      "value": "¿Puede mantenerse organizado/a?"
+    },
+    {
+      "key": "Are you able to keep important papers organized? For example bills, insurance documents and tax forms.",
+      "value": "¿Puede mantener organizados documentos importantes? Por ejemplo, facturas, documentos de seguros y formularios de impuestos."
+    },
+    {
+      "key": "Are you able to get to places on time?",
+      "value": "¿Puede llegar a sus destinos a tiempo?"
+    },
+    {
+      "key": "Are you able to manage your time each day?",
+      "value": "¿Puede administrar su tiempo todos los días?"
+    },
+    {
+      "key": "Please specify your level of agreement: I notice my mistakes when they happen.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me doy cuenta de mis errores cuando los cometo."
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to correct my mistakes when they happen.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Cuando cometo un error, puedo corregirlo."
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to solve problems on my own.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo resolver problemas por mi cuenta."
+    },
+    {
+      "key": "Are you able to remember important numbers? For example a phone number.",
+      "value": "¿Puede recordar números importantes? Por ejemplo, un número de teléfono."
+    },
+    {
+      "key": "Please specify your level of agreement: It takes me a long time to run errands. For example going to the bank or drugstore.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me lleva mucho tiempo hacer mandados. Por ejemplo, ir al banco o a la farmacia."
+    },
+    {
+      "key": "Are you able to take your medications correctly?",
+      "value": "¿Puede tomar sus medicamentos como corresponde?"
+    },
+    {
+      "key": "Are you able to keep your medical appointments?",
+      "value": "¿Puede cumplir con sus citas médicas?"
+    },
+    {
+      "key": "Are you able to get where you need to go each day?",
+      "value": "¿Puede llegar adonde necesita ir cada día?"
+    },
+    {
+      "key": "Are you able to get a ride to where you need to go?",
+      "value": "¿Puede conseguir que lo/a lleven adonde necesita ir?"
+    },
+    {
+      "key": "Please specify your level of agreement: I can drive to a local store and back home on my own.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo conducir a una tienda local y volver a casa por mis propios medios."
+    },
+    {
+      "key": "Are you able to drive at night?",
+      "value": "¿Puede conducir de noche?"
+    },
+    {
+      "key": "Please specify your level of agreement: I am only comfortable driving short distances.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Solo me siento cómodo/a al conducir distancias cortas."
+    },
+    {
+      "key": "Please specify your level of agreement: I am limited in driving long distances.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Tengo limitaciones para conducir distancias largas."
+    },
+    {
+      "key": "Are you able to back out of a driveway?",
+      "value": "¿Puede retroceder/salir en reversa para salir de una entrada de vehículos?"
+    },
+    {
+      "key": "Please specify your level of agreement: I can usually get to the bus or train station on time.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Por lo general, puedo llegar a tiempo a la estación de autobús o de tren."
+    },
+    {
+      "key": "Please specify your level of agreement: I have trouble using tickets, cash, or a fare card to get on a bus or train.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Tengo dificultad para usar boletos, dinero en efectivo o tarjetas de viaje para viajar en tren o autobús."
+    },
+    {
+      "key": "Are you able to use a bus or train schedule to get to unfamiliar places?",
+      "value": "¿Puede usar un horario de autobús o tren para llegar a lugares desconocidos?"
+    },
+    {
+      "key": "Are you able to get off the bus or train before the doors close?",
+      "value": "¿Puede bajarse del autobús o del tren antes de que las puertas se cierren?"
+    },
+    {
+      "key": "Please specify your level of agreement: I worry a lot about my health.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me preocupa mucho mi salud."
+    },
+    {
+      "key": "Please specify your level of agreement: I often think that something is really wrong with my health.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: A menudo pienso que tengo un problema de salud grave."
+    },
+    {
+      "key": "Please specify your level of agreement: I feel good about myself.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me siento bien conmigo mismo/a."
+    },
+    {
+      "key": "Please specify your level of agreement: I have a lot of energy.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Tengo mucha energía."
+    },
+    {
+      "key": "In the past 7 days, I was bothered if I had to depend on others for help.",
+      "value": "En los últimos 7 días, me molestó tener que depender de la ayuda de otros."
+    },
+    {
+      "key": "In the past 7 days, I got fidgety. Hint: Fidgety meaning unable to sit still.",
+      "value": "En los últimos 7 días, me sentí inquieto/a. Indicación: \"Inquieto/a\" significa no poder quedarse quieto/a."
+    },
+    {
+      "key": "Please specify your level of agreement: When I'm stressed, I can't figure out what to do.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Cuando estoy estresado/a, no sé qué hacer."
+    },
+    {
+      "key": "In the past 7 days, I felt something awful would happen.",
+      "value": "En los últimos 7 días, sentí que iba a suceder algo terrible."
+    },
+    {
+      "key": "In the past 7 days, I felt indecisive.  Hint: Indecisive meaning having trouble making decisions.",
+      "value": "En los últimos 7 días, sentí indecisión. Indicación: \"Indecisión\" se refiere a dificultad para tomar decisiones."
+    },
+    {
+      "key": "In the past 7 days, I felt that nothing was interesting.",
+      "value": "En los últimos 7 días, sentí que nada era interesante."
+    },
+    {
+      "key": "In the past 7 days, I was critical of myself for my mistakes.",
+      "value": "En los últimos 7 días, me critiqué por mis errores."
+    },
+    {
+      "key": "In the past 7 days, it was hard to keep up enthusiasm to get things done.",
+      "value": "En los últimos 7 días, fue difícil mantener el entusiasmo para hacer las cosas."
+    },
+    {
+      "key": "In the past 7 days, I had trouble paying attention.",
+      "value": "En los últimos 7 días, me resultó difícil prestar atención."
+    },
+    {
+      "key": "In the past 7 days, just being around people irritated me.",
+      "value": "En los últimos 7 días, me irritó el simple hecho de estar con gente."
+    },
+    {
+      "key": "In the past 7 days, I had trouble keeping in touch with others.",
+      "value": "En los últimos 7 días, me resultó difícil mantenerme en contacto con otras personas."
+    },
+    {
+      "key": "In the past 7 days, I avoided public places or activities.",
+      "value": "En los últimos 7 días, evité ir a lugares públicos o hacer actividades en público."
+    },
+    {
+      "key": "Please specify your level of agreement: I can handle stressful situations.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo manejar las situaciones estresantes."
+    },
+    {
+      "key": "Please specify your level of agreement: I ask for help when I need to.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Pido ayuda cuando la necesito."
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to adjust to other people's ways.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo adaptarme a las costumbres de otras personas."
+    },
+    {
+      "key": "Please specify your level of agreement: I make an effort to get to know other people.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me esfuerzo por llegar a conocer a otras personas."
+    },
+    {
+      "key": "Please specify your level of agreement: I am not easily discouraged.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: No me desanimo con facilidad."
+    },
+    {
+      "key": "Please specify your level of agreement: I can admit my mistakes.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo admitir mis errores."
+    },
+    {
+      "key": "Please specify your level of agreement: When there is a problem I am able to work things out with other people.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Cuando hay un problema, puedo resolverlo con otras personas."
+    },
+    {
+      "key": "Please specify your level of agreement: It's easy to do what people in authority ask me to do.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Es fácil hacer lo que las personas con autoridad me piden que haga."
+    },
+    {
+      "key": "Please specify your level of agreement: I'm comfortable trying different ways to do things.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: No me incomoda probar diferentes formas de hacer las cosas."
+    },
+    {
+      "key": "Please specify your level of agreement: When I'm asked to do a really difficult task, I keep at it until I get it done.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Cuando me piden que haga una tarea muy difícil, no paro hasta completarla."
+    },
+    {
+      "key": "Please specify your level of agreement: I can get back on track when I am distracted.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo volver a concentrarme cuando me distraigo."
+    },
+    {
+      "key": "Please specify your level of agreement: I like large family gatherings.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me gustan las reuniones familiares con mucha gente."
+    },
+    {
+      "key": "Please specify your level of agreement: People tell me I'm flexible and agreeable.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: La gente me dice que soy flexible y agradable."
+    },
+    {
+      "key": "Please specify your level of agreement: Most people like what I have to say.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: A la mayoría de la gente le gusta lo que opino."
+    },
+    {
+      "key": "Please specify your level of agreement: I'm usually able to help solve other people's problems.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Por lo general, puedo ayudar a resolver los problemas de otras personas."
+    },
+    {
+      "key": "Please specify your level of agreement: I'm comfortable just seeing what the day brings.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me siento cómodo(a) viendo qué me espera en el día."
+    },
+    {
+      "key": "Please specify your level of agreement: I look for the good in difficult situations.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Busco lo bueno de las situaciones difíciles."
+    },
+    {
+      "key": "Please specify your level of agreement: I believe that things end up alright most of the time.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Creo que la mayoría de las veces todo termina bien."
+    },
+    {
+      "key": "Please specify your level of agreement: Sometimes I do things to hurt myself.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: A veces hago cosas para lastimarme."
+    },
+    {
+      "key": "Please specify your level of agreement: I often get angry when I'm told what to do.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Suelo enojarme cuando me dicen qué hacer."
+    },
+    {
+      "key": "Please specify your level of agreement: I often get upset with the people around me.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Suelo molestarme con la gente que me rodea."
+    },
+    {
+      "key": "Please specify your level of agreement: I am always watching or on guard for threats.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: siempre estoy en guardia ante amenazas."
+    },
+    {
+      "key": "Please specify your level of agreement: I have difficulty following the rules.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta seguir las reglas."
+    },
+    {
+      "key": "Please specify your level of agreement: I have difficulty calming down.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta calmarme."
+    },
+    {
+      "key": "Please specify your level of agreement: Sometimes I feel on top of the world for no reason.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: A veces me siento en la cima del mundo sin ningún motivo."
+    },
+    {
+      "key": "Please specify your level of agreement: I find that I have a hard time sitting still when I need to.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me resulta difícil quedarme sentado/a quieto/a cuando necesito hacerlo."
+    },
+    {
+      "key": "Please specify your level of agreement: The same thoughts keep running through my head.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Por mi cabeza pasan una y otra vez los mismos pensamientos."
+    },
+    {
+      "key": "Please specify your level of agreement: I seem to worry about my health a lot.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Pareciera que me preocupo mucho por mi salud."
+    },
+    {
+      "key": "Please specify your level of agreement: People say I show no emotion.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: La gente dice que no muestro ninguna emoción."
+    },
+    {
+      "key": "Please specify your level of agreement: I often have difficulty dealing with people.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: A menudo me cuesta tratar con la gente."
+    },
+    {
+      "key": "Please specify your level of agreement: I have a hard time accepting criticism.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta aceptar las críticas."
+    },
+    {
+      "key": "Please specify your level of agreement: People have told me that sometimes I act strange.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: La gente me ha dicho que a veces me comporto de manera extraña."
+    },
+    {
+      "key": "Please specify your level of agreement: I often say things that upset others.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces digo cosas que molestan a otros."
+    },
+    {
+      "key": "Please specify your level of agreement: I have difficulty letting people know how I feel.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta decirles a otras personas cómo me siento."
+    },
+    {
+      "key": "Please specify your level of agreement: I respect other people's property.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Respeto las pertenencias de los demás."
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to work toward long term goals.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo trabajar para alcanzar metas a largo plazo."
+    },
+    {
+      "key": "Please specify your level of agreement: People tell me I stand too close when I am talking to them.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: La gente me dice que me paro demasiado cerca cuando le hablo."
+    },
+    {
+      "key": "Please specify your level of agreement: When I have something hard to do, I have trouble getting started.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Cuando tengo algo difícil que hacer, me cuesta empezar."
+    },
+    {
+      "key": "Please specify your level of agreement: Others have told me that I do things that put me at risk.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Otras personas me han dicho que hago cosas que me exponen a riesgos."
+    },
+    {
+      "key": "Please specify your level of agreement: I feel people are against me.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Siento que la gente está en contra de mi."
+    },
+    {
+      "key": "Please specify your level of agreement: I get very loud when I do not get what I want.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me quejo en voz muy alta cuando no consigo lo que quiero."
+    },
+    {
+      "key": "Please specify your level of agreement: I sometimes get physical when I'm angry.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: A veces actúo con violencia física cuando me enojo."
+    },
+    {
+      "key": "Please specify your level of agreement: Sometimes I shout or yell for no reason.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: A veces grito sin motivo."
+    },
+    {
+      "key": "Please specify your level of agreement: People know that I get angry easily.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: La gente sabe que me enojo con facilidad."
+    },
+    {
+      "key": "Please specify your level of agreement: I can't stop myself from doing the same thing over and over.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: No puedo evitar hacer lo mismo una y otra vez."
+    },
+    {
+      "key": "In the past 7 days, people told me that I talked in a loud or excessive manner.",
+      "value": "En los últimos 7 días, me dijeron que hablaba muy fuerte o demasiado."
+    },
+    {
+      "key": "In the past 7 days, I looked forward with enjoyment to upcoming events.",
+      "value": "En los últimos 7 días, sentí entusiasmo y alegría por eventos futuros."
+    },
+    {
+      "key": "Are you able to pull open a heavy door?",
+      "value": "¿Puede jalar de una puerta pesada para abrirla?"
+    },
+    {
+      "key": "Are you able to push open a heavy door?",
+      "value": "¿Puede empujar una puerta pesada para abrirla?"
+    },
+    {
+      "key": "Are you able to push a vacuum?",
+      "value": "¿Puede utilizar una aspiradora?"
+    },
+    {
+      "key": "Are you able to push a full wheelbarrow?",
+      "value": "¿Puede empujar una carretilla llena?"
+    },
+    {
+      "key": "Are you able to pick up a kitchen chair and move it, in order to clean?",
+      "value": "¿Puede levantar una silla de la cocina y moverla para limpiar?"
+    },
+    {
+      "key": "Are you able to carry a full laundry basket up a flight of stairs? Hint: A flight of stairs is 12-15 steps.",
+      "value": "¿Puede subir un tramo de escaleras cargando una cesta/canasta de ropa llena? Indicación: Un tramo de escaleras tiene entre 12 y 15 escalones."
+    },
+    {
+      "key": "Are you able to push a full grocery cart?",
+      "value": "¿Puede empujar un carro de compras lleno?"
+    },
+    {
+      "key": "Are you able to pull a cord on a lawn mower, chain saw, generator or boat motor?",
+      "value": "¿Puede jalar de una cuerda para poner en marcha una cortadora de césped, una motosierra, un generador o el motor de un bote?"
+    },
+    {
+      "key": "Are you able to reach overhead into a high cabinet?",
+      "value": "¿Puede alcanzar el interior de un armario alto, que esté por encima de la altura de su cabeza?"
+    },
+    {
+      "key": "Are you able to reach into a low cupboard?",
+      "value": "¿Puede alcanzar el interior de un armario bajo?"
+    },
+    {
+      "key": "Are you able to work overhead for 20 minutes (e.g. organizing a high shelf in a closet)?",
+      "value": "¿Puede realizar tareas por encima de la altura de su cabeza durante 20 minutos (p. ej., organizar un estante/repisa alto/a de un armario)?"
+    },
+    {
+      "key": "Are you able to carry a full plastic shopping bag for 30 feet?",
+      "value": "¿Puede llevar 9 metros/30 pies una bolsa de compras de plástico llena?"
+    },
+    {
+      "key": "Are you able to carry a full paper grocery bag for 30 feet?",
+      "value": "¿Puede llevar 9 metros/30 pies una bolsa de compras de papel llena?"
+    },
+    {
+      "key": "Are you able to lift a full 2 liter soda bottle from table height to a high shelf?  A 2 liter soda bottle= 3.5 lbs/1.5 kg.",
+      "value": "¿Puede levantar una botella de refresco de 2 litros llena desde la altura de una mesa hasta un estante alto? Una botella de refresco de 2 litros equivale a 1.5 kg o 3.5 lb."
+    },
+    {
+      "key": "Are you able to do yard work (e.g. plant shrubs or a garden) for 2 hours? For example: With occasional rest but continuous work.",
+      "value": "¿Puede hacer trabajos de jardinería (p. ej., plantar arbustos o trabajar en el jardín) durante 2 horas? Por ejemplo: Con descanso ocasional pero trabajo continuo."
+    },
+    {
+      "key": "Are you able to lift a full small (carry-on size) suitcase from table height to a high shelf? Hint: A full carry-on suitcase weighs 20 pounds/8 kg.",
+      "value": "¿Puede levantar una maleta pequeña (de mano) llena desde la altura de una mesa hasta un estante alto? Indicación: Una maleta de mano llena pesa 8 kilogramos/20 libras."
+    },
+    {
+      "key": "Are you able to lift a full large (check-in size) suitcase from the floor to table height? Hint: A full large suitcase weighs 40-50 pounds/18-23 kg.",
+      "value": "¿Puede levantar una maleta grande (tamaño de equipaje que se despacha/registra) llena desde el piso hasta la altura de una mesa? Indicación: Una maleta grande llena pesa entre 18 y 23 kilogramos (entre 40 y 50 libras)."
+    },
+    {
+      "key": "Are you able to lift a full large (check-in size) suitcase from table height to a high shelf? Hint: A full large suitcase weighs 40-50 pounds/18-23 kg.",
+      "value": "¿Puede levantar una maleta grande (tamaño de equipaje que se despacha/registra) llena desde la altura de una mesa hasta un estante alto? Indicación: Una maleta grande llena pesa entre 18 y 23 kilogramos (entre 40 y 50 libras)."
+    },
+    {
+      "key": "Are you able to carry a full large (check-in size) suitcase for 30 feet? Hint: A full large suitcase weighs 40-50 pounds/18-23 kg.",
+      "value": "¿Puede transportar una maleta grande (tamaño de equipaje que se despacha/registra) llena 9 metros/30 pies? Indicación: Una maleta grande llena pesa entre 18 y 23 kilogramos (entre 40 y 50 libras)."
+    },
+    {
+      "key": "Are you able to trim a tree with a long handle saw?",
+      "value": "¿Puede podar un árbol con una sierra de mano larga?"
+    },
+    {
+      "key": "Are you able to clean a floor using a mop?",
+      "value": "¿Puede limpiar el piso con un trapeador?"
+    },
+    {
+      "key": "Are you able to pull open a dresser drawer?",
+      "value": "¿Puede abrir un cajón de una cómoda?"
+    },
+    {
+      "key": "Are you able pull a small suitcase by the handle?",
+      "value": "¿Puede llevar una maleta pequeña por la manija?"
+    },
+    {
+      "key": "Are you able to lift a 2 liter soda bottle from the floor to a high shelf? A 2 liter soda bottle=3.5 lbs/1.5kg.",
+      "value": "¿Puede levantar una botella de refresco de 2 litros del piso a un estante/repisa alto/a? Una botella de refresco de 2 litros equivale a 1.5 kg o 3.5 lb."
+    },
+    {
+      "key": "Are you able to clean out a closet?",
+      "value": "¿Puede limpiar un armario?"
+    },
+    {
+      "key": "Are you able to lift a heavy box from the floor to table height?",
+      "value": "¿Puede levantar una caja pesada desde el piso hasta la altura de una mesa?"
+    },
+    {
+      "key": "Are you able to lift a package weighing 10 lbs?",
+      "value": "¿Puede levantar un paquete de 4.5 kilogramos/10 libras?"
+    },
+    {
+      "key": "Are you able to lift a 12 pack of soda cans from a grocery shelf to a grocery cart?",
+      "value": "¿Puede mover un paquete de 12 latas de refresco de un estante de supermercado a un carro de compras?"
+    },
+    {
+      "key": "Are you able to unload the dishwasher?",
+      "value": "¿Puede descargar el lavavajillas/lavadora de trastes?"
+    },
+    {
+      "key": "Are you able to move a sofa to clean under it?",
+      "value": "¿Puede mover un sofá para limpiar debajo de él?"
+    },
+    {
+      "key": "Are you able to make a bed?",
+      "value": "¿Puede hacer la cama?"
+    },
+    {
+      "key": "Are you able to fold several loads of laundry?",
+      "value": "¿Puede doblar varias cargas de ropa lavada?"
+    },
+    {
+      "key": "Are you able to paint the ceiling of a large room?",
+      "value": "¿Puede pintar el techo interior de una habitación grande?"
+    },
+    {
+      "key": "Are you able to lift something weighing 100 pounds? (for example a large dog)",
+      "value": "¿Puede levantar algo que pese 45 kilogramos/100 libras? (Por ejemplo, un perro grande)."
+    },
+    {
+      "key": "Are you able to mop your kitchen floor?",
+      "value": "¿Puede limpiar el piso de la cocina con el trapeador?"
+    },
+    {
+      "key": "Are you able to vacuum for 30 minutes without a break?",
+      "value": "¿Puede usar la aspiradora durante 30 minutos sin tomarse un descanso?"
+    },
+    {
+      "key": "Are you able to hang a shower curtain without taking a break?",
+      "value": "¿Puede colgar una cortina de baño sin tomarse un descanso?"
+    },
+    {
+      "key": "Are you able to climb 2 or 3 steps up a step ladder?",
+      "value": "¿Puede subir 2 o 3 escalones de una escalerilla?"
+    },
+    {
+      "key": "Are you able to bend over from a sitting position to pick up an object you dropped on the floor?",
+      "value": "Cuando está sentado, ¿puede agacharse para recoger un objeto que se le ha caído al piso?"
+    },
+    {
+      "key": "Are you able to use the break pedal in a car?",
+      "value": "¿Puede usar el pedal de freno de un auto?"
+    },
+    {
+      "key": "Are you able to sit in a car for more than 2 hours?",
+      "value": "¿Puede permanecer sentado/a en un auto durante más de 2 horas?"
+    },
+    {
+      "key": "Are you able to bend down to pick up clothing from the floor?",
+      "value": "¿Puede agacharse para recoger ropa del piso?"
+    },
+    {
+      "key": "Are you able to crawl under a table to pick up something you dropped?",
+      "value": "¿Puede gatear debajo de una mesa para recoger algo que se le haya caído?"
+    },
+    {
+      "key": "Are you able to go down one flight of stairs using a handrail? A flight of stairs is 12-15 steps.",
+      "value": "¿Puede bajar un tramo de escaleras si se sujeta de una barandilla? Un tramo de escaleras tiene entre 12 y 15 escalones."
+    },
+    {
+      "key": "Are you able to to bend down to use a dust pan?",
+      "value": "¿Puede agacharse para usar un recogedor o pala de mano?"
+    },
+    {
+      "key": "Are you able to remain on your feet for at least 20 minutes?",
+      "value": "¿Puede permanecer de pie durante al menos 20 minutos?"
+    },
+    {
+      "key": "Are you able to remain on your feet for at least 20 minutes using your walking aid?",
+      "value": "¿Puede permanecer de pie durante al menos 20 minutos con su dispositivo de asistencia para caminar?"
+    },
+    {
+      "key": "Are you able to remain on your feet for 2 hours with short breaks?",
+      "value": "¿Puede permanecer de pie durante 2 horas con descansos breves?"
+    },
+    {
+      "key": "Are you able to get down on the floor? For example: Moving from standing or your wheelchair to kneel or sit on the floor",
+      "value": "¿Puede ponerse en el piso? Por ejemplo: Pasar de estar de pie o en silla de ruedas a arrodillarse o sentarse en el piso."
+    },
+    {
+      "key": "Are you able to move around on your hands and knees in a crawling position?",
+      "value": "¿Puede gatear con las manos y las rodillas?"
+    },
+    {
+      "key": "Are you able to walk in and out of stores carrying heavy bags without losing your balance?",
+      "value": "¿Puede entrar y salir de las tiendas con bolsas pesadas sin perder el equilibrio?"
+    },
+    {
+      "key": "Are you able to do heavy housework? For example scrubbing floors, washing windows, moving furniture to clean.",
+      "value": "¿Puede realizar quehaceres domésticos pesados? Por ejemplo, fregar pisos, limpiar ventanas, mover muebles para limpiarlos."
+    },
+    {
+      "key": "How fast are you able to walk?",
+      "value": "¿Qué tan rápido puede caminar?"
+    },
+    {
+      "key": "How long are you able to sit with short breaks?",
+      "value": "¿Cuánto tiempo puede permanecer sentado/a con pequeños descansos?"
+    },
+    {
+      "key": "How long are you able to walk without stopping? If you cannot walk without stopping for 15 minutes please select unable.",
+      "value": "¿Cuánto tiempo puede caminar sin detenerse? Si no puede caminar durante 15 minutos sin detenerse, seleccione \"No puedo\"."
+    },
+    {
+      "key": "Are you able to get in and out of the bathtub?",
+      "value": "¿Puede entrar y salir de la bañera?"
+    },
+    {
+      "key": "Are you able to get in and out of bed? Hint: Base response on the most difficult part of the activity.",
+      "value": "¿Puede acostarse y levantarse de la cama? Indicación: Base su respuesta en la parte más difícil de la actividad."
+    },
+    {
+      "key": "Are you able to get into and out of a car? Please base your response on the most difficult part of this activity.",
+      "value": "¿Puede entrar y salir de un auto? Base su respuesta en la parte más difícil de la actividad."
+    },
+    {
+      "key": "Are you able to get into and out of a kneeling position? Please base your response on the most difficult part of the activity.",
+      "value": "¿Puede arrodillarse y levantarse desde esa posición? Base su respuesta en la parte más difícil de la actividad."
+    },
+    {
+      "key": "Are you able to get in and out of a squatting position?  Please base your response on the most difficult part of the activity.",
+      "value": "¿Puede ponerse en posición de sentadilla y levantarse desde la posición de sentadilla? Base su respuesta en la parte más difícil de la actividad."
+    },
+    {
+      "key": "Are you able to kick a ball?",
+      "value": "¿Puede patear un balón?"
+    },
+    {
+      "key": "How long are you able to kneel?",
+      "value": "¿Cuánto tiempo puede estar de rodillas?"
+    },
+    {
+      "key": "Are you able to kneel on the floor for a long time? For example when cleaning the bathtub or playing with kids or pet.",
+      "value": "¿Puede estar de rodillas en el piso durante mucho tiempo? Por ejemplo, al limpiar la bañera o jugar con niños o mascotas."
+    },
+    {
+      "key": "Are you able to move from lying on your back to sitting on the edge of your bed?",
+      "value": "¿Puede pasar de estar acostado/a boca arriba a sentarse en el borde de la cama?"
+    },
+    {
+      "key": "Are you able to to stand up from a low, soft couch? Without holding on to anything.",
+      "value": "¿Puede levantarse de un sofá bajo y blando, y ponerse de pie? Sin sostenerse de nada."
+    },
+    {
+      "key": "Are you able to walk a mile without resting?",
+      "value": "¿Puede caminar un kilómetro y medio/una milla sin tomarse un descanso?"
+    },
+    {
+      "key": "Are you able to get moving after you've been lying down on a couch? For example: Get to the sitting position, then walk or use your wheelchair.",
+      "value": "¿Puede volver a moverse después de haber estado acostado/a en un sofá? Por ejemplo: Sentarse y luego caminar o usar la silla de ruedas."
+    },
+    {
+      "key": "Are you able to get up off the floor from lying on your back? You can use a chair or other object to get up.",
+      "value": "¿Puede levantarse del piso estando acostado/a boca arriba? Puede utilizar una silla u otro objeto para levantarse."
+    },
+    {
+      "key": "Are you able to go up one flight of stairs using a handrail? Hint: A flight of stairs is 12-15 steps.",
+      "value": "¿Puede subir un tramo de escaleras si se sujeta de una barandilla? Indicación: Un tramo de escaleras tiene entre 12 y 15 escalones."
+    },
+    {
+      "key": "Are you able to stand on your feet for one hour?",
+      "value": "¿Puede permanecer de pie durante una hora?"
+    },
+    {
+      "key": "Are you able to remain on your feet for 6 hours with short breaks?",
+      "value": "¿Puede permanecer de pie durante 6 horas con descansos breves?"
+    },
+    {
+      "key": "Are you able to walk quickly indoors? For example to answer the telephone or the front door.",
+      "value": "¿Puede caminar rápido en interiores? Por ejemplo, para atender el teléfono o abrir la puerta."
+    },
+    {
+      "key": "Are you able to run fast for 2 minutes?",
+      "value": "¿Puede correr rápido durante 2 minutos?"
+    },
+    {
+      "key": "Are you able to run a short distance, such as to catch a bus? A short distance is roughly half a block or about 15-20 yards.",
+      "value": "¿Puede correr una distancia corta, por ejemplo, para alcanzar el autobús? Una distancia corta es alrededor de media cuadra o 13-18 metros (15-20 yardas)."
+    },
+    {
+      "key": "Are you able to bend over to pick up coins that are scattered on the floor?",
+      "value": "¿Puede agacharse para recoger monedas que están esparcidas por el piso?"
+    },
+    {
+      "key": "Are you able to stand in the shower to wash your hair?",
+      "value": "¿Puede mantenerse de pie en la ducha para lavarse el cabello?"
+    },
+    {
+      "key": "How long are you able to squat?",
+      "value": "¿Cuánto tiempo puede estar en posición de sentadilla?"
+    },
+    {
+      "key": "Are you able to stand up from an armless, straight chair? Hint: Without holding on to anything.",
+      "value": "¿Puede levantarse de una silla recta sin apoyabrazos? Indicación: Sin sostenerse de nada."
+    },
+    {
+      "key": "Are you able to walk up a steep slope? For example on a hill.",
+      "value": "¿Puede subir una pendiente/subida pronunciada? Por ejemplo, una colina."
+    },
+    {
+      "key": "Are you able to walk up a steep slope (e.g. on a hill) using your walking aid?",
+      "value": "¿Puede subir una pendiente/subida pronunciada (p. ej., una colina) con su dispositivo de asistencia para caminar?"
+    },
+    {
+      "key": "Are you able to reach into a cabinet from a step ladder or stool?",
+      "value": "¿Puede alcanzar el interior de un armario desde una escalerilla o un banco?"
+    },
+    {
+      "key": "Are you able to walk from store to store while shopping ? For example in a shopping mall.",
+      "value": "¿Puede caminar de tienda en tienda cuando está de compras? Por ejemplo, en un centro comercial."
+    },
+    {
+      "key": "Are you able to go up three flights of stairs using a handrail? Hint: A flight of stairs is 12-15 steps.",
+      "value": "¿Puede subir tres tramos de escaleras si se sujeta de una barandilla? Indicación: Un tramo de escaleras tiene entre 12 y 15 escalones."
+    },
+    {
+      "key": "Are you able to kneel down to tie a shoe?",
+      "value": "¿Puede arrodillarse para amarrarse los cordones de un zapato?"
+    },
+    {
+      "key": "Are you able to bend to look under a car?",
+      "value": "¿Puede agacharse para mirar debajo de un auto?"
+    },
+    {
+      "key": "Are you able to walk on uneven surfaces? For example on grass, dirt road or sidewalk.",
+      "value": "¿Puede caminar sobre superficies irregulares? Por ejemplo, en césped, caminos de tierra o aceras."
+    },
+    {
+      "key": "Are you able to walk on uneven surfaces (e.g. grass, dirt road or sidewalk) using your walking aid?",
+      "value": "¿Puede caminar sobre superficies irregulares (p. ej., césped, caminos de tierra o aceras) con su dispositivo de asistencia para caminar?"
+    },
+    {
+      "key": "Are you able to walk up a flight of stairs without a handrail?",
+      "value": "¿Puede subir un tramo de escaleras sin barandilla?"
+    },
+    {
+      "key": "Are you able to walk at least 15 minutes?",
+      "value": "¿Puede caminar al menos 15 minutos?"
+    },
+    {
+      "key": "Are you able to walk the aisles of a grocery store using a shopping cart?",
+      "value": "¿Puede caminar por los pasillos de un supermercado con un carro de compras?"
+    },
+    {
+      "key": "Are you able to walk around one floor of your home without tripping or losing your balance?",
+      "value": "¿Puede caminar por un piso de su casa sin tropezarse ni perder el equilibrio?"
+    },
+    {
+      "key": "Are you able to walk to the bathoom?",
+      "value": "¿Puede ir caminando al baño?"
+    },
+    {
+      "key": "Are you able to work at floor level? For example changing the face plate on an electric outlet.",
+      "value": "¿Puede trabajar a nivel del piso? Por ejemplo, cambiar la cubierta de un enchufe eléctrico."
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to add and subtract numbers in my head.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo sumar y restar mentalmente."
+    },
+    {
+      "key": "Are you able to fill out applications?",
+      "value": "¿Puede llenar formularios de solicitud?"
+    },
+    {
+      "key": "Are you able to ask for help from others when difficult problems come up?",
+      "value": "¿Puede pedir ayuda a otras personas cuando surgen problemas difíciles?"
+    },
+    {
+      "key": "Are you able to pay attention when someone is talking to you for a long time?",
+      "value": "¿Puede prestar atención cuando alguien le habla durante mucho tiempo?"
+    },
+    {
+      "key": "Are you able to pay attention when someone is talking to you for a short time?",
+      "value": "¿Puede prestar atención cuando alguien le habla durante poco tiempo?"
+    },
+    {
+      "key": "Are you able to check that your bills are correct?",
+      "value": "¿Puede revisar si sus facturas tienen errores?"
+    },
+    {
+      "key": "Are you able to understand body language and facial expressions when talking to people?",
+      "value": "¿Puede entender lenguaje corporal y expresiones faciales cuando habla con la gente?"
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to do my work carefully.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo hacer mi trabajo con cuidado."
+    },
+    {
+      "key": "Are you able to adjust to a new situation or change?",
+      "value": "¿Puede adaptarse a nuevas situaciones o cambios?"
+    },
+    {
+      "key": "Are you able to use a computer to get in touch with someone?",
+      "value": "¿Puede usar una computadora para ponerse en contacto con alguien?"
+    },
+    {
+      "key": "Please specify your level of agreement: I am easily confused when in a busy or noisy environment.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me confundo con facilidad cuando estoy en un lugar ruidoso o lleno de gente."
+    },
+    {
+      "key": "Please specify your level of agreement: I recognize danger when I see it.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Reconozco el peligro cuando lo veo."
+    },
+    {
+      "key": "Are you able to give directions to another person?",
+      "value": "¿Puede dar indicaciones a otra persona?"
+    },
+    {
+      "key": "Are you able to tell a doctor about a health problem?",
+      "value": "¿Puede comunicarle a un doctor que tiene un problema de salud?"
+    },
+    {
+      "key": "Please specify your level of agreement: I am easily distracted in a busy or noisy environment.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me distraigo con facilidad cuando estoy en un lugar ruidoso o lleno de gente."
+    },
+    {
+      "key": "Please specify your level of agreement: I know what to do in case of an emergency.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Sé qué hacer en caso de emergencia."
+    },
+    {
+      "key": "Are you able to make everyday decisions? For example what to wear, what to eat or what time to get up.",
+      "value": "¿Puede tomar decisiones de la vida diaria? Por ejemplo, qué ropa usar, qué comer o a qué hora levantarse."
+    },
+    {
+      "key": "Please specify your level of agreement: If I can't do something one way I will find another way to do it.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Si no puedo hacer algo de una manera, encuentro otra forma de hacerlo."
+    },
+    {
+      "key": "Please specify your level of agreement: I have to work really hard to focus so I don't make a mistake.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Tengo que esforzarme mucho para concentrarme y no cometer errores."
+    },
+    {
+      "key": "Please specify your level of agreement: I can follow what is being said when talking with family and friends.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo seguir el hilo de la conversación cuando hablo con familiares y amigos."
+    },
+    {
+      "key": "Are you able to get information you need when talking with people?",
+      "value": "¿Puede obtener la información que necesita cuando habla con gente?"
+    },
+    {
+      "key": "Are you able to use a computer to get information you need?",
+      "value": "¿Puede usar una computadora para buscar información que necesita?"
+    },
+    {
+      "key": "Please specify your level of agreement: I can follow what is being said when a group of people are talking.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo seguir el hilo de la conversación cuando hay un grupo de personas hablando."
+    },
+    {
+      "key": "Are you able to hear people over the phone?",
+      "value": "¿Puede oír a las personas por teléfono?"
+    },
+    {
+      "key": "Are you able to discuss your ideas with others?",
+      "value": "¿Puede conversar sobre sus ideas con otras personas?"
+    },
+    {
+      "key": "Are you able to figure out why a joke is funny?",
+      "value": "¿Puede entender por qué un chiste es gracioso?"
+    },
+    {
+      "key": "Are you able to keep track of what you need to do each day?",
+      "value": "¿Sabe qué tiene que hacer cada día?"
+    },
+    {
+      "key": "Please specify your level of agreement: I can keep up a conversation.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo mantener una conversación."
+    },
+    {
+      "key": "Are you able to learn to do new things?",
+      "value": "¿Puede aprender a hacer cosas nuevas?"
+    },
+    {
+      "key": "Please specify your level of agreement: People often tell me I make mistakes in my work.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces la gente me dice que cometo errores en el trabajo."
+    },
+    {
+      "key": "Please specify your level of agreement: I have trouble keeping my mind on what I am doing.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta concentrarme en lo que hago."
+    },
+    {
+      "key": "Please specify your level of agreement: I often misspell words.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces escribo mal las palabras."
+    },
+    {
+      "key": "Please specify your level of agreement: I often make mistakes when writing down numbers. For example a phone number, checkbook entry.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Muchas veces cometo errores al escribir números. Por ejemplo, un número de teléfono o una entrada en la chequera."
+    },
+    {
+      "key": "Are you able to organize what you want to say?",
+      "value": "¿Puede organizar lo que quiere decir?"
+    },
+    {
+      "key": "Are you able to pay attention for a long period of time?",
+      "value": "¿Puede prestar atención durante mucho tiempo?"
+    },
+    {
+      "key": "Are you able to follow instructions given over the phone?",
+      "value": "¿Puede seguir instrucciones que le den por teléfono?"
+    },
+    {
+      "key": "Are you able to get your point across when speaking with other people?",
+      "value": "¿Puede comunicar lo que quiere decir cuando habla con otras personas?"
+    },
+    {
+      "key": "Are you able to get your point across when you are upset?",
+      "value": "¿Puede comunicar lo que quiere decir cuando está molesto/a?"
+    },
+    {
+      "key": "Are you able to understand people in noisy places?",
+      "value": "¿Puede entender a la gente en lugares ruidosos?"
+    },
+    {
+      "key": "Are you able to understand people on the phone?",
+      "value": "¿Puede entender a la gente cuando habla por teléfono?"
+    },
+    {
+      "key": "Are you able to follow public signs? For example STOP, DO NOT ENTER, EXIT.",
+      "value": "¿Puede seguir los letreros públicos? Por ejemplo, PARE, PROHIBIDO INGRESAR, SALIDA."
+    },
+    {
+      "key": "Are you able to write reminder notes to yourself?",
+      "value": "¿Puede escribir notas de recordatorio a sí mismo/a?"
+    },
+    {
+      "key": "Are you able to remember the name of people you know when you see them?",
+      "value": "¿Puede recordar el nombre de personas que conoce cuando las ve?"
+    },
+    {
+      "key": "Please specify your level of agreement: I have to read something several times to understand it.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Para entender algo, necesito leerlo varias veces."
+    },
+    {
+      "key": "Please specify your level of agreement: I have trouble finding the right word when talking with people.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta encontrar las palabras justas cuando hablo con alguien."
+    },
+    {
+      "key": "Are you able to keep yourself safe at home?",
+      "value": "¿Puede mantenerse fuera de peligro en casa?"
+    },
+    {
+      "key": "Are you able figure out the correct price for something that is on sale? For example 25% off.",
+      "value": "¿Puede calcular el precio correcto de algo que está en oferta? Por ejemplo, si tiene un 25 % de descuento."
+    },
+    {
+      "key": "Are you able to write a short email to someone?",
+      "value": "¿Puede escribirle un mensaje de correo electrónico corto a alguien?"
+    },
+    {
+      "key": "Are you able to write your signature?",
+      "value": "¿Puede firmar?"
+    },
+    {
+      "key": "Please specify your level of agreement: I can understand simple instructions.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo entender instrucciones simples."
+    },
+    {
+      "key": "Are you able to make small talk?",
+      "value": "¿Puede mantener una conversación casual?"
+    },
+    {
+      "key": "Are you able to speak clearly?",
+      "value": "¿Puede hablar con claridad?"
+    },
+    {
+      "key": "Are you able to talk to people over the phone?",
+      "value": "¿Puede mantener una conversación por teléfono?"
+    },
+    {
+      "key": "Please specify your level of agreement: People can understand me when I talk.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: La gente me entiende cuando hablo."
+    },
+    {
+      "key": "Are you able to tell others your needs? For example when you're tired and need to rest.",
+      "value": "¿Puede comunicarles a otras personas lo que necesita? Por ejemplo, cuando siente cansancio y necesita descansar."
+    },
+    {
+      "key": "Please specify your level of agreement: I am able to think clearly.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo pensar con claridad."
+    },
+    {
+      "key": "Are you able to think quickly?",
+      "value": "¿Puede pensar rápido?"
+    },
+    {
+      "key": "Are you able to think things through before making a decision?",
+      "value": "¿Puede pensar bien las cosas antes de tomar una decisión?"
+    },
+    {
+      "key": "Please specify your level of agreement: When I have something easy to do, I have trouble getting started.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Cuando tengo algo fácil que hacer, me cuesta empezar."
+    },
+    {
+      "key": "Please specify your level of agreement: I have trouble putting my thoughts together.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me cuesta ordenar mis ideas."
+    },
+    {
+      "key": "Are you able to do two things at once?",
+      "value": "¿Puede hacer dos cosas a la vez?"
+    },
+    {
+      "key": "Please specify your level of agreement: I am uncomfortable talking in a group.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me incomoda hablar en grupo."
+    },
+    {
+      "key": "Please specify your level of agreement: I can follow what is being said when talking with someone I don't know.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Puedo seguir el hilo de la conversación cuando hablo con alguien que no conozco."
+    },
+    {
+      "key": "Are you able to understand what you hear on television?",
+      "value": "¿Puede entender lo que escucha en la televisión?"
+    },
+    {
+      "key": "Are you able to wait your turn to speak?",
+      "value": "¿Puede esperar su turno para hablar?"
+    },
+    {
+      "key": "Are you able to understand written instructions?",
+      "value": "¿Puede entender instrucciones escritas?"
+    },
+    {
+      "key": "Do you currently use a bus, train or subway to get around?",
+      "value": "¿En la actualidad toma autobuses, trenes o metros para desplazarse?"
+    },
+    {
+      "key": "Are you able to get on to a bus or train?",
+      "value": "¿Puede subirse a un autobús o a un tren?"
+    },
+    {
+      "key": "Are you able to use a bus or train schedule to get to familiar places?",
+      "value": "¿Puede usar un horario de autobús o tren para llegar a lugares conocidos?"
+    },
+    {
+      "key": "Are you able to get on the right bus or train?",
+      "value": "¿Puede tomar el autobús o tren correctos?"
+    },
+    {
+      "key": "Are you able to park your car in a parking lot?",
+      "value": "¿Puede estacionar/parquear su auto en un estacionamiento/parqueadero?"
+    },
+    {
+      "key": "Do you currently drive a car?",
+      "value": "¿Conduce un vehículo en la actualidad?"
+    },
+    {
+      "key": "Are you able to drive in your own neighborhood?",
+      "value": "¿Puede conducir en su propio vecindario?"
+    },
+    {
+      "key": "Do you drive or use public transportation to get around your neighborhood?",
+      "value": "¿Maneja usted o usa el transporte público para moverse por su vecindario?"
+    },
+    {
+      "key": "Are you able to drive in the rain?",
+      "value": "¿Puede conducir cuando llueve?"
+    },
+    {
+      "key": "Are you able to drive in heavy traffic?",
+      "value": "¿Puede conducir cuando hay mucho tránsito?"
+    },
+    {
+      "key": "Are you able to stay within your lane while driving?",
+      "value": "¿Puede mantenerse en su carril cuando conduce?"
+    },
+    {
+      "key": "Are you able to merge onto a busy road?",
+      "value": "Al conducir, ¿puede incorporarse a una calle con mucho tránsito?"
+    },
+    {
+      "key": "Do you agree to participate?",
+      "value": "¿Acepta usted participar?"
+    },
+    {
+      "key": "Please describe your physical, functional, cognitive, or other condition in further detail.",
+      "value": "Por favor, describa con más detalle su condición física, funcional, cognitiva u otra."
+    },
+    {
+      "key": "Are you able to remove something from your back pocket?",
+      "value": "¿Puede sacar algo de su bolsillo trasero?"
+    },
+    {
+      "key": "Are you able to close a twist tie on a bag of bread?",
+      "value": "¿Puede cerrar el plastinudo de una bolsa de pan?"
+    },
+    {
+      "key": "Are you able to put batteries in a flashlight, or remote control for your television?",
+      "value": "¿Puede poner pilas en una linterna o en el control remoto de su televisión?"
+    },
+    {
+      "key": "Are you able to hold a book while reading?",
+      "value": "¿Puede sostener un libro mientras lee?"
+    },
+    {
+      "key": "Are you able to buckle a strap (e.g. on a bicycle helmet, child's car seat, or backpack)?",
+      "value": "¿Puede abrochar una correa (por ejemplo, de un casco de bicicleta, una mochila o el asiento infantil para auto)?"
+    },
+    {
+      "key": "Are you able to change the bulb in a table lamp?",
+      "value": "¿Puede cambiar la bombilla/el foco de una lámpara de mesa?"
+    },
+    {
+      "key": "Are you able to sew on a button?",
+      "value": "¿Puede coser un botón?"
+    },
+    {
+      "key": "Are you able to button your shirt?",
+      "value": "¿Puede abotonarse la camisa?"
+    },
+    {
+      "key": "Are you able to use a chip clip to close a bag?",
+      "value": "¿Puede usar un broche/pinza para cerrar una bolsa?"
+    },
+    {
+      "key": "Are you able to close a zip lock bag?",
+      "value": "¿Puede cerrar una bolsa tipo Ziploc?"
+    },
+    {
+      "key": "Are you able to put coins into a slot? For example a vending machine.",
+      "value": "¿Puede insertar monedas en una ranura? Por ejemplo, de una máquina expendedora."
+    },
+    {
+      "key": "Are you able to pick up coins from a table top?",
+      "value": "¿Puede levantar monedas de una mesa?"
+    },
+    {
+      "key": "How long are you able to use a computer keyboard?",
+      "value": "¿Cuánto tiempo puede usar el teclado de una computadora?"
+    },
+    {
+      "key": "Are you able to push the correct buttons on a remote control?",
+      "value": "¿Puede presionar los botones correctos de un control remoto?"
+    },
+    {
+      "key": "Are you able to address an envelope with a pen?",
+      "value": "¿Puede poner la dirección en un sobre con un bolígrafo?"
+    },
+    {
+      "key": "Are you able to turn faucets on and off?",
+      "value": "¿Puede abrir y cerrar grifos/llaves de agua?"
+    },
+    {
+      "key": "Are you able to hold a full glass of water in one hand?",
+      "value": "¿Puede sostener con una mano un vaso lleno de agua?"
+    },
+    {
+      "key": "Are you able to remove a gas cap from a car?",
+      "value": "¿Puede quitar la tapa del tanque de gasolina de un auto?"
+    },
+    {
+      "key": "Are you able to use a hammer to pound a nail?",
+      "value": "¿Puede usar un martillo para clavar un clavo?"
+    },
+    {
+      "key": "Are you able to open a can with a hand can opener?",
+      "value": "¿Puede abrir latas usando un abrelatas manual?"
+    },
+    {
+      "key": "How long are you able to use a computer mouse?",
+      "value": "¿Cuánto tiempo puede usar el ratón/mouse de una computadora?"
+    },
+    {
+      "key": "Are you able to insert a plug into an electric outlet?",
+      "value": "¿Puede insertar un enchufe en un tomacorriente?"
+    },
+    {
+      "key": "Are you able to turn a key in a door lock?",
+      "value": "¿Puede hacer girar una llave en una cerradura?"
+    },
+    {
+      "key": "Are you able to use a lever handle to open a door? Hint: A lever handle is a handle that you push down to open a door.",
+      "value": "¿Puede abrir una puerta con manija con palanca? Indicación: Una manija con palanca está insertada en una puerta; se empuja hacia abajo para abrir la puerta."
+    },
+    {
+      "key": "Are you able to pick out one key from group of keys?",
+      "value": "¿Puede agarrar una sola llave de un conjunto de llaves?"
+    },
+    {
+      "key": "Are you able to pick out a paper clip from group of clips?",
+      "value": "¿Puede agarrar un solo clip de un conjunto de clips?"
+    },
+    {
+      "key": "Are you able to cut a piece of paper with scissors?",
+      "value": "¿Puede cortar una hoja de papel con tijeras?"
+    },
+    {
+      "key": "Are you able to peel 15 potatoes?",
+      "value": "¿Puede pelar 15 papas?"
+    },
+    {
+      "key": "Are you able to peel an orange?",
+      "value": "¿Puede pelar una naranja?"
+    },
+    {
+      "key": "Are you able to peel the sticker off something you bought?",
+      "value": "¿Puede despegar la calcomanía/sticker de un producto que haya comprado?"
+    },
+    {
+      "key": "Are you able to pick up and put down a pen or pencil?",
+      "value": "¿Puede levantar y dejar un bolígrafo o un lápiz?"
+    },
+    {
+      "key": "Are you able to pull a pillow case off a pillow?",
+      "value": "¿Puede quitar la funda de una almohada?"
+    },
+    {
+      "key": "Are you able to open previously opened jars?",
+      "value": "¿Puede abrir frascos enroscables que se hayan abierto antes?"
+    },
+    {
+      "key": "Are you able to remove a dollar bill from your wallet?",
+      "value": "¿Puede sacar un billete de un dólar de su billetera?"
+    },
+    {
+      "key": "Are you able to remove wrappings from small objects? For example: Like removing the packaging from a pack of batteries.",
+      "value": "¿Puede quitar los envoltorios de objetos pequeños? Por ejemplo: Quitar el envoltorio de un paquete de pilas."
+    },
+    {
+      "key": "Are you able to reach behind you to get your seatbelt? Hint: A shoulder harness seatbelt.",
+      "value": "¿Puede alcanzar el cinturón de seguridad si está detrás de usted? Indicación: Un cinturón de seguridad de tres puntos, que pasa sobre el hombro."
+    },
+    {
+      "key": "Are you able to staple 2 sheets of paper together?",
+      "value": "¿Puede engrapar dos hojas de papel?"
+    },
+    {
+      "key": "Are you able to tie a knot?",
+      "value": "¿Puede atar un nudo?"
+    },
+    {
+      "key": "Are you able to tighten screws by hand with a screwdriver?",
+      "value": "¿Puede ajustar tornillos a mano usando un destornillador?"
+    },
+    {
+      "key": "Are you able to use your finger to select options on a touch screen? (for example a cellphone or tablet)",
+      "value": "¿Puede usar el dedo para seleccionar opciones en una pantalla táctil? (Por ejemplo, en un teléfono celular o una tableta electrónica)"
+    },
+    {
+      "key": "Are you able to use the trigger on a spray bottle?",
+      "value": "¿Puede usar el rociador de una botella?"
+    },
+    {
+      "key": "Are you able to turn a dial? For example on a stove.",
+      "value": "¿Puede girar una perilla? Por ejemplo, para encender una estufa."
+    },
+    {
+      "key": "Are you able to turn a door knob?",
+      "value": "¿Puede girar el pomo de una puerta?"
+    },
+    {
+      "key": "Are you able to use tweezers?",
+      "value": "¿Puede utilizar pinzas de cejas/tenacillas?"
+    },
+    {
+      "key": "Are you able to use a computer for more than 2 hours?",
+      "value": "¿Puede usar una computadora durante más de 2 horas?"
+    },
+    {
+      "key": "Are you able to type on a computer keyboard?",
+      "value": "¿Puede escribir en el teclado de una computadora?"
+    },
+    {
+      "key": "Are you able to hold an umbrella?",
+      "value": "¿Puede sostener un paraguas?"
+    },
+    {
+      "key": "Are you able to put on a watch or bracelet?",
+      "value": "¿Puede ponerse un reloj o una pulsera?"
+    },
+    {
+      "key": "Are you able to write for 20 minutes?",
+      "value": "¿Puede escribir durante 20 minutos?"
+    },
+    {
+      "key": "In the past 7 days, I felt emotionally exhausted.",
+      "value": "En los últimos 7 días, sentí agotamiento emocional."
+    },
+    {
+      "key": "In the past 7 days, I was afraid of what the future holds for me.",
+      "value": "En los últimos 7 días, tuve miedo de lo que me depara el futuro."
+    },
+    {
+      "key": "In the past 7 days, I felt hopeless about the future.",
+      "value": "En los últimos 7 días, sentí desesperanza por el futuro."
+    },
+    {
+      "key": "In the past 7 days, I felt that nothing could cheer me up.",
+      "value": "En los últimos 7 días, sentí que nada podría alegrarme."
+    },
+    {
+      "key": "In the past 7 days, I felt that I had nothing to look forward to.",
+      "value": "En los últimos 7 días, sentí que mi vida no tenía nada por delante."
+    },
+    {
+      "key": "In the past 7 days, I felt nervous when my normal routine was disturbed.",
+      "value": "En los últimos 7 días, sentí nervios cuando mi rutina normal se vio alterada."
+    },
+    {
+      "key": "In the past 7 days, I was preoccupied with my worries.",
+      "value": "En los últimos 7 días, estuve pendiente de mis preocupaciones."
+    },
+    {
+      "key": "In the past 7 days, I had sudden feelings of panic.",
+      "value": "En los últimos 7 días, tuve sensaciones repentinas de pánico."
+    },
+    {
+      "key": "In the past 7 days, I had trouble enjoying the things I used to enjoy.",
+      "value": "En los últimos 7 días, me resultó difícil disfrutar de las cosas que antes disfrutaba."
+    },
+    {
+      "key": "In the past 7 days, it was hard to adjust to unexpected changes.",
+      "value": "En los últimos 7 días, fue difícil adaptarme a cambios imprevistos/inesperados."
+    },
+    {
+      "key": "In the past 7 days, many situations made me worry.",
+      "value": "En los últimos 7 días, muchas situaciones me hicieron preocupar."
+    },
+    {
+      "key": "Please specify your level of agreement: I am willing to accept help from others.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Estoy dispuesto/a a aceptar la ayuda de otras personas."
+    },
+    {
+      "key": "Please specify your level of agreement: I usually accomplish what I set out to do.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Por lo general, logro lo que me propongo hacer."
+    },
+    {
+      "key": "Please specify your level of agreement: I don't mind when people give me advice.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: No me molesta que me den consejos."
+    },
+    {
+      "key": "Please specify your level of agreement: I look at both sides of an issue.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Cuando hay un desacuerdo, considero los dos puntos de vista."
+    },
+    {
+      "key": "Please specify your level of agreement: I am comfortable making eye contact with others.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: No me incomoda mirar a otra persona a los ojos."
+    },
+    {
+      "key": "Please specify your level of agreement: I always try to get along with others.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Siempre intento llevarme bien con los demás."
+    },
+    {
+      "key": "Please specify your level of agreement: If I make a mistake, I know I can deal with it.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Si cometo un error, sé que puedo resolverlo."
+    },
+    {
+      "key": "Please specify your level of agreement: I am good at making new friends.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Tengo facilidad para formar nuevas amistades."
+    },
+    {
+      "key": "Please specify your level of agreement: I am good at getting to know new people.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Tengo facilidad para llegar a conocer gente nueva."
+    },
+    {
+      "key": "Please specify your level of agreement: I get along well with people outside my family.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Me llevo bien con personas que no pertenecen a mi familia."
+    },
+    {
+      "key": "Please specify your level of agreement: I feel that there are people I can turn to.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Siento que hay personas con las que puedo contar."
+    },
+    {
+      "key": "Please specify your level of agreement: I respect other people's point of view.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Respeto el punto de vista de los demás."
+    },
+    {
+      "key": "Please specify your level of agreement: When I am stressed, I find myself losing control.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Cuando estoy estresado/a, siento que pierdo el control."
+    },
+    {
+      "key": "Please specify your level of agreement: I think people trust me.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Creo que la gente confía en mí."
+    },
+    {
+      "key": "Please specify your level of agreement: I work well in a group.",
+      "value": "Indique qué tan de acuerdo está con la afirmación: Trabajo bien en grupo."
+    },
+    {
+      "key": "In the past 7 days, I tried to get even when I was angry at someone.",
+      "value": "En los últimos 7 días, intenté vengarme de alguien que me hizo enojar."
+    },
+    {
+      "key": "In the past 7 days, I held grudges toward others.",
+      "value": "En los últimos 7 días, sentí rencor hacia otras personas."
+    },
+    {
+      "key": "In the past 7 days, I said or did things that other people probably thought were inappropriate.",
+      "value": "En los últimos 7 días, dije o hice cosas que otras personas quizá hayan considerado inapropiadas."
+    },
+    {
+      "key": "In the past 7 days, I was resentful when I didn't get my way.",
+      "value": "En los últimos 7 días, sentí resentimiento cuando las cosas no salían como yo quería."
+    },
+    {
+      "key": "In the past 7 days, I had trouble controlling my temper.",
+      "value": "En los últimos 7 días, me resultó difícil controlar mi temperamento."
+    },
+    {
+      "key": "In the past 7 days, I threatened violence toward people or property.",
+      "value": "En los últimos 7 días, hice amenazas de actuar con violencia contra personas o bienes."
+    },
+    {
+      "key": "Are you able to carry a full small (carry-on size) suitcase for 30 feet? Hint: A full carry-on suitcase weighs 20 pounds/8 kg.",
+      "value": "¿Puede llevar 9 metros/30 pies una maleta pequeña (de mano) llena? Indicación: Una maleta de mano llena pesa 8 kilogramos/20 libras."
+    },
+    {
+      "key": "Are you able to lift a full small (carry-on size) suitcase from the floor to table height? Hint: A full carry-on suitcase weighs 20 pounds/8 kg.",
+      "value": "¿Puede levantar una maleta pequeña (de mano) llena desde el piso hasta la altura de una mesa? Indicación: Una maleta de mano llena pesa 8 kilogramos/20 libras."
+    },
+    {
+      "key": "Are you able to unload a full grocery cart into a car?",
+      "value": "¿Puede descargar un carrito de compras lleno en el auto?"
+    },
+    {
+      "key": "Are you able to carry a full laundry basket for 30 feet?",
+      "value": "¿Puede llevar 9 metros/30 pies una cesta llena de ropa para lavar?"
+    },
+    {
+      "key": "Are you able to paint walls for 30 minutes without taking a break?",
+      "value": "¿Puede pintar paredes durante 30 minutos sin tomarse un descanso?"
+    },
+    {
+      "key": "Are you able to carry a full kitchen trash bag outside?",
+      "value": "¿Puede sacar una bolsa llena de basura de la cocina?"
+    },
+    {
+      "key": "Are you able to move around in the bathroom, including getting on and off the toilet from your wheelchair?",
+      "value": "¿Puede moverse en el baño, por ejemplo, para pasar de la silla de ruedas al inodoro y viceversa?"
+    },
+    {
+      "key": "Are you able to cross the street at a traffic light in your wheelchair?",
+      "value": "¿Puede cruzar la calle con su silla de ruedas donde haya un semáforo?"
+    },
+    {
+      "key": "Are you able to move your wheelchair up and down curbs? Please base your response on the most difficult part of this activity.",
+      "value": "¿Puede subir y bajar la acera/borde de la calle con la silla de ruedas? Base su respuesta en la parte más difícil de la actividad."
+    },
+    {
+      "key": "Are you able to get into and out of a truck, bus, shuttle van, or sport utility vehicle from your wheelchair?",
+      "value": "¿Puede subir desde su silla de ruedas a un camioneta, camión, autobús, furgoneta o vehículo utilitario deportivo y bajar de esos vehículos a su silla de ruedas?"
+    },
+    {
+      "key": "Are you able to get in and out of a car from your wheelchair? Please consider a sedan sized car when considering your answer.",
+      "value": "¿Puede subir a un vehículo desde su silla de ruedas y bajar de un vehículo a su silla de ruedas? Cuando piense en su respuesta, suponga que el vehículo tiene el tamaño de un auto tipo sedán."
+    },
+    {
+      "key": "Are you able to get in and out of your wheelchair? Please base your response on the most difficult part of this activity.",
+      "value": "¿Puede sentarse en su silla de ruedas y salir de ella? Base su respuesta en la parte más difícil de la actividad."
+    },
+    {
+      "key": "Are you able to move your wheelchair for at least 15 minutes?",
+      "value": "¿Puede moverse con la silla de ruedas durante al menos 15 minutos?"
+    },
+    {
+      "key": "Are you able to move around one floor of your home in your wheelchair without bumping into things?",
+      "value": "¿Puede moverse con la silla de ruedas por un piso de su casa sin chocar contra nada?"
+    },
+    {
+      "key": "I usually use a walking aid (cane, crutches, walker).",
+      "value": "Por lo general, uso asistencia para caminar (bastón, muletas, andador)."
+    },
+    {
+      "key": "I usually use a manual wheelchair or power wheelchair or a scooter to get around.",
+      "value": "Para desplazarme, uso por lo general una silla de ruedas manual, una silla de ruedas eléctrica o un scooter."
+    },
+    {
+      "key": "Strongly agree",
+      "value": "Muy de acuerdo"
+    },
+    {
+      "key": "Agree",
+      "value": "De acuerdo"
+    },
+    {
+      "key": "Disagree",
+      "value": "En desacuerdo"
+    },
+    {
+      "key": "Strongly disagree",
+      "value": "Muy en desacuerdo"
+    },
+    {
+      "key": "Unable to do",
+      "value": "No puedo hacerlo"
+    },
+    {
+      "key": "I don't know",
+      "value": "No sé"
+    },
+    {
+      "key": "Yes, without difficulty",
+      "value": "Sí, sin dificultad"
+    },
+    {
+      "key": "Yes, with a little difficulty",
+      "value": "Sí, con un poco de dificultad"
+    },
+    {
+      "key": "Yes, with some difficulty",
+      "value": "Sí, con alguna dificultad"
+    },
+    {
+      "key": "Yes, with a lot of difficulty",
+      "value": "Sí, con mucha dificultad"
+    },
+    {
+      "key": "All the time",
+      "value": "Todo el tiempo"
+    },
+    {
+      "key": "Sometimes",
+      "value": "A veces"
+    },
+    {
+      "key": "Never",
+      "value": "Nunca"
+    },
+    {
+      "key": "All the time; I never walk",
+      "value": "Todo el tiempo; nunca camino"
+    },
+    {
+      "key": "Rarely",
+      "value": "Casi nunca"
+    },
+    {
+      "key": "Often",
+      "value": "A menudo"
+    },
+    {
+      "key": "Always",
+      "value": "Siempre"
+    },
+    {
+      "key": "20 minutes",
+      "value": "20 minutos"
+    },
+    {
+      "key": "10 minutes",
+      "value": "10 minutos"
+    },
+    {
+      "key": "2 minutes",
+      "value": "2 minutos"
+    },
+    {
+      "key": "More than an hour",
+      "value": "Más de una hora"
+    },
+    {
+      "key": "An hour",
+      "value": "Una hora"
+    },
+    {
+      "key": "30 minutes",
+      "value": "30 minutos"
+    },
+    {
+      "key": "15 minutes",
+      "value": "15 minutos"
+    },
+    {
+      "key": "Faster than those around me",
+      "value": "Más rápido que quienes me rodean"
+    },
+    {
+      "key": "At a normal pace compared to those around me",
+      "value": "A un ritmo normal en comparación con quienes me rodean"
+    },
+    {
+      "key": "At a slower pace compared to those around me",
+      "value": "A un ritmo más lento que quienes me rodean"
+    },
+    {
+      "key": "Up to 2 hours",
+      "value": "Hasta 2 horas"
+    },
+    {
+      "key": "Up to 4 hours",
+      "value": "Hasta 4 horas"
+    },
+    {
+      "key": "Up to 6 hours",
+      "value": "Hasta 6 horas"
+    },
+    {
+      "key": "Up to 8 hours",
+      "value": "Hasta 8 horas"
+    },
+    {
+      "key": "6 hours",
+      "value": "6 horas"
+    },
+    {
+      "key": "4 hours",
+      "value": "4 horas"
+    },
+    {
+      "key": "2 hours",
+      "value": "2 horas"
+    },
+    {
+      "key": "Please login first",
+      "value": "Primero inicie sesión"
+    },
+    {
+      "key": "returning {0} users.",
+      "value": "devolviendo {0} usuarios."
+    },
+    {
+      "key": "oid can not be 0.",
+      "value": "El identificador de objeto no puede ser 0."
+    },
+    {
+      "key": "User name/password must be unique system-wide.",
+      "value": "El nombre de usuario y la contraseña deben ser únicos en todo el sistema."
+    },
+    {
+      "key": "Error updating a person",
+      "value": "Error al actualizar a una persona"
+    },
+    {
+      "key": "Error deleting person",
+      "value": "Error al eliminar persona"
+    },
+    {
+      "key": "Scale",
+      "value": "Escala"
+    },
+    {
+      "key": "Administration Time",
+      "value": "Tiempo de administración"
+    },
+    {
+      "key": "Number of Items",
+      "value": "Cantidad de preguntas"
+    },
+    {
+      "key": "Standard Error",
+      "value": "Error estándar"
+    },
+    {
+      "key": "Normed Score",
+      "value": "Puntuación normalizada"
+    },
+    {
+      "key": "Normed SE",
+      "value": "Error estándar normalizado"
+    },
+    {
+      "key": "N/A",
+      "value": "N/A"
+    },
+    {
+      "key": "Summary.csv",
+      "value": "Summary.csv"
+    },
+    {
+      "key": "Error finding person",
+      "value": "Error al buscar persona"
+    },
+    {
+      "key": "Details.csv",
+      "value": "Details.csv"
+    },
+    {
+      "key": "Login to begin assessment",
+      "value": "Inicie sesión para comenzar con la evaluación"
+    },
+    {
+      "key": "user - {0}",
+      "value": "usuario - {0}"
+    },
+    {
+      "key": "Mental Function Domains:",
+      "value": "Dominios de funciones mentales:"
+    },
+    {
+      "key": "Physical Function Domains:",
+      "value": "Dominios de funciones físicas:"
+    },
+    {
+      "key": "Summary Data",
+      "value": "Datos de resumen"
+    },
+    {
+      "key": "Mean",
+      "value": "Media"
+    },
+    {
+      "key": "Max",
+      "value": "Máx."
+    },
+    {
+      "key": "Min",
+      "value": "Mín."
+    },
+    {
+      "key": "drive",
+      "value": "conducción"
+    },
+    {
+      "key": "other",
+      "value": "otro"
+    },
+    {
+      "key": "public_transportation",
+      "value": "transporte_público"
+    },
+    {
+      "key": "wc",
+      "value": "silla de ruedas"
+    },
+    {
+      "key": "ID",
+      "value": "ID"
+    },
+    {
+      "key": "Domain",
+      "value": "Dominio"
+    },
+    {
+      "key": "Active",
+      "value": "Activa"
+    },
+    {
+      "key": "Started",
+      "value": "Empezada"
+    },
+    {
+      "key": "Finished",
+      "value": "Terminada"
+    },
+    {
+      "key": "Prompt",
+      "value": "Prompt"
+    },
+    {
+      "key": "ItemResponseOID",
+      "value": "ItemResponseOID"
+    },
+    {
+      "key": "Value",
+      "value": "Valor"
+    },
+    {
+      "key": "ItemID",
+      "value": "ItemID"
+    },
+    {
+      "key": "score",
+      "value": "puntuación"
+    },
+    {
+      "key": "error",
+      "value": "error"
+    },
+    {
+      "key": "fit",
+      "value": "fit"
+    },
+    {
+      "key": "Process",
+      "value": "Proceso"
+    },
+    {
+      "key": "Download",
+      "value": "Descargar"
+    },
+    {
+      "key": "prefix",
+      "value": "prefijo"
+    },
+    {
+      "key": "start",
+      "value": "iniciar"
+    },
+    {
+      "key": "end",
+      "value": "final"
+    },
+    {
+      "key": "Error adding person",
+      "value": "Error al agregar persona"
+    },
+    {
+      "key": "creating user {0}",
+      "value": "creando usuario {0}"
+    },
+    {
+      "key": "Basic Mobility",
+      "value": "Movilidad básica"
+    },
+    {
+      "key": "Communication & Cognition",
+      "value": "Comunicación y cognición"
+    },
+    {
+      "key": "Community Mobility",
+      "value": "Movilidad comunitaria"
+    },
+    {
+      "key": "Fine Motor Function",
+      "value": "Motricidad fina"
+    },
+    {
+      "key": "Mood & Emotions",
+      "value": "Estado de ánimo y emociones"
+    },
+    {
+      "key": "Resilience & Sociability",
+      "value": "Resiliencia y sociabilidad"
+    },
+    {
+      "key": "Self-Regulation",
+      "value": "Autorregulación"
+    },
+    {
+      "key": "Upper Body Function",
+      "value": "Función del tren superior"
+    },
+    {
+      "key": "Wheelchair",
+      "value": "Silla de ruedas"
+    },
+    {
+      "key": "Less than 2 hours",
+      "value": "Menos de 2 horas"
+    },
+    {
+      "key": "Please login to the assessment using the Identification Code and Sponsor Code provided by coordinator.",
+      "value": "Para iniciar sesión en la evaluación, use el código de identificación y el código de patrocinador que le dio el coordinador."
+    },
+    {
+      "key": "username",
+      "value": "nombre de usuario"
+    },
+    {
+      "key": "password",
+      "value": "contraseña"
+    },
+    {
+      "key": "Login",
+      "value": "Iniciar sesión"
+    },
+    {
+      "key": "Invalid credentials.",
+      "value": "Credenciales no válidas."
+    },
+    {
+      "key": "Error logging in person",
+      "value": "Error al iniciar sesión de persona"
+    },
+    {
+      "key": "Error logging in.",
+      "value": "Error al iniciar sesión."
+    },
+    {
+      "key": "new User.",
+      "value": "usuario nuevo."
+    },
+    {
+      "key": "returning user starting",
+      "value": "[WAS NOT TRANSLATED IN WDFAB_FINAL_SPA]"
+    },
+    {
+      "key": "returning user not started yet.",
+      "value": "[WAS NOT TRANSLATED IN WDFAB_FINAL_SPA]"
+    },
+    {
+      "key": "You have already finished your scheduled assessment.",
+      "value": "Ya ha terminado la evaluación programada."
+    },
+    {
+      "key": "Error returning your assessment. Please contact the administrator",
+      "value": "Error al devolver su evaluación. Comuníquese con el administrador"
+    },
+    {
+      "key": "Yes",
+      "value": "Sí"
+    },
+    {
+      "key": "No",
+      "value": "No"
+    },
+    {
+      "key": "Submit",
+      "value": "Enviar"
+    },
+    {
+      "key": "Error saving demographics",
+      "value": "Error al guardar los datos demográficos"
+    },
+    {
+      "key": "You will be asked how much you agree with statements about how you function or feel about doing different activities.",
+      "value": "Se le preguntará qué tan de acuerdo está con las afirmaciones sobre cómo funciona o se siente acerca de hacer diferentes actividades."
+    },
+    {
+      "key": "Choose your answer based on your usual ability, <b>by yourself without the help of another person, and with any equipment or devices you normally use.</b>",
+      "value": "Elija la respuesta en función de su habilidad habitual, <b>por su cuenta, sin ayuda de otra persona y con cualquier equipo o dispositivo que suela utilizar.</b>"
+    },
+    {
+      "key": "Do your best to pick the answer that best matches your agreement with the statement. If you are unable to pick a response the matches, choose <b>\"<u>I don't know</u>\".</b>",
+      "value": "Haga todo lo posible por elegir la respuesta que más coincida con su nivel de acuerdo con la afirmación. Si no puede elegir una respuesta que coincida, elija <b>\"<u>No sé</u>\".</b>"
+    },
+    {
+      "key": "You will also be asked about how much difficulty you have doing different things.",
+      "value": "También se le preguntará cuánto le cuesta hacer diferentes cosas."
+    },
+    {
+      "key": "Choose your answer based on your usual ability <b>using any equipment or devices you normally use.</b>",
+      "value": "Elija la respuesta en función de su habilidad habitual <b>con cualquier equipo o dispositivo que suela utilizar.</b>"
+    },
+    {
+      "key": "Choose your answer based on your ability to do the activity <b>by yourself without the help of another person.</b>",
+      "value": "Elija la respuesta en función de su capacidad para hacer la actividad <b>por su cuenta, sin ayuda de otra persona.</b>"
+    },
+    {
+      "key": "For example, if it takes you a very long time or it is hard for you to do something (or an activity), you would choose the answer <b>\"<u>with a lot of difficulty</u>\"</b>. But, if you need help from another person, you would choose <b>\"<u>Unable</u>\"</b>.",
+      "value": "Por ejemplo, si hacer algo (o una actividad) le llevaría mucho tiempo o le resultaría difícil, debería elegir la respuesta <b>\"<u>con mucha dificultad</u>\"</b>. Sin embargo, si necesitaría ayuda de otra persona, debería elegir <b>\"<u>No puedo hacerlo</u>\"</b>."
+    },
+    {
+      "key": "Next",
+      "value": "Continuar"
+    },
+    {
+      "key": "{0} + is logged in",
+      "value": "{0} + ha iniciado sesión"
+    },
+    {
+      "key": "Please select a user first",
+      "value": "Elija primero un usuario"
+    },
+    {
+      "key": "The assessment is complete.",
+      "value": "La evaluación está completa."
+    },
+    {
+      "key": "Thank you!",
+      "value": "¡Gracias!"
+    },
+    {
+      "key": "Loading. Please do not close your browser.",
+      "value": "Cargando. Por favor, no cierre el navegador."
+    },
+    {
+      "key": "If you have not done an activity, do your best to guess what <b>your ability would be if you did it.</b><br/> If you are unable to guess choose <b>\"<u>I don't know</u>\"</b>.",
+      "value": "Si no ha hecho alguna de las actividades, haga todo lo posible por suponer cuál sería<b>su habilidad si la hiciera.</b><br/> Si no puede suponer, elija <b>\"<u>No sé</u>\"</b>."
+    },
+    {
+      "key": "Clear",
+      "value": "Borrar"
+    },
+    {
+      "key": "Refuse",
+      "value": "Rechazar"
+    },
+    {
+      "key": "Add",
+      "value": "Agregar"
+    },
+    {
+      "key": "Void",
+      "value": "Anular"
+    },
+    {
+      "key": "Delete",
+      "value": "Eliminar"
+    },
+    {
+      "key": "Export Data",
+      "value": "Exportar datos"
+    },
+    {
+      "key": "Report",
+      "value": "Informe"
+    },
+    {
+      "key": "Start",
+      "value": "Empezar"
+    },    
+    {
+      "key": "Start Assessment",
+      "value": "Empezar la evaluación"
+    },
+    {
+      "key": "study code",
+      "value": "código del estudio"
+    },
+    {
+      "key": "sponsor code",
+      "value": "código del patrocinador"
+    },
+    {
+      "key": "Assessment",
+      "value": "Evaluación"
+    },
+    {
+      "key": "Summary",
+      "value": "Resumen"
+    },
+    {
+      "key": "Results",
+      "value": "Resultados"
+    },
+    {
+      "key": "Update",
+      "value": "Actualizar"
+    },
+    {
+      "key": "Users -",
+      "value": "Usuarios -"
+    },
+    {
+      "key": "Utility",
+      "value": "Utilidad"
+    },
+    {
+      "key": "Log off",
+      "value": "Cerrar sesión"
+    },
+    {
+      "key": "Error getting all people",
+      "value": "Error al intentar obtener a todas las personas"
+    },
+    {
+      "key": "walking",
+      "value": "caminar"
+    }
+  ]
     }
 ];
 
