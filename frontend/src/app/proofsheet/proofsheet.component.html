@@ -1,0 +1,19 @@
+<div class="container-fluid">
+
+
+<div *ngFor="let _form of forms" >
+<div *ngFor="let _item of _form.Items">  
+
+<h2>
+  <label>{{_item.Prompt}}</label>
+</h2>
+<ul class="maps">
+<li *ngFor="let _map of _item.Maps" class="bg-info">
+ 	<p>{{_map.ResponseOption}}</p>
+</li>
+</ul>
+
+
+</div>
+</div>
+</div>
