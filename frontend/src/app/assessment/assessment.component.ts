@@ -38,7 +38,15 @@ export class AssessmentComponent implements OnInit {
 	Next!:string;
 
 	constructor(@Inject(AppStore) private store: Store<AppState>, private catService: CatService, private router: Router, private mongodbService: MongoDbService, private cdr: ChangeDetectorRef) { }
-
+    
+    onKeydown(event:KeyboardEvent) {
+    if (event.key === "Enter") {
+    	const focusedElement = event.target as HTMLElement;
+    	focusedElement.click();
+        this.onSubmit();
+    }
+  	}
+  	
 	ngOnInit() {
 
 		this.user = this.store.getState().user;

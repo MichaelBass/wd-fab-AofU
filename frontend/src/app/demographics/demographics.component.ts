@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject} from '@angular/core';
+import { Component, OnInit, Inject, ChangeDetectorRef} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, Validators, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MongoDbService } from '../mongo-db.service';
@@ -101,7 +101,14 @@ export class DemographicsComponent implements OnInit {
   Submit!:string;
   Clear!:string;
 
-  constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private catService: CatService, private goEngineService: GoEngineService, private router: Router) {}
+  constructor(@Inject(AppStore) private store: Store<AppState>, private mongodbService: MongoDbService, private catService: CatService, private goEngineService: GoEngineService, private router: Router, private cdr: ChangeDetectorRef) {}
+
+  onKeydown(event:KeyboardEvent) {
+    if (event.key === "Enter") {
+      const focusedElement = event.target as HTMLElement;
+      focusedElement.click();
+    }
+  }
 
   ngOnInit() {
 
@@ -250,7 +257,9 @@ export class DemographicsComponent implements OnInit {
   }
 
   onClear() {
-  
+
+    this.form.reset();
+
     this.demo = {
       gender: -1,
       race: -1,
@@ -272,6 +281,7 @@ export class DemographicsComponent implements OnInit {
     this.race_selected_128 = false;
     this.race_selected_256 = false;
 
+    this.cdr.detectChanges();
   }
 
   onSubmit() {

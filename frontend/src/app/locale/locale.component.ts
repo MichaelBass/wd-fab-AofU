@@ -23,6 +23,13 @@ export class LocaleComponent implements OnInit {
 
   constructor(@Inject(AppStore) private store: Store<AppState>, private route: ActivatedRoute, private mongodbService: MongoDbService, private goEngineService: GoEngineService, private router: Router, private app: AppComponent) { }
 
+  onKeydown(event:KeyboardEvent) {
+    if (event.key === "Enter") {
+      const focusedElement = event.target as HTMLElement;
+      focusedElement.click();
+    }
+  }
+  
   ngOnInit() {
     this.route.params.subscribe(params => {
         this.user_type = params['user_type'];

@@ -33,30 +33,30 @@
 -->
 <div class="section">
 	<p class="bg-info"><label class="label-default2">{{mobility_question}}</label></p>
-	<div class="answerset" ngbRadioGroup >
+	<div [tabIndex]="1" class="btn-group btn-group-toggle" ngbRadioGroup role="radiogroup">
     <label ngbButtonLabel class="choices">
-    	<input ngbButton type="radio" [value]="1" formControlName="demo_walking" required> {{All_the_time}}
+    	<input ngbButton type="radio" [value]="1" name="demo_walking" formControlName="demo_walking" required> {{All_the_time}}
     </label>
     <label ngbButtonLabel class="choices">
-    	<input ngbButton type="radio" [value]="0" formControlName="demo_walking" required> {{Sometimes}}
+    	<input ngbButton type="radio" [value]="0" name="demo_walking" formControlName="demo_walking" required> {{Sometimes}}
     </label>
     <label ngbButtonLabel class="choices">
-    	<input ngbButton type="radio" [value]="2" formControlName="demo_walking" required> {{Never}}
+    	<input ngbButton type="radio" [value]="2" name="demo_walking" formControlName="demo_walking" required> {{Never}}
     </label>
     </div>
 </div>
 
 <div class="section">
 	<p class="bg-info"><label class="label-default2">{{wheelchair_question}}</label></p>
-	<div class="answerset" ngbRadioGroup >
+    <div [tabIndex]="2" class="btn-group btn-group-toggle" ngbRadioGroup role="radiogroup">
     <label ngbButtonLabel class="choices">
-    	<input ngbButton type="radio" [value]="1" formControlName="demo_wc" required> {{I_never_walk}}
+    	<input ngbButton type="radio" [value]="1" name="demo_wc" formControlName="demo_wc" required> {{I_never_walk}}
     </label>
     <label ngbButtonLabel class="choices">
-    	<input ngbButton type="radio" [value]="0" formControlName="demo_wc" required> {{Sometimes}}
+    	<input ngbButton type="radio" [value]="0" name="demo_wc" formControlName="demo_wc" required> {{Sometimes}}
     </label>
     <label ngbButtonLabel class="choices">
-    	<input ngbButton type="radio" [value]="2" formControlName="demo_wc" required> {{Never}}
+    	<input ngbButton type="radio" [value]="2" name="demo_wc" formControlName="demo_wc" required> {{Never}}
     </label>
 	</div>
 </div>
@@ -112,31 +112,31 @@
 -->
 <div class="section">
     <p class="bg-info"><label class="label-default2">{{Drive_question}}</label></p>
-    <div class="answerset" ngbRadioGroup >
+    <div [tabIndex]="3" class="btn-group btn-group-toggle" ngbRadioGroup role="radiogroup">
     <label ngbButtonLabel class="choices">
-        <input ngbButton type="radio" [value]="1" formControlName="demo_drive" required> {{Yes}}
+        <input ngbButton type="radio" [value]="1" name="demo_drive" formControlName="demo_drive" required> {{Yes}}
     </label>
     <label ngbButtonLabel class="choices">
-        <input ngbButton type="radio" [value]="0" formControlName="demo_drive" required> {{No}}
+        <input ngbButton type="radio" [value]="0" name="demo_drive" formControlName="demo_drive" required> {{No}}
     </label>
     </div>
 </div>
 
 <div class="section">
     <p class="bg-info"><label class="label-default2">{{Public_Transport_question}}</label></p>
-    <div class="answerset" ngbRadioGroup >
+    <div [tabIndex]="4" class="btn-group btn-group-toggle" ngbRadioGroup role="radiogroup">
     <label ngbButtonLabel class="choices">
-        <input ngbButton type="radio" [value]="1" formControlName="demo_public_transportation" required> {{Yes}}
+        <input ngbButton type="radio" [value]="1" name="demo_public_transportation" formControlName="demo_public_transportation" required> {{Yes}}
     </label>
     <label ngbButtonLabel class="choices">
-        <input ngbButton type="radio" [value]="0" formControlName="demo_public_transportation" required> {{No}}
+        <input ngbButton type="radio" [value]="0" name="demo_public_transportation" formControlName="demo_public_transportation" required> {{No}}
     </label>
     </div>
 </div>
 
 <div class="section">
-<button type="submit" [disabled]="form.invalid" class="btn btn-primary btn-lg btn-block" >{{Submit}}</button>
-<label (click)="onClear()" class="btn btn-primary btn-lg btn-block"> {{Clear}}</label>
+<button [tabIndex]="5" type="submit" [disabled]="form.invalid" class="btn btn-primary btn-lg btn-block" >{{Submit}}</button>
+<label [tabIndex]="6" (click)="onClear()" (keydown)="onKeydown($event)" class="btn btn-primary btn-lg btn-block"> {{Clear}}</label>
 </div> 
 
  <label *ngIf="message" class="text-danger"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> {{message}}</label> 
