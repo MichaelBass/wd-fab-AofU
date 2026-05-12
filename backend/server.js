@@ -27572,6 +27572,15 @@ app.post('/form', async (req, res, next) => {
     return res.status(201).json(insertedform);
 });
 
+app.get('/form', async (req, res) => {
+  try {
+    const forms = await Form.find({});
+    res.status(200).json(forms);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 app.post('/locales', async (req, res, next) => {
 
     let locale = new Locale({

@@ -4,10 +4,13 @@
   <label>{{item.Prompt}}</label>
 </h2>
 <ul class="maps">
-<li *ngFor="let map of item.Maps"
+<li *ngFor="let map of item.Maps;  let i = index"
+  [tabIndex]="i"
   [class.selected]="map === selectedMap"
-  (click)="onSelect(map)" class="bg-info">
- 	<p [ngStyle]= "{'color': clear ? '#D9EDF7' : 'black'}" >{{map.ResponseOption}}</p>
+  (click)="onSelect(map)" 
+  (keydown)="onKeydown($event)" 
+  class="bg-info">
+  <p [ngStyle]= "{'color': clear ? '#D9EDF7' : 'black'}" >{{map.ResponseOption}}</p>
 </li>
 </ul>
 <p>

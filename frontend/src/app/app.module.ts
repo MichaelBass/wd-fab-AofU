@@ -27,6 +27,8 @@ import { QualtricsComponent } from './qualtrics/qualtrics.component';
 
 import { FormsComponent } from './forms/forms.component';
 
+import { ProofsheetComponent } from './proofsheet/proofsheet.component';
+
 @NgModule({
   declarations: [],
   imports: [
@@ -48,7 +50,8 @@ import { FormsComponent } from './forms/forms.component';
     ReactiveFormsModule,
     HttpClientModule,
     NgChartsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProofsheetComponent    
     
   ],
   providers: [CatService,IRTService,MongoDbService,GoEngineService, appStoreProviders, { provide: 'Window',  useValue: window }],
