@@ -697,6 +697,32 @@ export class CatService {
 		// return this.calculateGRM(responseProperties, forms[0].Domain, ItemID);
   	}
 
+  checkGoSession(): Observable<string> {
+
+				let user = this.store.getState().user;
+				let assessment = this.setAssessments(user);
+
+				if(this.goEngineService.getSession_key() === undefined){
+						const _drive = (user.demo?.drive == 1 ) ? true: false; 
+			      const _trans =(user.demo?.public_transportation == 1) ? true: false; 
+		        const _wheelchair = (user.demo?.wc == 2) ? false: true; 
+		        const goDemo = JSON.parse( "{\"car\":" +  _drive + ",\"item_selector\":\"stochastic\",\"mental\":true,\"physical\":true,\"respondent_id\": \"string\",\"sex\":" + "0" + ",\"transit\":" + _trans + ",\"wheelchair\":" +  _wheelchair + ",\"lang\":0}");
+
+           return this.goEngineService.createSession(goDemo).pipe(map(
+              data => { 
+
+								if(this.goEngineService.getScale_key() === undefined){
+										this.goEngineService.setAssessment(assessment[0]?.ID);
+								}
+
+                this.goEngineService.setSession_key(data.session_id);
+                return this.goEngineService.getSession_key();
+              }
+           ));
+				} else {
+					return of(this.goEngineService.getSession_key());
+				}
+  }
 
 	getNextItemGo(): Observable<Item|null> {
 

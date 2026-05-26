@@ -57,7 +57,20 @@ export class AssessmentComponent implements OnInit {
 		}
 
    		this.Next = this.mongodbService.getLocaleValue("Next");
-		this.getItem();
+
+   		if(environment.useGo){
+		
+			let goSession = this.catService.checkGoSession().subscribe(
+				data =>{ 
+					this.getItem();	
+				}
+			);
+
+		} else {
+			this.getItem();	
+		}
+
+		
 	
 	}
 
