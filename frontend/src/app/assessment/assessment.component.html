@@ -5,7 +5,7 @@
 </h2>
 <ul class="maps">
 <li *ngFor="let map of item.Maps;  let i = index"
-  [tabIndex]="i"
+  [tabIndex]="(i+1)"
   [class.selected]="map === selectedMap"
   (click)="onSelect(map)" 
   (keydown)="onKeydown($event)" 
