@@ -27,5 +27,11 @@ func Test_instrument_load(t *testing.T) {
 	conf := conf.GetConfig()
 
 	instrument := wdfab.Load(conf)
-	fmt.Printf("instrument: %v\n", instrument)
+	fmt.Printf("instrument.Bcm: %v\n", instrument.Bcm)
+
+}
+
+func Test_bcm_load(t *testing.T) {
+	// conf := conf.GetConfig()
+
 }

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC035",
+  "question": "Are you able to speak clearly?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.4792219967805496,
+        -1.6697870488731519,
+        -0.7972574942596606,
+        0.01832786802908661
+      ],
+      "discrimination": 1.8861928172765967
+    }
+  },
+  "version": 4.0
+}

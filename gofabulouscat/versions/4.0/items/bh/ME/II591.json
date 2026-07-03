@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II591",
+  "question": "In the past 7 days, I felt something awful would happen.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -0.7515084695061873,
+        -0.04306391665478731,
+        0.8094026600007209,
+        1.4869255381405746
+      ],
+      "discrimination": 2.6744992782776915
+    }
+  },
+  "version": 4.0
+}

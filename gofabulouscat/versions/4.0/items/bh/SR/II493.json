@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II493",
+  "question": "Please specify your level of agreement: I can't stop myself from doing the same thing over and over.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -3.771862341167468,
+        -1.8226374782913501,
+        0.8002226884970134,
+        5.525076576483284
+      ],
+      "discrimination": 0.8561476335880157
+    }
+  },
+  "version": 4.0
+}

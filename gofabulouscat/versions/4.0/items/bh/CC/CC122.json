@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC122",
+  "question": "Please specify your level of agreement: I am able to correct my mistakes when they happen.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.5904742720218032,
+        -1.8603497321544824,
+        -0.879288484736693,
+        1.0977222824533692
+      ],
+      "discrimination": 2.0296255164782506
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC053",
+  "question": "Are you able to use a computer to get in touch with someone?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.7356165176422782,
+        -1.1460377649641782,
+        -0.6435206272922556,
+        -0.11984700286191298
+      ],
+      "discrimination": 1.769805231223019
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC001",
+  "question": "Please specify your level of agreement: I can keep up a conversation.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.684366071009425,
+        -1.8337763644082616,
+        -1.0438458352055746,
+        0.8773399321649648
+      ],
+      "discrimination": 1.5855212847228533
+    }
+  },
+  "version": 4.0
+}

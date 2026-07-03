@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR002",
+  "question": "Are you able to get in and out of the bathtub?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.4150137733027943,
+        -0.8758831822677875,
+        -0.3506936404207477,
+        0.20209703177354985
+      ],
+      "discrimination": 3.012242311417934
+    }
+  },
+  "version": 4.0
+}

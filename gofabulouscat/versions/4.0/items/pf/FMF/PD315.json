@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD315",
+  "question": "Are you able to pick out one key from group of keys?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.6046341441773657,
+        -0.28488163180197684,
+        0.032495947836926886,
+        0.3559851181839767
+      ],
+      "discrimination": 4.726450727073736
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II526",
+  "question": "Please specify your level of agreement: I look at both sides of an issue.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.5169870196536985,
+        -0.300581169995854,
+        1.2468295840595505,
+        3.575015436202791
+      ],
+      "discrimination": 2.418527243737222
+    }
+  },
+  "version": 4.0
+}

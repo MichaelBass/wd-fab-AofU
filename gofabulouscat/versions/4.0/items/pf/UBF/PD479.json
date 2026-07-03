@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD479",
+  "question": "Are you able to work overhead for 20 minutes (e.g. organizing a high shelf in a closet)?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -1.0444706528714023,
+        -0.2504159122553622,
+        0.31506150112412,
+        0.9527410735341288
+      ],
+      "discrimination": 2.07063620547395
+    }
+  },
+  "version": 4.0
+}

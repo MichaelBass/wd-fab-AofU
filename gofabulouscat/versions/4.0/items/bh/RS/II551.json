@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II551",
+  "question": "Please specify your level of agreement: I am willing to accept help from others.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.7428556177402075,
+        -0.3457957767697553,
+        1.3639291651815437,
+        3.7422941944957384
+      ],
+      "discrimination": 2.364510941205299
+    }
+  },
+  "version": 4.0
+}

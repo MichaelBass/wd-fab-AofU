@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC049",
+  "question": "Are you able to remember the name of people you know when you see them?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.3130449850910426,
+        -1.0781175359596415,
+        -0.13623783199719772,
+        0.7971594433776643
+      ],
+      "discrimination": 1.6063025642864863
+    }
+  },
+  "version": 4.0
+}

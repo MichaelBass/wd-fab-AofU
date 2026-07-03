@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II208",
+  "question": "Please specify your level of agreement: I sometimes get physical when I'm angry.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -4.398830487754634,
+        -2.276933986633877,
+        0.056739274704526846,
+        6.86145828730641
+      ],
+      "discrimination": 0.7717043092576666
+    }
+  },
+  "version": 4.0
+}

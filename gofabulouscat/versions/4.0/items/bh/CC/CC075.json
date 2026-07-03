@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC075",
+  "question": "Please specify your level of agreement: I am able to add and subtract numbers in my head.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.491575649127428,
+        -1.7144583383619139,
+        -0.7208082778584547,
+        1.069052895012913
+      ],
+      "discrimination": 1.5304334639007202
+    }
+  },
+  "version": 4.0
+}

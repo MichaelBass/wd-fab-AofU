@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC106",
+  "question": "Please specify your level of agreement: I often have trouble keeping track of time.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.1502563460388269,
+        0.04485929359456128,
+        1.597388635239608,
+        5.830870199481725
+      ],
+      "discrimination": 1.580276583420784
+    }
+  },
+  "version": 4.0
+}

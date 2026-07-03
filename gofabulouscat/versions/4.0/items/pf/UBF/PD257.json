@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD257",
+  "question": "Are you able to pull open a heavy door?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -0.9808478227711573,
+        -0.33555090835881335,
+        0.25343287568102824,
+        0.8688088562149936
+      ],
+      "discrimination": 3.391888905826016
+    }
+  },
+  "version": 4.0
+}

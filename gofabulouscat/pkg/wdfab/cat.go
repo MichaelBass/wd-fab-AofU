@@ -20,7 +20,6 @@ type SessionState struct {
 	SessionId  string                            `json:"session_id"`
 	Respondent Respondent                        `json:"respondent"`
 	Energies   map[string](map[string][]float64) `json:"energies"`
-	EmEnergies map[string](map[string][]float64) `json:"em_energies"`
 	Excluded   []string                          `json:"excluded"`
 	Responses  map[string]int                    `json:"responses"`
 	Start      time.Time                         `json:"start_time"`

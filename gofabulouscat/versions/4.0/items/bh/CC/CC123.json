@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC123",
+  "question": "Please specify your level of agreement: I am able to solve problems on my own.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.3577569536421117,
+        -1.6480177007041443,
+        -0.6514187034339173,
+        1.0850363197003234
+      ],
+      "discrimination": 2.1971099658028366
+    }
+  },
+  "version": 4.0
+}

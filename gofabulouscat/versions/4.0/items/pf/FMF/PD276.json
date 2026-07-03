@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD276",
+  "question": "Are you able to use a hammer to pound a nail?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.7091725156706078,
+        -0.2588054667100475,
+        0.15673071444002948,
+        0.5662703427441392
+      ],
+      "discrimination": 3.5876691844609794
+    }
+  },
+  "version": 4.0
+}

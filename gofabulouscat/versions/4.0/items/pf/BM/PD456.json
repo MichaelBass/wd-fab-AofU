@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD456",
+  "question": "Are you able to remain on your feet for at least 20 minutes?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.8177347998732127,
+        -0.3646987940508666,
+        0.13344770916705748,
+        0.5430651159001181
+      ],
+      "discrimination": 3.2573459317456117
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD457",
+  "question": "Are you able to remain on your feet for 2 hours with short breaks?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.986805214291685,
+        -0.4952165182543829,
+        0.08606300817722579,
+        0.49982554411296465
+      ],
+      "discrimination": 2.760215158781703
+    }
+  },
+  "version": 4.0
+}

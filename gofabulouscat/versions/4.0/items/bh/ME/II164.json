@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II164",
+  "question": "Please specify your level of agreement: I have a lot of energy.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -2.5212137107842048,
+        -0.5765601094478386,
+        1.181613829791235,
+        2.8318344434723732
+      ],
+      "discrimination": 1.2042252472479762
+    }
+  },
+  "version": 4.0
+}

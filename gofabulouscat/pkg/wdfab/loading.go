@@ -60,12 +60,16 @@ import (
 	"io"
 	"io/fs"
 	"log"
+	"path"
 	"strings"
 
 	conf "github.com/CC-RMD-EpiBio/gofabulouscat/config"
 	versions "github.com/CC-RMD-EpiBio/gofabulouscat/versions"
+	"github.com/CC-RMD-EpiBio/gofluttercat/backend-golang/pkg/biascorrection"
 	irtcat "github.com/CC-RMD-EpiBio/gofluttercat/backend-golang/pkg/irtcat"
 )
+
+type BcmStore map[string]*biascorrection.BCMConditional
 
 func check(err error) {
 	if err != nil {
@@ -83,11 +87,15 @@ func LoadScales(conf *conf.Config) map[string](map[string]irtcat.Scale) {
 	pf_scales := make(map[string]irtcat.Scale, 0)
 	bh_scales := make(map[string]irtcat.Scale, 0)
 	for name, scale := range scales {
+		// irtcat keys each item's ScaleLoadings by the scale code (the JSON
+		// object key here, e.g. "CC"), and NewGRM/Prob look those loadings up
+		// by Scale.Name. So Name must be the code, not the human-readable
+		// scale.Name from scales.json, or no item is calibrated for the scale.
 		if scale.Domain == "pf" {
 			pf_scales[name] = irtcat.Scale{
 				Loc:     scale.Loc,
 				Scale:   scale.Scale,
-				Name:    scale.Name,
+				Name:    name,
 				Tags:    scale.Tags,
 				Version: scale.Version,
 				Diff:    scale.Diff,
@@ -97,7 +105,7 @@ func LoadScales(conf *conf.Config) map[string](map[string]irtcat.Scale) {
 		bh_scales[name] = irtcat.Scale{
 			Loc:     scale.Loc,
 			Scale:   scale.Scale,
-			Name:    scale.Name,
+			Name:    name,
 			Tags:    scale.Tags,
 			Version: scale.Version,
 			Diff:    scale.Diff,
@@ -185,14 +193,48 @@ func LoadItems(conf *conf.Config) map[string](map[string][]*irtcat.Item) {
 	return items
 }
 
+// LoadBCMs parses and validates 4.0/bcm/<SCALE>/bcm_<SCALE>_conditional.json
+// for every scale in the embedded tree.
+func LoadBCMs(conf *conf.Config) (BcmStore, error) {
+	matches, err := fs.Glob(versions.FactorizedWdFab, conf.Cat.InstrumentVersion+"/bcm/*/bcm_*_conditional.json")
+	if err != nil {
+		return nil, err
+	}
+	store := make(BcmStore, len(matches))
+	for _, p := range matches {
+		raw, err := versions.FactorizedWdFab.ReadFile(p)
+		if err != nil {
+			return nil, fmt.Errorf("read %s: %w", p, err)
+		}
+		b := &biascorrection.BCMConditional{}
+		if err := json.Unmarshal(raw, b); err != nil {
+			return nil, fmt.Errorf("parse %s: %w", p, err)
+		}
+		if err := b.Validate(); err != nil { // n_features == 1 + len(item_keys)
+			return nil, fmt.Errorf("validate %s: %w", p, err)
+		}
+		scale := path.Base(path.Dir(p)) // parent dir name is the scale
+		if b.ScaleName != "" && b.ScaleName != scale {
+			return nil, fmt.Errorf("%s: scale_name %q != dir %q", p, b.ScaleName, scale)
+		}
+		store[scale] = b
+	}
+	if len(store) == 0 {
+		return nil, fmt.Errorf("no conditional BCMs under %s/bcm/", conf.Cat.InstrumentVersion)
+	}
+	return store, nil
+}
+
 func Load(conf *conf.Config) WdFabIrtModels {
 	items := LoadItems(conf)
 	scales := LoadScales(conf)
 	domains := LoadDomains(conf)
+	bcm, _ := LoadBCMs(conf)
 
 	instrument := WdFabIrtModels{
 		DomainInfo: domains,
 		ScaleInfo:  scales,
+		Bcm:        bcm,
 	}
 
 	instrument.Physical = make(map[string]*irtcat.GradedResponseModel, 0)
@@ -271,11 +313,7 @@ func normalize(s string) string {
 // Translate performs fuzzy case-insensitive lookup
 func (tm *TranslationMap) Translate(english string) (string, bool) {
 	// Try exact match first (case-insensitive)
-	fmt.Printf("english: %v\n", english)
 	normalized := normalize(english)
-	fmt.Printf("normalized: %v\n", normalized)
-	fmt.Printf("tm: %v\n", tm)
-	fmt.Printf("tm.exact: %v\n", tm.exact)
 	if translation, ok := tm.exact[normalized]; ok {
 		return translation, true
 	}

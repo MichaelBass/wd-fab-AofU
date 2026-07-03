@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD522",
+  "question": "How long are you able to use a computer mouse?",
+  "responses": {
+    "1": {
+      "text": "6 hours",
+      "value": 5
+    },
+    "2": {
+      "text": "4 hours",
+      "value": 4
+    },
+    "3": {
+      "text": "2 hours",
+      "value": 3
+    },
+    "4": {
+      "text": "Less than 2 hours",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -1.314363624707169,
+        -0.8590346353701092,
+        -0.4043895085321218,
+        0.707924237821248
+      ],
+      "discrimination": 2.523265245752608
+    }
+  },
+  "version": 4.0
+}

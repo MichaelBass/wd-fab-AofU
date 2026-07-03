@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC080",
+  "question": "Please specify your level of agreement: I am able to do many things at once.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.2820875907261158,
+        -1.0229405550414528,
+        0.20914420995563315,
+        1.842165971199831
+      ],
+      "discrimination": 1.4671223614451445
+    }
+  },
+  "version": 4.0
+}

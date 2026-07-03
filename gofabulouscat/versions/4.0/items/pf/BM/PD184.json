@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD184",
+  "question": "Are you able to go up three flights of stairs using a handrail? Hint: A flight of stairs is 12-15 steps.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.217516799285201,
+        -0.6104152478032374,
+        -0.17311662805849393,
+        0.32999840623584
+      ],
+      "discrimination": 3.2107666416948115
+    }
+  },
+  "version": 4.0
+}

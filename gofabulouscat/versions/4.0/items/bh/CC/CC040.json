@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC040",
+  "question": "Are you able to organize what you want to say?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.5956426332431817,
+        -0.8399263411015715,
+        -0.17349035094504958,
+        0.5733816207773311
+      ],
+      "discrimination": 2.8798237687611494
+    }
+  },
+  "version": 4.0
+}

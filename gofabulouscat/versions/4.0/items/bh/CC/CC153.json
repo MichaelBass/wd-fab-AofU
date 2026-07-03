@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC153",
+  "question": "Are you able to talk to people over the phone?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.6207910827262335,
+        -1.5712818080577537,
+        -0.7509054005576911,
+        -0.06644160000222088
+      ],
+      "discrimination": 2.1757988494747127
+    }
+  },
+  "version": 4.0
+}

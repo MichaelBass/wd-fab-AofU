@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC136",
+  "question": "Please specify your level of agreement: I know what to do in case of an emergency.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -3.9275977204048447,
+        -3.189422841636262,
+        -2.20782800239466,
+        0.6171932910390411
+      ],
+      "discrimination": 1.2576041111323992
+    }
+  },
+  "version": 4.0
+}

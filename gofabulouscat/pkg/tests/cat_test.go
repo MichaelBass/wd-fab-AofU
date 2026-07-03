@@ -20,10 +20,10 @@ func Test_grm(t *testing.T) {
 	}
 	scorers := make(map[string]*irtcat.BayesianScorer, 0)
 	for label, m := range instrument.Mental {
-		scorers[label] = irtcat.NewBayesianScorer(ndvek.Linspace(-10, 10, 400), irtcat.DefaultAbilityPrior, *m)
+		scorers[label] = irtcat.NewBayesianScorer(ndvek.Linspace(-10, 10, 400), irtcat.DefaultAbilityPrior, *m, nil)
 		energies["bh"][label] = scorers[label].Running.Energy
 	}
-	kselector := irtcat.NewEntropySelector(1.)
+	kselector := irtcat.NewEntropySelector(1., 8)
 	item := kselector.NextItem(scorers["CC"])
 	fmt.Printf("item: %v\n", item)
 }
@@ -37,7 +37,7 @@ func Test_exclusions(t *testing.T) {
 	}
 	scorers := make(map[string]*irtcat.BayesianScorer, 0)
 	for label, m := range instrument.Mental {
-		scorers[label] = irtcat.NewBayesianScorer(ndvek.Linspace(-10, 10, 400), irtcat.DefaultAbilityPrior, *m)
+		scorers[label] = irtcat.NewBayesianScorer(ndvek.Linspace(-10, 10, 400), irtcat.DefaultAbilityPrior, *m, nil)
 		energies["bh"][label] = scorers[label].Running.Energy
 	}
 	respondent := wdfab.Respondent{

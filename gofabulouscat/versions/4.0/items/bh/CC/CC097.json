@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC097",
+  "question": "Please specify your level of agreement: I am able to make important decisions in my life.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.509052479266299,
+        -1.6676671090437147,
+        -0.8255255375745096,
+        0.8571881089354304
+      ],
+      "discrimination": 1.950119828735456
+    }
+  },
+  "version": 4.0
+}

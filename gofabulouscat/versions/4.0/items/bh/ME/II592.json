@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II592",
+  "question": "In the past 7 days, I felt nervous when my normal routine was disturbed.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -0.993396423467796,
+        -0.4592597745366725,
+        0.309713592545868,
+        1.0205264634797835
+      ],
+      "discrimination": 2.6306552147551567
+    }
+  },
+  "version": 4.0
+}

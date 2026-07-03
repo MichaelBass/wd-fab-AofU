@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II467",
+  "question": "Please specify your level of agreement: I think people trust me.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.5952186275860492,
+        -0.27716996236635777,
+        1.238621116299631,
+        3.3401924916197783
+      ],
+      "discrimination": 2.473780484450172
+    }
+  },
+  "version": 4.0
+}

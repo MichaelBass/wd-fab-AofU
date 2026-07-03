@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC072",
+  "question": "Are you able figure out the correct price for something that is on sale? For example 25% off.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.8168122992358777,
+        -1.070191001491814,
+        -0.40497926409404245,
+        0.37770881236646897
+      ],
+      "discrimination": 1.8772597951073215
+    }
+  },
+  "version": 4.0
+}

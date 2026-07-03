@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC026",
+  "question": "Are you able to understand body language and facial expressions when talking to people?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.4679659525894584,
+        -1.5760128610638198,
+        -0.6386862851436721,
+        0.20969665767351967
+      ],
+      "discrimination": 1.74445011830527
+    }
+  },
+  "version": 4.0
+}

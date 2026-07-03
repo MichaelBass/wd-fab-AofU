@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD178",
+  "question": "Are you able to move around on your hands and knees in a crawling position?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.046965254004544,
+        -0.43520818746524553,
+        -0.027984468131981993,
+        0.3915171789542925
+      ],
+      "discrimination": 2.8750621751913723
+    }
+  },
+  "version": 4.0
+}

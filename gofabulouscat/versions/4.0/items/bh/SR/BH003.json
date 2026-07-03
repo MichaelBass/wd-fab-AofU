@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH003",
+  "question": "Please specify your level of agreement: Sometimes I do things to hurt myself.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.180321437245492,
+        -1.0943717810721865,
+        0.3142096299305059,
+        5.511830167180324
+      ],
+      "discrimination": 1.6647623867964885
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II999",
+  "question": "Please specify your level of agreement: I believe that things end up alright most of the time.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.928559899478619,
+        -0.24419421952847375,
+        1.7280143477842949,
+        3.6679602112008847
+      ],
+      "discrimination": 1.9384253599094021
+    }
+  },
+  "version": 4.0
+}

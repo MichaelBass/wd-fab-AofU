@@ -1,0 +1,50 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    },
+    "required": {
+      "gender": "F"
+    }
+  },
+  "domain": "pf",
+  "item": "PD460_2",
+  "question": "Are you able to walk for at least 30 minutes?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        0.11153435800000001,
+        0.31286020800000003,
+        0.68243791,
+        0.822807402
+      ],
+      "discrimination": 1.297227503
+    }
+  }
+}

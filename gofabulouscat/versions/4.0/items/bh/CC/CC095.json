@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC095",
+  "question": "Are you able to do your regular chores?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.9264893121901632,
+        -0.8927635573012588,
+        -0.1496887569792483,
+        0.4293540584317232
+      ],
+      "discrimination": 1.7946641887007955
+    }
+  },
+  "version": 4.0
+}

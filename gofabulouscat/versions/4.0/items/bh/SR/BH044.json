@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH044",
+  "question": "Please specify your level of agreement: I often have difficulty dealing with people.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -1.7466314911256824,
+        -0.18800505083722063,
+        1.840443620487962,
+        6.242635728530043
+      ],
+      "discrimination": 1.3232013731690655
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC027",
+  "question": "Please specify your level of agreement: I can understand simple instructions.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.844441788707989,
+        -2.194988182566655,
+        -1.5709003609322307,
+        0.40514113244325933
+      ],
+      "discrimination": 1.8306421570780873
+    }
+  },
+  "version": 4.0
+}

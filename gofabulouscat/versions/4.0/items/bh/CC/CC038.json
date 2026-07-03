@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC038",
+  "question": "Please specify your level of agreement: I am uncomfortable talking in a group.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.0135044531660848,
+        0.7762352618366705,
+        2.6630915659967114,
+        7.82493916800874
+      ],
+      "discrimination": 0.8485505595442113
+    }
+  },
+  "version": 4.0
+}

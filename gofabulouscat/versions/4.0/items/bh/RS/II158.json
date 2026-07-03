@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II158",
+  "question": "Please specify your level of agreement: I feel that there are people I can turn to.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.6241361746856318,
+        -0.2501346821435281,
+        1.5292152355299755,
+        3.958610839033548
+      ],
+      "discrimination": 1.8124176698275793
+    }
+  },
+  "version": 4.0
+}

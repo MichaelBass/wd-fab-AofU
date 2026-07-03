@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC103",
+  "question": "Please specify your level of agreement: I have trouble remembering important events. For example birthdays.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.161507780289442,
+        0.10275244087352443,
+        1.5751441670266084,
+        5.918514439657854
+      ],
+      "discrimination": 1.5141298240336138
+    }
+  },
+  "version": 4.0
+}

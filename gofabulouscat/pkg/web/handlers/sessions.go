@@ -3,6 +3,7 @@ package handlers
 import (
 	"context"
 	"log"
+	"math"
 	"net/url"
 	"time"
 
@@ -66,11 +67,6 @@ func (sh *SessionHandler) NewSessionHandlerIo(ctx context.Context, input NewSess
 		"bh": make(map[string][]float64, 0),
 	}
 
-	emenergies := map[string](map[string][]float64){
-		"pf": make(map[string][]float64, 0),
-		"bh": make(map[string][]float64, 0),
-	}
-
 	// initiate mental models
 	if input.Mental {
 		scorers := make(map[string]*irtcat.BayesianScorer, 0)
@@ -78,9 +74,13 @@ func (sh *SessionHandler) NewSessionHandlerIo(ctx context.Context, input NewSess
 			if m.Scale.IsUnscored() {
 				continue
 			}
-			scorers[label] = irtcat.NewBayesianScorer(ndvek.Linspace(-10, 10, 400), irtcat.DefaultAbilityPrior, *m)
+			scorers[label] = irtcat.NewBayesianScorer(
+				ndvek.Linspace(-10, 10, 400),
+				irtcat.DefaultAbilityPrior,
+				*m,
+				sh.models.Bcm[label],
+			)
 			energies["bh"][label] = scorers[label].Running.Energy
-			emenergies["bh"][label] = scorers[label].Running.RbEnergy
 
 		}
 
@@ -93,9 +93,13 @@ func (sh *SessionHandler) NewSessionHandlerIo(ctx context.Context, input NewSess
 			if m.Scale.IsUnscored() {
 				continue
 			}
-			scorers[label] = irtcat.NewBayesianScorer(ndvek.Linspace(-10, 10, 400), irtcat.DefaultAbilityPrior, *m)
+			scorers[label] = irtcat.NewBayesianScorer(
+				ndvek.Linspace(-10, 10, 400),
+				irtcat.DefaultAbilityPrior,
+				*m,
+				sh.models.Bcm[label],
+			)
 			energies["pf"][label] = scorers[label].Running.Energy
-			emenergies["pf"][label] = scorers[label].Running.RbEnergy
 
 		}
 
@@ -120,10 +124,6 @@ func (sh *SessionHandler) NewSessionHandlerIo(ctx context.Context, input NewSess
 		Energies: map[string]map[string][]float64{
 			"pf": energies["pf"],
 			"bh": energies["bh"],
-		},
-		EmEnergies: map[string]map[string][]float64{
-			"pf": emenergies["pf"],
-			"bh": emenergies["bh"],
 		},
 		Excluded: make([]string, 0),
 		Language: input.Language,
@@ -199,23 +199,22 @@ type SessionSummary struct {
 }
 
 type ScoreSummary struct {
-	Mean            float64   `json:"mean"`
-	Std             float64   `json:"std"`
-	EmMean          float64   `json:"em_mean"`
-	EmStd           float64   `json:"em_std"`
-	Deciles         []float64 `json:"deciles"`
-	EmDeciles       []float64 `json:"em_deciles"`
-	AdjustedMean    float64   `json:"adjusted_mean"`
-	AdjustedStd     float64   `json:"adjusted_std"`
-	AdjustedDeciles []float64 `json:"adjusted_deciles"`
-	//EmAdjustedMean    float64   `json:"em_adjusted_mean"`
-	//EmAdjustedStd     float64   `json:"em_adjusted_std"`
-	//EmAdjustedDeciles []float64 `json:"em_adjusted_deciles"`
+	Mean               float64   `json:"mean"`
+	Std                float64   `json:"std"`
+	Deciles            []float64 `json:"deciles"`
+	RawMean            float64   `json:"raw_mean"`
+	RawStd             float64   `json:"raw_std"`
+	AdjustedRawMean    float64   `json:"adjusted_raw_mean"`
+	AdjustedRawStd     float64   `json:"adjusted_raw_std"`
+	AdjustedRawDeciles []float64 `json:"adjusted_raw_deciles"`
+	AdjustedMean       float64   `json:"adjusted_mean"`
+	AdjustedStd        float64   `json:"adjusted_std"`
+	AdjustedDeciles    []float64 `json:"adjusted_deciles"`
 	// Density []float64 `json:"density"`
 	// Grid    []float64 `json:"grid"`
 }
 
-func (sh SessionHandler) NewScoreSummary(bs *irtcat.BayesianScore, scale string) *ScoreSummary {
+func (sh SessionHandler) NewScoreSummary(bs *irtcat.BayesianScore, scale string, administered map[string]bool) *ScoreSummary {
 	s, ok := sh.models.ScaleInfo["pf"][scale]
 	if !ok {
 		s, ok = sh.models.ScaleInfo["bh"][scale]
@@ -223,31 +222,35 @@ func (sh SessionHandler) NewScoreSummary(bs *irtcat.BayesianScore, scale string)
 	if !ok {
 		return nil
 	}
+	rawMean := bs.Mean() // only Energy stored -> Mean() == observed-only mean
+
+	bcm := sh.models.Bcm[scale]
+	correct := func(theta float64) float64 {
+		if bcm == nil {
+			return theta
+		}
+		return bcm.ApplyByKey(theta, administered)
+	}
+
+	correctedMean := correct(rawMean)
+	bias := correctedMean - rawMean
 	out := &ScoreSummary{
-		Mean: bs.Mean(),
-		Std:  bs.Std(),
-		// Density: bs.Density(),
-		// Grid:    bs.Grid,
-		Deciles: bs.Deciles(),
-		//EmMean:  bs.EmMean(),
-		//EmStd:   bs.EmStd(),
-		// Density: bs.Density(),
-		// Grid:    bs.Grid,
-		//EmDeciles: bs.EmDeciles(),
+		Mean:    correct(rawMean),
+		RawMean: rawMean,
+		RawStd:  bs.Std(),
 	}
-	out.AdjustedMean = 50 + (out.Mean-s.Loc)/s.Scale*10
-	out.AdjustedStd = out.Std / s.Scale * 10
-	out.AdjustedDeciles = make([]float64, len(out.Deciles))
-	for i := 0; i < len(out.Deciles); i++ {
-		out.AdjustedDeciles[i] = 50 + (out.Deciles[i]-s.Loc)/s.Scale*10
-	}
-	//out.EmAdjustedMean = 50 + (out.EmMean-s.Loc)/s.Scale*10
-	//out.EmAdjustedStd = out.EmStd / s.Scale * 10
-	//out.EmAdjustedDeciles = make([]float64, len(out.EmDeciles))
-	//for i := 0; i < len(out.EmDeciles); i++ {
-	//	out.EmAdjustedDeciles[i] = 50 + (out.EmDeciles[i]-s.Loc)/s.Scale*10
-	//}
+
+	out.Std = math.Sqrt(out.RawStd*out.RawStd + bias*bias)
+
+	out.AdjustedMean = 50 + (correct(rawMean)-s.Loc)/s.Scale*10
+
+	out.AdjustedStd = math.Sqrt(out.RawStd*out.RawStd+bias*bias) / s.Scale * 10
+
+	out.AdjustedRawMean = 50 + (rawMean-s.Loc)/s.Scale*10
+	out.AdjustedRawStd = out.RawStd / s.Scale * 10
+
 	return out
+
 }
 
 type getSessionOutput struct {
@@ -282,6 +285,12 @@ func (sh SessionHandler) GetSessionSummaryIo(ctx context.Context, input getSessi
 	output.Session.Transit = rehydrated.Respondent.Transit
 
 	output.Scores = make(map[string]map[string]*ScoreSummary, 0)
+	// Set of answered items across the session. ApplyByKey filters to each
+	// scale's own ItemKeys, so passing all responses (both domains) is safe.
+	administered := make(map[string]bool, len(rehydrated.Responses))
+	for item := range rehydrated.Responses {
+		administered[item] = true
+	}
 
 	if rehydrated.Respondent.Physical && (len(rehydrated.Energies["pf"]) > 0) {
 
@@ -295,7 +304,7 @@ func (sh SessionHandler) GetSessionSummaryIo(ctx context.Context, input getSessi
 				Energy: energy,
 				Grid:   ndvek.Linspace(-10, 10, 400),
 			}
-			output.Scores["pf"][scale] = sh.NewScoreSummary(bs, scale)
+			output.Scores["pf"][scale] = sh.NewScoreSummary(bs, scale, administered)
 		}
 	}
 
@@ -311,7 +320,7 @@ func (sh SessionHandler) GetSessionSummaryIo(ctx context.Context, input getSessi
 				Energy: energy,
 				Grid:   ndvek.Linspace(-10, 10, 400),
 			}
-			output.Scores["bh"][scale] = sh.NewScoreSummary(bs, scale)
+			output.Scores["bh"][scale] = sh.NewScoreSummary(bs, scale, administered)
 		}
 	}
 

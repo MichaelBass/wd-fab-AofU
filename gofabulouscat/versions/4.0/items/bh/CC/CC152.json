@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC152",
+  "question": "Are you able to use a computer to get information you need?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.760328021170906,
+        -1.2009126774070669,
+        -0.6585944374419235,
+        -0.04688160677913937
+      ],
+      "discrimination": 1.7920831452312742
+    }
+  },
+  "version": 4.0
+}

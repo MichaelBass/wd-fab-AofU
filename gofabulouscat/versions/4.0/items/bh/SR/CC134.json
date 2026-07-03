@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC134",
+  "question": "Please specify your level of agreement: Others have told me that I do things that put me at risk.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.0670561681674884,
+        -0.6770193599625428,
+        0.8886529725517867,
+        6.30935959250741
+      ],
+      "discrimination": 1.3161706206707835
+    }
+  },
+  "version": 4.0
+}

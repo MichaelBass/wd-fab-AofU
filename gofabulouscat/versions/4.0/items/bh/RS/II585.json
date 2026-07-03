@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II585",
+  "question": "Please specify your level of agreement: I can get back on track when I am distracted.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.8593793478039435,
+        -0.20988521003631433,
+        1.6657856313750614,
+        3.8574208545474282
+      ],
+      "discrimination": 2.045655342388551
+    }
+  },
+  "version": 4.0
+}

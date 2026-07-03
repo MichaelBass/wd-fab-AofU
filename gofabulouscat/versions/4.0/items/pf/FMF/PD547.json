@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD547",
+  "question": "Are you able to tie a knot?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.5536431764236306,
+        -0.09025055030698637,
+        0.3160894563402287,
+        0.6250601113608303
+      ],
+      "discrimination": 3.9175451670709474
+    }
+  },
+  "version": 4.0
+}

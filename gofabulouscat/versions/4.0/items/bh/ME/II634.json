@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II634",
+  "question": "In the past 7 days, I had trouble keeping in touch with others.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -1.2300665262329358,
+        -0.43814368328506365,
+        0.6829123072144928,
+        1.6199016347075428
+      ],
+      "discrimination": 1.624772275100079
+    }
+  },
+  "version": 4.0
+}

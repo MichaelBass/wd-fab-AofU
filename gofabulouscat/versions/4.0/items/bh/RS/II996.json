@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II996",
+  "question": "Please specify your level of agreement: I look for the good in difficult situations.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.822238464607425,
+        -0.19066883171162097,
+        1.5941428701250184,
+        3.6329247430584677
+      ],
+      "discrimination": 2.1679337348902363
+    }
+  },
+  "version": 4.0
+}

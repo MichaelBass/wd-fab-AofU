@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC029",
+  "question": "Are you able to pay attention when someone is talking to you for a short time?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.1570471193982224,
+        -1.2811329138284362,
+        -0.5921254029547504,
+        0.08185039815283135
+      ],
+      "discrimination": 2.7259974370572078
+    }
+  },
+  "version": 4.0
+}

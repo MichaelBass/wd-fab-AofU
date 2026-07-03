@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC059",
+  "question": "Please specify your level of agreement: I often misspell words.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.4296340937688945,
+        0.09546142400695481,
+        1.6816651725356695,
+        7.040957796848754
+      ],
+      "discrimination": 1.0081312901093396
+    }
+  },
+  "version": 4.0
+}

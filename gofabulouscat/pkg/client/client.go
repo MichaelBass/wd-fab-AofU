@@ -9,8 +9,8 @@ import (
 	"time"
 
 	conf "github.com/CC-RMD-EpiBio/gofabulouscat/config"
-	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 	g "maragu.dev/gomponents"
 	ghttp "maragu.dev/gomponents/http"
 	"maragu.dev/httph"

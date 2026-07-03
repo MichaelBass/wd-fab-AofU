@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PF2_047",
+  "question": "Are you able to lift something weighing 100 pounds? (for example a large dog)",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -1.9503759871166721,
+        -1.3545397118646338,
+        -0.8593855073170804,
+        -0.3871112926413082
+      ],
+      "discrimination": 2.5264125974458422
+    }
+  },
+  "version": 4.0
+}

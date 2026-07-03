@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR021",
+  "question": "Are you able pull a small suitcase by the handle?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -1.5803264034011415,
+        -1.1102672566682414,
+        -0.5197911907224445,
+        0.02351205451677195
+      ],
+      "discrimination": 3.2174325455411736
+    }
+  },
+  "version": 4.0
+}

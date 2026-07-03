@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR006",
+  "question": "Are you able to to bend down to use a dust pan?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.2410026025595935,
+        -0.6145238578515836,
+        -0.11388379444704728,
+        0.48045139044568885
+      ],
+      "discrimination": 3.2803244784188563
+    }
+  },
+  "version": 4.0
+}

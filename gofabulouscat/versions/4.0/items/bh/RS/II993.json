@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II993",
+  "question": "Please specify your level of agreement: I'm usually able to help solve other people's problems.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.3228119980354816,
+        -0.20395826500602765,
+        1.973079366563194,
+        3.6239252660850187
+      ],
+      "discrimination": 1.3986891432901076
+    }
+  },
+  "version": 4.0
+}

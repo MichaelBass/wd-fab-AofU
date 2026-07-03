@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "PD533",
+  "question": "Are you able to lift a full small (carry-on size) suitcase from table height to a high shelf? Hint: A full carry-on suitcase weighs 20 pounds/8 kg.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -1.0153802605677114,
+        -0.43873440294874866,
+        -0.012762945979420173,
+        0.36844912141938424
+      ],
+      "discrimination": 4.060492405458294
+    }
+  },
+  "version": 4.0
+}

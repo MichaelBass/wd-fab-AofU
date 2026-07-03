@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD298",
+  "question": "Are you able to turn faucets on and off?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.5350443531601795,
+        -0.3261211553102059,
+        -0.10173415551043971,
+        0.1751234471739954
+      ],
+      "discrimination": 4.955918047940777
+    }
+  },
+  "version": 4.0
+}

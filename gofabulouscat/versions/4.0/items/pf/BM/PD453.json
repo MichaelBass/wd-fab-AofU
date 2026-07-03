@@ -1,0 +1,35 @@
+{
+  "domain": "pf",
+  "item": "PD453",
+  "question": "How long are you able to squat?",
+  "responses": {
+    "1": {
+      "text": "20 minutes",
+      "value": 4
+    },
+    "2": {
+      "text": "10 minutes",
+      "value": 3
+    },
+    "3": {
+      "text": "2 minutes",
+      "value": 2
+    },
+    "4": {
+      "text": "unable to do",
+      "value": 1
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -2.2262885134123103,
+        -1.2195546410667906,
+        -0.03914679649008659,
+        2.580859263406748
+      ],
+      "discrimination": 2.4663817244493798
+    }
+  },
+  "version": 4.0
+}

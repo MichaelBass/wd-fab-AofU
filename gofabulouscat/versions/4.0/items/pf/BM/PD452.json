@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD452",
+  "question": "Are you able to work at floor level? For example changing the face plate on an electric outlet.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.0749828899449954,
+        -0.4955625333733894,
+        0.0064824263714862405,
+        0.5374016325046969
+      ],
+      "discrimination": 2.976936793006543
+    }
+  },
+  "version": 4.0
+}

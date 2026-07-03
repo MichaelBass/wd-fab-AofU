@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC024",
+  "question": "Please specify your level of agreement: I can follow what is being said when a group of people are talking.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.2290772271837564,
+        -1.4037536158540278,
+        -0.5014908163764465,
+        1.0912368294914676
+      ],
+      "discrimination": 1.8807483035671566
+    }
+  },
+  "version": 4.0
+}

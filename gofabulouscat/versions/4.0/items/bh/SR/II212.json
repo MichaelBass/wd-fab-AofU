@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II212",
+  "question": "Please specify your level of agreement: Sometimes I shout or yell for no reason.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -3.5134919988540307,
+        -1.8275160933754802,
+        0.3299122664828949,
+        6.40849701632683
+      ],
+      "discrimination": 0.9286547282023466
+    }
+  },
+  "version": 4.0
+}

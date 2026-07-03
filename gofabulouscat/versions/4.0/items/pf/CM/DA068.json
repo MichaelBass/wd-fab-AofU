@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "required": {
+      "pt": 0
+    }
+  },
+  "domain": "pf",
+  "item": "DA068",
+  "question": "Please specify your level of agreement: I can usually get to the bus or train station on time.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CM": {
+      "difficulties": [
+        -5.545162372607938,
+        -4.509510755300107,
+        -3.097332636144755,
+        0.2900845245791479
+      ],
+      "discrimination": 0.7946774822325383
+    }
+  },
+  "version": 4.0
+}

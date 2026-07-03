@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD505",
+  "question": "Are you able to lift a full 2 liter soda bottle from table height to a high shelf?  A 2 liter soda bottle= 3.5 lbs/1.5 kg.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -0.8393243600134085,
+        -0.40064290632144206,
+        0.030589002963642167,
+        0.46328089749138435
+      ],
+      "discrimination": 3.5908500904216387
+    }
+  },
+  "version": 4.0
+}

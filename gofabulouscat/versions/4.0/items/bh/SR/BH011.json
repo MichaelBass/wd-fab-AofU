@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH011",
+  "question": "Please specify your level of agreement: I have difficulty calming down.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -1.652045435519361,
+        -0.38185006871179344,
+        1.3863300803969456,
+        5.598040262192995
+      ],
+      "discrimination": 1.9538804807408152
+    }
+  },
+  "version": 4.0
+}

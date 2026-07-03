@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD290",
+  "question": "Are you able to hold a full glass of water in one hand?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.40045854556218335,
+        0.014902248626452869,
+        0.460802135719083,
+        0.7439025325138066
+      ],
+      "discrimination": 3.864914148192091
+    }
+  },
+  "version": 4.0
+}

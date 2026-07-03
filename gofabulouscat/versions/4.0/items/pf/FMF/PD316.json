@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD316",
+  "question": "Are you able to pick out a paper clip from group of clips?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.4368803761909228,
+        0.030793530000943738,
+        0.5163280414932225,
+        0.9640658776523631
+      ],
+      "discrimination": 3.9944628393869963
+    }
+  },
+  "version": 4.0
+}

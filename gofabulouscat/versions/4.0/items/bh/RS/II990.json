@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II990",
+  "question": "Please specify your level of agreement: People tell me I'm flexible and agreeable.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.2545648018139763,
+        -0.15981880906814042,
+        1.7977040190883908,
+        3.2217031706736874
+      ],
+      "discrimination": 1.4976616197857102
+    }
+  },
+  "version": 4.0
+}

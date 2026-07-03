@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "DA048",
+  "question": "Are you able to keep your medical appointments?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.373561893396888,
+        -1.579666549763878,
+        -0.8621399973058115,
+        -0.22788166117001377
+      ],
+      "discrimination": 2.1191538140129635
+    }
+  },
+  "version": 4.0
+}

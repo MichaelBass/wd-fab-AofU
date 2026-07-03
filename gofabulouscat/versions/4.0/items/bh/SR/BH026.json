@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH026",
+  "question": "Please specify your level of agreement: When I am stressed, I find myself losing control.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -1.5073982559367904,
+        -0.24812020228435638,
+        1.3879251485729343,
+        5.461530462098379
+      ],
+      "discrimination": 2.1175390651005745
+    }
+  },
+  "version": 4.0
+}

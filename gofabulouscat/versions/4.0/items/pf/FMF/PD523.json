@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD523",
+  "question": "Are you able to write for 20 minutes?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.939276801878862,
+        -0.3316281202009,
+        0.18345495791191394,
+        0.6710192641064963
+      ],
+      "discrimination": 2.634408234202001
+    }
+  },
+  "version": 4.0
+}

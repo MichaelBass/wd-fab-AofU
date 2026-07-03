@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC048",
+  "question": "Are you able to tell a doctor about a health problem?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.676907304585301,
+        -1.4919276983798746,
+        -0.6238475522154056,
+        0.20024404196729567
+      ],
+      "discrimination": 1.748354692952915
+    }
+  },
+  "version": 4.0
+}

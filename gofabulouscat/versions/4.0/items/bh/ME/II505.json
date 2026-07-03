@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II505",
+  "question": "Please specify your level of agreement: When I'm stressed, I can't figure out what to do.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -3.296716587021906,
+        -0.5146918971790964,
+        3.112122930064303,
+        8.389899962832423
+      ],
+      "discrimination": 0.5173584929632427
+    }
+  },
+  "version": 4.0
+}

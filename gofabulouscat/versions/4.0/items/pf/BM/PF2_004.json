@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PF2_004",
+  "question": "How long are you able to sit with short breaks?",
+  "responses": {
+    "1": {
+      "text": "Up to 2 hours",
+      "value": 2
+    },
+    "2": {
+      "text": "Up to 4 hours",
+      "value": 3
+    },
+    "3": {
+      "text": "Up to 6 hours",
+      "value": 4
+    },
+    "4": {
+      "text": "Up to 8 hours",
+      "value": 5
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -2.3573289288664645,
+        -0.1898822466752379,
+        1.0146857947257697,
+        6.388613718328115
+      ],
+      "discrimination": 0.32689359173136423
+    }
+  },
+  "version": 4.0
+}

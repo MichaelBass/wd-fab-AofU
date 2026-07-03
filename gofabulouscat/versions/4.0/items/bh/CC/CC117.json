@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC117",
+  "question": "Are you able to keep important papers organized? For example bills, insurance documents and tax forms.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.6815289672534637,
+        -0.8630415202057179,
+        -0.20585521255111452,
+        0.5634814436612516
+      ],
+      "discrimination": 2.028958394067776
+    }
+  },
+  "version": 4.0
+}

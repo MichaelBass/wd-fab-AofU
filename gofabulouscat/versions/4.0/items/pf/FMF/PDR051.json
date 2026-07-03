@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR051",
+  "question": "Are you able to put coins into a slot? For example a vending machine.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -1.1190382602810174,
+        -0.6837994264630158,
+        -0.23686896660262768,
+        0.1793903063481448
+      ],
+      "discrimination": 4.367392848269664
+    }
+  },
+  "version": 4.0
+}

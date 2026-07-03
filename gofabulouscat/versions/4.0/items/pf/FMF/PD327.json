@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD327",
+  "question": "Are you able to turn a key in a door lock?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.5914719538666386,
+        -0.3203817703550101,
+        -0.017370405677427033,
+        0.3092504316620048
+      ],
+      "discrimination": 5.798582036130065
+    }
+  },
+  "version": 4.0
+}

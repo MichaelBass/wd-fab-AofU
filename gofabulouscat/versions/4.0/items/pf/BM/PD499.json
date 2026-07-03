@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD499",
+  "question": "Are you able to go down one flight of stairs using a handrail? A flight of stairs is 12-15 steps.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.9535663421088411,
+        -0.4126503401864664,
+        0.07443347215090355,
+        0.5556409741825011
+      ],
+      "discrimination": 3.3790815741932265
+    }
+  },
+  "version": 4.0
+}

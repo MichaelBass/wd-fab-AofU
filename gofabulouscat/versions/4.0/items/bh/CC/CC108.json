@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC108",
+  "question": "Please specify your level of agreement: I often forget whether or not I did important things, like take medications.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.132859902670258,
+        -0.0068774113610738565,
+        1.4818300103502318,
+        5.770583211745842
+      ],
+      "discrimination": 1.6102407026756558
+    }
+  },
+  "version": 4.0
+}

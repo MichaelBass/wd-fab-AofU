@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "CC071",
+  "question": "Please specify your level of agreement: People often tell me I make mistakes in my work.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.643420398486464,
+        -0.5238213498947869,
+        1.1955166070430083,
+        6.127173912415273
+      ],
+      "discrimination": 1.3462727065153213
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH053",
+  "question": "Please specify your level of agreement: I have a hard time accepting criticism.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -1.80561227503924,
+        -0.00478779021020328,
+        2.292773949198193,
+        6.3290915387675994
+      ],
+      "discrimination": 1.3196321603489498
+    }
+  },
+  "version": 4.0
+}

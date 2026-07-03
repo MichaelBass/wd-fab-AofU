@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD475",
+  "question": "Are you able to tighten screws by hand with a screwdriver?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.7910185091784521,
+        -0.27334453764201033,
+        0.21244726692280422,
+        0.6586208526932807
+      ],
+      "discrimination": 3.455275602644972
+    }
+  },
+  "version": 4.0
+}

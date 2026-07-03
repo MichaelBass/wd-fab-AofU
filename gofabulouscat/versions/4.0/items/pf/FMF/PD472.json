@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD472",
+  "question": "Are you able to sew on a button?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -1.032282368670503,
+        -0.5515418202425331,
+        -0.26490689793142613,
+        -0.01999879241262538
+      ],
+      "discrimination": 2.801563880285476
+    }
+  },
+  "version": 4.0
+}

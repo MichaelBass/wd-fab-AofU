@@ -1,0 +1,35 @@
+{
+  "domain": "pf",
+  "item": "PD455",
+  "question": "How long are you able to kneel?",
+  "responses": {
+    "1": {
+      "text": "20 minutes",
+      "value": 4
+    },
+    "2": {
+      "text": "10 minutes",
+      "value": 3
+    },
+    "3": {
+      "text": "2 minutes",
+      "value": 2
+    },
+    "4": {
+      "text": "unable to do",
+      "value": 1
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.707840636735217,
+        -0.6898473542448602,
+        0.34261822200669356,
+        2.640355799596166
+      ],
+      "discrimination": 2.491599229105912
+    }
+  },
+  "version": 4.0
+}

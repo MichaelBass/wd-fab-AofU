@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "DA036",
+  "question": "Please specify your level of agreement: It takes me a long time to run errands. For example going to the bank or drugstore.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 2
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 4
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 5
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.430680188508186,
+        -1.1595339614867817,
+        0.020282905763570544,
+        1.457701154699221
+      ],
+      "discrimination": 1.3528298209347362
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PF2_021",
+  "question": "Are you able to peel 15 potatoes?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.8936089589857863,
+        -0.5116066622113389,
+        -0.07530548100259585,
+        0.30678903898242504
+      ],
+      "discrimination": 3.7963278942704237
+    }
+  },
+  "version": 4.0
+}

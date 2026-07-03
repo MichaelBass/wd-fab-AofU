@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR018",
+  "question": "Are you able to pull open a dresser drawer?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -2.4808773583133314,
+        -1.6757134500773712,
+        -0.9423235802353569,
+        -0.31519760376529493
+      ],
+      "discrimination": 2.3110449054137225
+    }
+  },
+  "version": 4.0
+}

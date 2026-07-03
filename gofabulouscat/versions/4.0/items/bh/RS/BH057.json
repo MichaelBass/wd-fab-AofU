@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH057",
+  "question": "Please specify your level of agreement: I work well in a group.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.6691284588588053,
+        -0.08473936223701206,
+        1.5569543954299598,
+        4.9160634640380225
+      ],
+      "discrimination": 2.1959158889338535
+    }
+  },
+  "version": 4.0
+}

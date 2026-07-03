@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH2_013",
+  "question": "Please specify your level of agreement: I am good at getting to know new people.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.9347185102502171,
+        -0.38350772467412647,
+        0.7482140507989685,
+        3.5700212037423213
+      ],
+      "discrimination": 2.1229647389440034
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD344",
+  "question": "Are you able to remove something from your back pocket?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.5435403642696879,
+        -0.05106216226011365,
+        0.3563218566032978,
+        0.735591868541712
+      ],
+      "discrimination": 3.736910087935864
+    }
+  },
+  "version": 4.0
+}

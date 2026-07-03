@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH018",
+  "question": "Please specify your level of agreement: I find that I have a hard time sitting still when I need to.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -1.4874952527657739,
+        -0.11938874154620689,
+        1.5050056274779298,
+        5.808838791746052
+      ],
+      "discrimination": 1.5569505989783685
+    }
+  },
+  "version": 4.0
+}

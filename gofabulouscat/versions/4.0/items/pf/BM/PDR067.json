@@ -1,0 +1,51 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    },
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "PDR067",
+  "question": "Are you able to walk the aisles of a grocery store using a shopping cart?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.6479085383598673,
+        -1.0675005260878416,
+        -0.4788090308178218,
+        0.05160916588801401
+      ],
+      "discrimination": 2.6837879438668515
+    }
+  },
+  "version": 4.0
+}

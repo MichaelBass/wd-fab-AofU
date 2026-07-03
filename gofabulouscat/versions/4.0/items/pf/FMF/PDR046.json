@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR046",
+  "question": "Are you able to hold an umbrella?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -1.081347360790974,
+        -0.6207940835442098,
+        -0.13125018207319436,
+        0.3374984534937826
+      ],
+      "discrimination": 3.5940624621224657
+    }
+  },
+  "version": 4.0
+}

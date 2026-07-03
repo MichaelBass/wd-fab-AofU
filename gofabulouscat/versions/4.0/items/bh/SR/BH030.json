@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH030",
+  "question": "Please specify your level of agreement: People say I show no emotion.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -2.599192917902304,
+        -0.879771275221357,
+        1.2278778968079165,
+        7.318486945755703
+      ],
+      "discrimination": 0.910527702550111
+    }
+  },
+  "version": 4.0
+}

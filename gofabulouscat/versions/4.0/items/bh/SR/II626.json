@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II626",
+  "question": "In the past 7 days, I looked forward with enjoyment to upcoming events.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 1
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 2
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 4
+    },
+    "5": {
+      "text": "Always",
+      "value": 5
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -6.12195587722006,
+        -3.9112162629064247,
+        -0.5198199620752723,
+        2.1432887818712882
+      ],
+      "discrimination": 0.440596290056921
+    }
+  },
+  "version": 4.0
+}

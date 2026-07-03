@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II995",
+  "question": "Please specify your level of agreement: I'm comfortable just seeing what the day brings.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.181485733988013,
+        -0.3652291727070661,
+        1.6590244636299263,
+        3.865921751759372
+      ],
+      "discrimination": 1.8053673136077264
+    }
+  },
+  "version": 4.0
+}

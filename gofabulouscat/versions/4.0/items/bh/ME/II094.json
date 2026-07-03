@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "II094",
+  "question": "In the past 7 days, I felt hopeless about the future.",
+  "responses": {
+    "1": {
+      "text": "Never",
+      "value": 5
+    },
+    "2": {
+      "text": "Rarely",
+      "value": 4
+    },
+    "3": {
+      "text": "Sometimes",
+      "value": 3
+    },
+    "4": {
+      "text": "Often",
+      "value": 2
+    },
+    "5": {
+      "text": "Always",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "ME": {
+      "difficulties": [
+        -2.0361395167676286,
+        -1.241350807164951,
+        0.020692317392997234,
+        1.2920656873825138
+      ],
+      "discrimination": 1.851970567624951
+    }
+  },
+  "version": 4.0
+}

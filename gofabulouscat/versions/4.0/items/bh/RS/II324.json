@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II324",
+  "question": "Please specify your level of agreement: It's easy to do what people in authority ask me to do.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -2.4144046020791,
+        -0.18904573135676056,
+        2.3596754918143574,
+        4.769838874019407
+      ],
+      "discrimination": 1.0543384953772288
+    }
+  },
+  "version": 4.0
+}

@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR036",
+  "question": "Are you able to move a sofa to clean under it?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -0.4842485291658012,
+        0.011052218313112911,
+        0.4592313639989094,
+        0.9971962338643433
+      ],
+      "discrimination": 3.4768657385539665
+    }
+  },
+  "version": 4.0
+}

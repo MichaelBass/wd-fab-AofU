@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH2_038",
+  "question": "Please specify your level of agreement: I can admit my mistakes.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 1
+    },
+    "2": {
+      "text": "Agree",
+      "value": 2
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 4
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.6272560015755513,
+        1.8436157052755824,
+        3.508541933921284,
+        5.646673579875905
+      ],
+      "discrimination": 1.0398194899710511
+    }
+  },
+  "version": 4.0
+}

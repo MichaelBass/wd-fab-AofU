@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "DA046",
+  "question": "Are you able to take your medications correctly?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.2704805042233556,
+        -1.5492235583100018,
+        -0.8529699718381948,
+        -0.21556119416412592
+      ],
+      "discrimination": 2.172202511084746
+    }
+  },
+  "version": 4.0
+}

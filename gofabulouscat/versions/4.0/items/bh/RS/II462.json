@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "II462",
+  "question": "Please specify your level of agreement: If I make a mistake, I know I can deal with it.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.6863452966599572,
+        -0.08356397418964315,
+        1.5009894792541063,
+        3.5097852532029834
+      ],
+      "discrimination": 2.4152627969545173
+    }
+  },
+  "version": 4.0
+}

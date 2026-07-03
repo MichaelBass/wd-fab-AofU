@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC150",
+  "question": "Please specify your level of agreement: When there is a problem I am able to work things out with other people.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -3.833570183926962,
+        -2.7276071848569714,
+        -1.4181545708587138,
+        1.2348152725139179
+      ],
+      "discrimination": 1.136232714799524
+    }
+  },
+  "version": 4.0
+}

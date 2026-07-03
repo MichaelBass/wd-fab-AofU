@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC082",
+  "question": "Please specify your level of agreement: I am able to think clearly.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.160078178501952,
+        -1.328364534611398,
+        -0.4715958670386061,
+        1.130279741090728
+      ],
+      "discrimination": 2.289780052227499
+    }
+  },
+  "version": 4.0
+}

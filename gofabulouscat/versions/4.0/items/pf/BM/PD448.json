@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD448",
+  "question": "Are you able to bend down to pick up clothing from the floor?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.6209623262588011,
+        -0.06447575909294781,
+        0.3906881320702491,
+        0.8928474636237674
+      ],
+      "discrimination": 3.37030571984604
+    }
+  },
+  "version": 4.0
+}

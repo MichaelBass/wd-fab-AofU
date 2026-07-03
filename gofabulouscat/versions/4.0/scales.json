@@ -1,0 +1,66 @@
+{
+  "BM": {
+    "domain": "pf",
+    "name": "Basic Mobility",
+    "loc": 0,
+    "scale": 1.0,
+    "version": 4.0
+  },
+  "CC": {
+    "domain": "bh",
+    "name": "Cognition & Communication",
+    "loc": 0,
+    "scale": 1.0,
+    "version": 4.0
+  },
+  "CM": {
+    "domain": "pf",
+    "name": "Community Mobility",
+    "loc": 0,
+    "scale": 1.0,
+    "version": 4.0,
+    "diff": {
+      "excluded": {
+        "car,pt": [
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "FMF": {
+    "domain": "pf",
+    "name": "Fine Motor Function",
+    "loc": 0,
+    "scale": 1.0,
+    "version": 4.0
+  },
+  "ME": {
+    "domain": "bh",
+    "name": "Mood & Emotions",
+    "loc": 0,
+    "scale": 1.0,
+    "version": 4.0
+  },
+  "RS": {
+    "domain": "bh",
+    "name": "Resilience & Sociability",
+    "loc": 0,
+    "scale": 1.0,
+    "version": 4.0
+  },
+  "SR": {
+    "domain": "bh",
+    "name": "Self-Regulation",
+    "loc": 0,
+    "scale": 1.0,
+    "version": 4.0
+  },
+  "UBF": {
+    "domain": "pf",
+    "name": "Upper Body Function",
+    "loc": 0,
+    "scale": 1.0,
+    "version": 4.0
+  }
+}

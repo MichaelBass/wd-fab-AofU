@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "DA038",
+  "question": "Are you able to do heavy housework? For example scrubbing floors, washing windows, moving furniture to clean.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.9530297764412057,
+        -0.24798782832924884,
+        0.26974190916225516,
+        0.7236869876288305
+      ],
+      "discrimination": 1.9177466018442644
+    }
+  },
+  "version": 4.0
+}

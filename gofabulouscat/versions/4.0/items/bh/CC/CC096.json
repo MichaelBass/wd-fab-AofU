@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC096",
+  "question": "Please specify your level of agreement: I am good at following through with plans I make.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 5
+    },
+    "2": {
+      "text": "Agree",
+      "value": 4
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 3
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.4250242121964147,
+        -1.4965411507710114,
+        -0.3989356901651403,
+        1.2154023233441642
+      ],
+      "discrimination": 2.023228215907595
+    }
+  },
+  "version": 4.0
+}

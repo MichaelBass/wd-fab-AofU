@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD535",
+  "question": "Are you able to lift a full large (check-in size) suitcase from table height to a high shelf? Hint: A full large suitcase weighs 40-50 pounds/18-23 kg.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "UBF": {
+      "difficulties": [
+        -1.7124967419489756,
+        -1.1029315803639996,
+        -0.6111549645118781,
+        -0.15869850370923969
+      ],
+      "discrimination": 3.3276932189978115
+    }
+  },
+  "version": 4.0
+}

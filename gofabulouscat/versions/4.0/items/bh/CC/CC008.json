@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC008",
+  "question": "Are you able to wait your turn to speak?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.851723243952756,
+        -1.6476415741066261,
+        -0.759482610143808,
+        0.2514871751662091
+      ],
+      "discrimination": 1.400570521044243
+    }
+  },
+  "version": 4.0
+}

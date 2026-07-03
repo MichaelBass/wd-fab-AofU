@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH048",
+  "question": "Please specify your level of agreement: I am able to adjust to other people's ways.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.5440955597038022,
+        -0.16504616149630097,
+        2.3994310548236735,
+        5.603648230712982
+      ],
+      "discrimination": 1.6530307149940977
+    }
+  },
+  "version": 4.0
+}

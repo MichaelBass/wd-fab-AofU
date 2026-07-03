@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC092",
+  "question": "Are you able to use bank cards and automatic teller machines (ATMs)?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -2.0393302802271958,
+        -1.5680816606938857,
+        -0.9731990089793635,
+        -0.3838582048226255
+      ],
+      "discrimination": 2.009398901974335
+    }
+  },
+  "version": 4.0
+}

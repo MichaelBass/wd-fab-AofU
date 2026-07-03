@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH072",
+  "question": "Please specify your level of agreement: I respect other people's property.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "SR": {
+      "difficulties": [
+        -4.830413243164225,
+        -3.6928171224017623,
+        0.6815409579630681,
+        7.743032606879168
+      ],
+      "discrimination": 0.8106893237977566
+    }
+  },
+  "version": 4.0
+}

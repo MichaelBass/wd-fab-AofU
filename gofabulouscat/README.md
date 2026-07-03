@@ -1,8 +1,8 @@
 # The NIH/BU WD-FAB as a microservice
 
-To start the server initiate Redis at `localhost:6379` then run `go run main.go server`. These commands start the microservice at `localhost:3000`. Both the Redis location and the server port are configurable, but the ability to modify them has not yet been exposed as of 2024 Dec 20.
+To start the serverrun `go run main.go server`. These commands start the microservice at `localhost:3001`.
 
-After starting the server, to view the API documentation go to http://localhost:3000/docs
+After starting the server, to view the API documentation go to http://localhost:3001/docs
 
 # Example workflow
 
@@ -11,23 +11,37 @@ To create a new CAT session one needs to pass in respondent and session settings
 ```
 curl -H 'Content-Type: application/json' \
     -d '{"car": true, "physical":true, "mental":true, "respondent_id": "some string here", "sex": 0, "wheelchair":true}' \
-    -X POST localhost:3000
+    -X POST localhost:3001
 ```
 
 As output you'll get the session information
 
 ```
-{"session_id":"wdfab:2f1c48c0-c249-41a2-bba3-7c6a39fb9393","start_time":"2024-12-20T16:46:06.015495-05:00","expiration_time":"2024-12-21T16:46:06.015495-05:00"}
+{"session_id":"wdfab:dce41a4a-7df0-4070-b6ce-8bf3b795cde6","start_time":"2024-12-20T16:46:06.015495-05:00","expiration_time":"2024-12-21T16:46:06.015495-05:00"}
 
 ```
 
-where by default each session expires after 24 hours. Let's save this session id as an environment variable:
+where by default each session expires after 24 hours. To make the rest of this
+walkthrough copy-pasteable, save the session id in a shell variable. Either set
+it by hand from the response above:
 
 ```
-export sid="wdfab:2f1c48c0-c249-41a2-bba3-7c6a39fb9393"
+sid="wdfab:dce41a4a-7df0-4070-b6ce-8bf3b795cde6"
 ```
 
-You can get the list of sessions from the GET method by calling `http://localhost:3000/sessions?active_only=true`  (or false if you want to get IDs for expired sessions as well that haven't been purged from Redis). This query yields the JSON data payload:
+or capture it straight from the create call with `jq`:
+
+```
+sid=$(curl -s -H 'Content-Type: application/json' \
+    -d '{"car": true, "physical":true, "mental":true, "respondent_id": "some string here", "sex": 0, "wheelchair":true}' \
+    -X POST localhost:3001 | jq -r .session_id)
+echo "$sid"   # wdfab:dce41a4a-7df0-4070-b6ce-8bf3b795cde6
+```
+
+The session id contains a colon but can be used as-is in the URL path — no URL
+encoding is needed. The remaining examples all reference `$sid`.
+
+You can get the list of sessions from the GET method by calling `http://localhost:3001/sessions?active_only=true`  (or false if you want to get IDs for expired sessions as well that haven't been purged from Redis). This query yields the JSON data payload:
 
 ```
 {
@@ -48,7 +62,11 @@ You can get the list of sessions from the GET method by calling `http://localhos
 
 As of 2025/01/03, the backend has no automatic scale selection. 
 The frontend is responsible for selecting a scale to present to the respondent.
-The GET endpoint for retrieving the next item in a given scale is http://localhost:3000/{session_id}/{scale}/item 
+The GET endpoint for retrieving the next item in a given scale is http://localhost:3001/{session_id}/{scale}/item. For example, to get the next item in the `CC` scale:
+
+```
+curl -s "http://localhost:3001/$sid/CC/item"
+```
 
 An example output from this endpoint is as follows:
 
@@ -88,7 +106,7 @@ An example output from this endpoint is as follows:
 }
 ```
 
-To record the response to this item, one needs to post to the http://localhost:3000/{session_id}/response endpoint with the following information:
+To record the response to this item, one needs to post to the http://localhost:3001/{session_id}/response endpoint with the following information:
 
 ```
 {
@@ -103,7 +121,7 @@ for example:
 
 ```
 curl -X 'POST' \
-  'http://localhost:3000/wdfab%3Aa27d7ec6-19ae-47ca-b743-a7b952cd7653/response' \
+  "http://localhost:3001/$sid/response" \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -116,7 +134,13 @@ curl -X 'POST' \
 
 will record a value of 4 for this item.
 
-At any point one may GET http://localhost:3000/{session_id} check the status of the section (to get scale scores) here is an example 
+At any point one may GET http://localhost:3001/{session_id} to check the status of the session (to get scale scores). For example:
+
+```
+curl -s "http://localhost:3001/$sid"
+```
+
+here is an example response 
 
 ```
 {

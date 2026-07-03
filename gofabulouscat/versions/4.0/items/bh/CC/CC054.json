@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC054",
+  "question": "Are you able to hear people over the phone?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -3.005215407865453,
+        -1.884957472760331,
+        -0.7878905525858075,
+        0.18617652557716588
+      ],
+      "discrimination": 1.702534965792272
+    }
+  },
+  "version": 4.0
+}

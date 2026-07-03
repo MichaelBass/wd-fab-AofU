@@ -1,0 +1,51 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    },
+    "required": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD158",
+  "question": "Are you able to walk up a steep slope? For example on a hill.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.1057116260584476,
+        -0.2501879819793811,
+        0.38437710783394435,
+        1.1198184902113635
+      ],
+      "discrimination": 2.464671930462419
+    }
+  },
+  "version": 4.0
+}

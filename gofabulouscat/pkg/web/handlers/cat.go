@@ -89,6 +89,7 @@ func (ch CatHandlerHelper) NextScaleItemIo(ctx context.Context, input nextScaleI
 		ndvek.Linspace(-10, 10, 400),
 		irtcat.DefaultAbilityPrior,
 		model,
+		ch.models.Bcm[input.Scale],
 	)
 	scorer.Exclusions = rehydrated.Excluded
 	thisModel, ok := ch.models.Mental[input.Scale]
@@ -108,7 +109,7 @@ func (ch CatHandlerHelper) NextScaleItemIo(ctx context.Context, input nextScaleI
 	if !ok {
 		fmt.Printf("scorer.Running.Energy: %v\n", rehydrated.Energies)
 	}
-	kselector := irtcat.NewEntropySelector(1.)
+	kselector := irtcat.NewEntropySelector(1., 8)
 	item := kselector.NextItem(scorer)
 
 	if item == nil {
@@ -193,6 +194,7 @@ func (ch CatHandlerHelper) PostResponseIo(ctx context.Context, input postRespons
 				ndvek.Linspace(-10, 10, 400),
 				irtcat.DefaultAbilityPrior,
 				model,
+				ch.models.Bcm[scale],
 			)
 
 			scorer.Running.Energy = rehydrated.Energies[domain][scale]
@@ -202,12 +204,6 @@ func (ch CatHandlerHelper) PostResponseIo(ctx context.Context, input postRespons
 			}
 			scorer.AddResponses([]irtcat.Response{resp})
 			rehydrated.Energies[domain][scale] = scorer.Running.Energy
-			var responses irtcat.Responses
-			for _, r := range scorer.Answered {
-				responses.Responses = append(responses.Responses, *r)
-			}
-			rehydrated.EmEnergies[domain][scale] = scorer.ScoreRaoBlackwell()
-
 		}
 	}
 	rehydrated.Responses[input.ItemName] = input.Value
@@ -234,6 +230,12 @@ func (ch CatHandlerHelper) PostResponseIo(ctx context.Context, input postRespons
 	sh := SessionHandler{
 		models: ch.models,
 	}
+	// Set of answered items across the session. ApplyByKey filters to each
+	// scale's own ItemKeys, so passing all responses (both domains) is safe.
+	administered := make(map[string]bool, len(rehydrated.Responses))
+	for item := range rehydrated.Responses {
+		administered[item] = true
+	}
 
 	if rehydrated.Respondent.Physical && (len(rehydrated.Energies["pf"]) > 0) {
 
@@ -244,12 +246,11 @@ func (ch CatHandlerHelper) PostResponseIo(ctx context.Context, input postRespons
 				continue
 			}
 			bs := &irtcat.BayesianScore{
-				Energy:   energy,
-				Grid:     ndvek.Linspace(-10, 10, 400),
-				RbEnergy: rehydrated.EmEnergies["pf"][scale],
+				Energy: energy,
+				Grid:   ndvek.Linspace(-10, 10, 400),
 			}
 
-			output.Scores["pf"][scale] = sh.NewScoreSummary(bs, scale)
+			output.Scores["pf"][scale] = sh.NewScoreSummary(bs, scale, administered)
 		}
 	}
 
@@ -262,11 +263,10 @@ func (ch CatHandlerHelper) PostResponseIo(ctx context.Context, input postRespons
 				continue
 			}
 			bs := &irtcat.BayesianScore{
-				Energy:   energy,
-				Grid:     ndvek.Linspace(-10, 10, 400),
-				RbEnergy: rehydrated.EmEnergies["bh"][scale],
+				Energy: energy,
+				Grid:   ndvek.Linspace(-10, 10, 400),
 			}
-			output.Scores["bh"][scale] = sh.NewScoreSummary(bs, scale)
+			output.Scores["bh"][scale] = sh.NewScoreSummary(bs, scale, administered)
 		}
 	}
 	return err

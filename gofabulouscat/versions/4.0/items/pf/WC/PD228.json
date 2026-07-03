@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "excluded": {
+      "wc": 2,
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD228",
+  "question": "Are you able to move your wheelchair for at least 15 minutes?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "WC": {
+      "difficulties": [
+        -1.08348,
+        -0.56791,
+        0.43627,
+        0.93253
+      ],
+      "discrimination": 1.88137
+    }
+  }
+}

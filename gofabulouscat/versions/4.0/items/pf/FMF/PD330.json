@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD330",
+  "question": "Are you able to change the bulb in a table lamp?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.4156860803535841,
+        0.060563662774254325,
+        0.4412563796591297,
+        0.615368541431103
+      ],
+      "discrimination": 4.277242234547043
+    }
+  },
+  "version": 4.0
+}

@@ -1,6 +1,7 @@
 package wdfab
 
 import (
+	"github.com/CC-RMD-EpiBio/gofluttercat/backend-golang/pkg/biascorrection"
 	"github.com/CC-RMD-EpiBio/gofluttercat/backend-golang/pkg/irtcat"
 )
 
@@ -9,6 +10,7 @@ type WdFabIrtModels struct {
 	Physical   map[string]*irtcat.GradedResponseModel
 	ScaleInfo  map[string](map[string]irtcat.Scale)
 	DomainInfo map[string]Domain
+	Bcm        map[string]*biascorrection.BCMConditional
 }
 
 type Scale struct {

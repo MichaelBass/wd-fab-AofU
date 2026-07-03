@@ -1,0 +1,39 @@
+{
+  "domain": "bh",
+  "item": "BH035",
+  "question": "Please specify your level of agreement: I usually accomplish what I set out to do.",
+  "responses": {
+    "1": {
+      "text": "Strongly agree",
+      "value": 4
+    },
+    "2": {
+      "text": "Agree",
+      "value": 3
+    },
+    "3": {
+      "text": "Disagree",
+      "value": 2
+    },
+    "4": {
+      "text": "Strongly disagree",
+      "value": 1
+    },
+    "5": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "RS": {
+      "difficulties": [
+        -1.3771144732915357,
+        -0.21972514522727438,
+        1.6669642522676422,
+        5.035486395905843
+      ],
+      "discrimination": 2.0485675014035634
+    }
+  },
+  "version": 4.0
+}

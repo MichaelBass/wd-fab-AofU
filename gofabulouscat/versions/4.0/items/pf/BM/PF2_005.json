@@ -1,0 +1,51 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    },
+    "required": {
+      "car": 0
+    }
+  },
+  "domain": "pf",
+  "item": "PF2_005",
+  "question": "Are you able to walk in and out of stores carrying heavy bags without losing your balance?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -0.5320588814056803,
+        0.05273887992425705,
+        0.5427080141901903,
+        0.9715255903547293
+      ],
+      "discrimination": 2.6518846928015596
+    }
+  },
+  "version": 4.0
+}

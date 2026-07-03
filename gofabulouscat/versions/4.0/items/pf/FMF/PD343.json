@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD343",
+  "question": "Are you able to reach behind you to get your seatbelt? Hint: A shoulder harness seatbelt.",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.8227948178846255,
+        -0.3216807404620655,
+        0.1818948840779626,
+        0.6326141006003364
+      ],
+      "discrimination": 3.472960174158458
+    }
+  },
+  "version": 4.0
+}

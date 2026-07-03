@@ -1,0 +1,43 @@
+{
+  "domain": "bh",
+  "item": "CC112",
+  "question": "Are you able to find your way around in unfamiliar places?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "CC": {
+      "difficulties": [
+        -1.7741543661655357,
+        -0.714738690223343,
+        0.10831006915997468,
+        1.1136668402342595
+      ],
+      "discrimination": 1.7913932196180438
+    }
+  },
+  "version": 4.0
+}

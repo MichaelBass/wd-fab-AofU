@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PD270_PD272",
+  "question": "Are you able to pick up and put down a pen or pencil?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -0.29096464068163014,
+        0.16171556131687492,
+        0.6370720119935604,
+        1.2521800651735526
+      ],
+      "discrimination": 3.6991173358560796
+    }
+  },
+  "version": 4.0
+}

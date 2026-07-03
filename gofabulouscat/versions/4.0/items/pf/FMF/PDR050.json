@@ -1,0 +1,43 @@
+{
+  "domain": "pf",
+  "item": "PDR050",
+  "question": "Are you able to remove a dollar bill from your wallet?",
+  "responses": {
+    "1": {
+      "text": "Yes, without difficulty",
+      "value": 5
+    },
+    "2": {
+      "text": "Yes, with a little difficulty",
+      "value": 4
+    },
+    "3": {
+      "text": "Yes, with some difficulty",
+      "value": 3
+    },
+    "4": {
+      "text": "Yes, with a lot of difficulty",
+      "value": 2
+    },
+    "5": {
+      "text": "Unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "FMF": {
+      "difficulties": [
+        -1.286918699985681,
+        -0.7822948733247282,
+        -0.3375521871954803,
+        0.1009484171923936
+      ],
+      "discrimination": 4.1377991839052495
+    }
+  },
+  "version": 4.0
+}

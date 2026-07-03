@@ -1,0 +1,48 @@
+{
+  "diff": {
+    "excluded": {
+      "wd": 2
+    }
+  },
+  "domain": "pf",
+  "item": "PD458",
+  "question": "How long are you able to walk without stopping? If you cannot walk without stopping for 15 minutes please select unable.",
+  "responses": {
+    "1": {
+      "text": " More than an hour",
+      "value": 5
+    },
+    "2": {
+      "text": "An hour",
+      "value": 4
+    },
+    "3": {
+      "text": "30 minutes",
+      "value": 3
+    },
+    "4": {
+      "text": "15 minutes",
+      "value": 2
+    },
+    "5": {
+      "text": "unable to do",
+      "value": 1
+    },
+    "6": {
+      "text": "I don't know",
+      "value": 8
+    }
+  },
+  "scales": {
+    "BM": {
+      "difficulties": [
+        -1.3783932025498211,
+        -0.9288918448850013,
+        -0.18844461699267,
+        0.6584654897377114
+      ],
+      "discrimination": 2.2544976509687653
+    }
+  },
+  "version": 4.0
+}
