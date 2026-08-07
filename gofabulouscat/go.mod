@@ -5,7 +5,7 @@ go 1.26.0
 // replace github.com/CC-RMD-EpiBio/gofluttercat => ../gofluttercat
 
 require (
-	github.com/CC-RMD-EpiBio/gofluttercat v0.0.0-20260702193619-bba9dcf67c4d
+	github.com/CC-RMD-EpiBio/gofluttercat v0.0.0-20260706171406-8205394e9e00
 	github.com/dgraph-io/badger/v4 v4.9.2
 	github.com/go-chi/chi/v5 v5.3.0
 	github.com/google/uuid v1.6.0

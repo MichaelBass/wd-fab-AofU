@@ -6,7 +6,7 @@
   },
   "domain": "pf",
   "item": "PDR070",
-  "question": "Are you able to walk to the bathoom?",
+  "question": "Are you able to walk to the bathroom?",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

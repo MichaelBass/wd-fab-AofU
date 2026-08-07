@@ -6,7 +6,7 @@
   },
   "domain": "pf",
   "item": "PDR068",
-  "question": "Are you able to walk from store to store while shopping ? For example in a shopping mall.",
+  "question": "Are you able to walk from store to store while shopping? For example in a shopping mall.",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

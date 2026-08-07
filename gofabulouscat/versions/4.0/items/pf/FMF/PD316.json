@@ -1,7 +1,7 @@
 {
   "domain": "pf",
   "item": "PD316",
-  "question": "Are you able to pick out a paper clip from group of clips?",
+  "question": "Are you able to pick out a paper clip from a group of clips?",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

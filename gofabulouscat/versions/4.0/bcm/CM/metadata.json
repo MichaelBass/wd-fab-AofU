@@ -36,12 +36,14 @@
   "missing_value": "nan",
   "subset_sizes": [
     5,
-    10
+    10,
+    20,
+    40
   ],
   "n_subsets_per_size": 100,
   "max_respondents": 500,
   "n_folds": 5,
-  "n_triples": 100000,
+  "n_triples": 210500,
   "bcm_max_iter": 200,
   "bcm_learning_rate": 0.05,
   "bcm_max_depth": 4,
@@ -49,11 +51,11 @@
   "standardize_mu": -0.14439423010149563,
   "standardize_sigma": 0.7750233438309395,
   "calibration_samples": 200,
-  "l2_naive": 0.4214968508090411,
-  "l2_bcm": 0.388383381115054,
-  "l2_reduction_percent": 7.856160640447854,
-  "mean_naive_bias": 0.039802577382813335,
-  "sd_naive_bias": 0.419613334005992,
-  "mean_bcm_bias": 7.797868976123496e-05,
-  "sd_bcm_bias": 0.3883833732868661
+  "l2_naive": 0.3023052186109785,
+  "l2_bcm": 0.2795277179489506,
+  "l2_reduction_percent": 7.534603857215946,
+  "mean_naive_bias": 0.021185049552368704,
+  "sd_naive_bias": 0.3015619983931914,
+  "mean_bcm_bias": 0.0003002357376932375,
+  "sd_bcm_bias": 0.27952755670997786
 }

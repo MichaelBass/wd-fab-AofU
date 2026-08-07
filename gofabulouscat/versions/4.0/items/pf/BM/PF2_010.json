@@ -6,7 +6,7 @@
   },
   "domain": "pf",
   "item": "PF2_010",
-  "question": "Are you able to use the break pedal in a car?",
+  "question": "Are you able to use the brake pedal in a car?",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

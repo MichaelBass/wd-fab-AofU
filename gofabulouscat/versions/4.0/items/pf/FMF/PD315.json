@@ -1,7 +1,7 @@
 {
   "domain": "pf",
   "item": "PD315",
-  "question": "Are you able to pick out one key from group of keys?",
+  "question": "Are you able to pick out one key from a group of keys?",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

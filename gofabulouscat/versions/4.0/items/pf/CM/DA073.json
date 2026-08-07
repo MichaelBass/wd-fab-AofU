@@ -6,7 +6,7 @@
   },
   "domain": "pf",
   "item": "DA073",
-  "question": "Are you able to get on to a bus or train?",
+  "question": "Are you able to get onto a bus or train?",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

@@ -1,7 +1,7 @@
 {
   "domain": "pf",
   "item": "PDR021",
-  "question": "Are you able pull a small suitcase by the handle?",
+  "question": "Are you able to pull a small suitcase by the handle?",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

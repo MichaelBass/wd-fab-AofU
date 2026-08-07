@@ -1,7 +1,7 @@
 {
   "domain": "pf",
   "item": "PF2_013",
-  "question": "Are you able to use your finger to select options on a touch screen? (for example a cellphone or tablet)",
+  "question": "Are you able to use your finger to select options on a touch screen? (For example a cellphone or tablet)",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

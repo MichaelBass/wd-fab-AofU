@@ -1,7 +1,7 @@
 {
   "domain": "pf",
   "item": "PF2_047",
-  "question": "Are you able to lift something weighing 100 pounds? (for example a large dog)",
+  "question": "Are you able to lift something weighing 100 pounds? (For example a large dog)",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

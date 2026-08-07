@@ -1,7 +1,7 @@
 {
   "domain": "pf",
   "item": "PDR006",
-  "question": "Are you able to to bend down to use a dust pan?",
+  "question": "Are you able to bend down to use a dust pan?",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

@@ -1,7 +1,7 @@
 {
   "domain": "bh",
   "item": "CC072",
-  "question": "Are you able figure out the correct price for something that is on sale? For example 25% off.",
+  "question": "Are you able to figure out the correct price for something that is on sale? For example 25% off.",
   "responses": {
     "1": {
       "text": "Yes, without difficulty",

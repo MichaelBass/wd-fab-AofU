@@ -128,7 +128,7 @@ Are you able to carry a full large (check-in size) suitcase for 30 feet? Hint: A
 Are you able to trim a tree with a long handle saw?,¿Puede podar un árbol con una sierra de mano larga?,
 Are you able to clean a floor using a mop?,¿Puede limpiar el piso con un trapeador?,Mental
 Are you able to pull open a dresser drawer?,¿Puede abrir un cajón de una cómoda?,Mental
-Are you able pull a small suitcase by the handle?,¿Puede llevar una maleta pequeña por la manija?,
+Are you able to pull a small suitcase by the handle?,¿Puede llevar una maleta pequeña por la manija?,
 Are you able to lift a 2 liter soda bottle from the floor to a high shelf? A 2 liter soda bottle=3.5lbs/1.5kg.,¿Puede levantar una botella de refresco de 2 litros del piso a un estante/repisa alto/a? Una botella de refresco de 2 litros equivale a 1.5 kg o 3.5 lb.,
 Are you able to clean out a closet?,¿Puede limpiar un armario?,
 Are you able to lift a heavy box from the floor to table height?,¿Puede levantar una caja pesada desde el piso hasta la altura de una mesa?,
@@ -139,13 +139,13 @@ Are you able to move a sofa to clean under it?,¿Puede mover un sofá para limpi
 Are you able to make a bed?,¿Puede hacer la cama?,
 Are you able to fold several loads of laundry?,¿Puede doblar varias cargas de ropa lavada?,
 Are you able to paint the ceiling of a large room?,¿Puede pintar el techo interior de una habitación grande?,
-Are you able to lift something weighing 100 pounds? (for example a large dog),"¿Puede levantar algo que pese 45 kilogramos/100 libras? (Por ejemplo, un perro grande).",
+Are you able to lift something weighing 100 pounds? (For example a large dog),"¿Puede levantar algo que pese 45 kilogramos/100 libras? (Por ejemplo, un perro grande).",
 Are you able to mop your kitchen floor?,¿Puede limpiar el piso de la cocina con el trapeador?,
 Are you able to vacuum for 30 minutes without a break?,¿Puede usar la aspiradora durante 30 minutos sin tomarse un descanso?,
 Are you able to hang a shower curtain without taking a break?,¿Puede colgar una cortina de baño sin tomarse un descanso?,
 Are you able to climb 2 or 3 steps up a step ladder?,¿Puede subir 2 o 3 escalones de una escalerilla?,
 Are you able to bend over from a sitting position to pick up an object you dropped on the floor?,"Cuando está sentado, ¿puede agacharse para recoger un objeto que se le ha caído al piso?",
-Are you able to use the break pedal in a car?,¿Puede usar el pedal de freno de un auto?,Physical
+Are you able to use the brake pedal in a car?,¿Puede usar el pedal de freno de un auto?,Physical
 Are you able to sit in a car for more than 2 hours?,¿Puede permanecer sentado/a en un auto durante más de 2 horas?,
 Are you able to bend down to pick up clothing from the floor?,¿Puede agacharse para recoger ropa del piso?,
 Are you able to crawl under a table to pick up something you dropped?,¿Puede gatear debajo de una mesa para recoger algo que se le haya caído?,
@@ -168,7 +168,7 @@ Are you able to get into and out of a kneeling position? Please base your respon
 Are you able to get in and out of a squatting position?  Please base your response on the most difficult part of the activity.,¿Puede ponerse en posición de sentadilla y levantarse desde la posición de sentadilla? Base su respuesta en la parte más difícil de la actividad.,
 Are you able to kick a ball?,¿Puede patear un balón?,
 How long are you able to kneel?,¿Cuánto tiempo puede estar de rodillas?,
-Are you able to kneel on the floor for a long time? For example when cleaning the bathtub or playing with kids or pet.,"¿Puede estar de rodillas en el piso durante mucho tiempo? Por ejemplo, al limpiar la bañera o jugar con niños o mascotas.",
+Are you able to kneel on the floor for a long time? For example when cleaning the bathtub or playing with kids or pets.,"¿Puede estar de rodillas en el piso durante mucho tiempo? Por ejemplo, al limpiar la bañera o jugar con niños o mascotas.",
 Are you able to move from lying on your back to sitting on the edge of your bed?,¿Puede pasar de estar acostado/a boca arriba a sentarse en el borde de la cama?,
 "Are you able to to stand up from a low, soft couch? 
 Without holding on to anything.","¿Puede levantarse de un sofá bajo y blando, y ponerse de pie? Sin sostenerse de nada.",
@@ -188,7 +188,7 @@ How long are you able to squat?,¿Cuánto tiempo puede estar en posición de sen
 Are you able to walk up a steep slope? For example on a hill.,"¿Puede subir una pendiente/subida pronunciada? Por ejemplo, una colina.",
 Are you able to walk up a steep slope (e.g. on a hill) using your walking aid?,"¿Puede subir una pendiente/subida pronunciada (p. ej., una colina) con su dispositivo de asistencia para caminar?",
 Are you able to reach into a cabinet from a step ladder or stool?,¿Puede alcanzar el interior de un armario desde una escalerilla o un banco?,
-Are you able to walk from store to store while shopping ? For example in a shopping mall.,"¿Puede caminar de tienda en tienda cuando está de compras? Por ejemplo, en un centro comercial.",
+Are you able to walk from store to store while shopping? For example in a shopping mall,"¿Puede caminar de tienda en tienda cuando está de compras? Por ejemplo, en un centro comercial.",
 Are you able to go up three flights of stairs using a handrail? Hint: A flight of stairs is 12-15 steps.,¿Puede subir tres tramos de escaleras si se sujeta de una barandilla? Indicación: Un tramo de escaleras tiene entre 12 y 15 escalones.,
 Are you able to kneel down to tie a shoe?,¿Puede arrodillarse para amarrarse los cordones de un zapato?,Physical
 Are you able to bend to look under a car?,¿Puede agacharse para mirar debajo de un auto?,Physical
@@ -246,7 +246,7 @@ Are you able to remember the name of people you know when you see them?,¿Puede 
 Please specify your level of agreement: I have to read something several times to understand it.,"Indique qué tan de acuerdo está con la afirmación: Para entender algo, necesito leerlo varias veces.",
 Please specify your level of agreement: I have trouble finding the right word when talking with people.,Indique qué tan de acuerdo está con la afirmación: Me cuesta encontrar las palabras justas cuando hablo con alguien.,Mental
 Are you able to keep yourself safe at home?,¿Puede mantenerse fuera de peligro en casa?,Mental
-Are you able figure out the correct price for something that is on sale? For example 25% off.,"¿Puede calcular el precio correcto de algo que está en oferta? Por ejemplo, si tiene un 25 % de descuento.",
+Are you able to figure out the correct price for something that is on sale? For example 25% off.,"¿Puede calcular el precio correcto de algo que está en oferta? Por ejemplo, si tiene un 25 % de descuento.",
 Are you able to write a short email to someone?,¿Puede escribirle un mensaje de correo electrónico corto a alguien?,Mental
 Are you able to write your signature?,¿Puede firmar?,
 Please specify your level of agreement: I can understand simple instructions.,Indique qué tan de acuerdo está con la afirmación: Puedo entender instrucciones simples.,Mental
@@ -268,7 +268,7 @@ Are you able to wait your turn to speak?,¿Puede esperar su turno para hablar?,
 Are you able to understand written instructions?,¿Puede entender instrucciones escritas?,
 " 
 Do you currently use a bus, train or subway to get around?","¿En la actualidad toma autobuses, trenes o metros para desplazarse?",Mental
-Are you able to get on to a bus or train? ,¿Puede subirse a un autobús o a un tren?,Mental
+Are you able to get onto a bus or train?,¿Puede subirse a un autobús o a un tren?,Mental
 Are you able to use a bus or train schedule to get to familiar places? ,¿Puede usar un horario de autobús o tren para llegar a lugares conocidos?,Mental
 Are you able to get on the right bus or train? ,¿Puede tomar el autobús o tren correctos?,
 Are you able to park your car in a parking lot? ,¿Puede estacionar/parquear su auto en un estacionamiento/parqueadero?,
@@ -305,8 +305,8 @@ How long are you able to use a computer mouse?,¿Cuánto tiempo puede usar el ra
 Are you able to insert a plug into an electric outlet?,¿Puede insertar un enchufe en un tomacorriente?,
 Are you able to turn a key in a door lock?,¿Puede hacer girar una llave en una cerradura?,
 Are you able to use a lever handle to open a door? Hint: A lever handle is a handle that you push down to open a door.,¿Puede abrir una puerta con manija con palanca? Indicación: Una manija con palanca está insertada en una puerta; se empuja hacia abajo para abrir la puerta.,
-Are you able to pick out one key from group of keys?,¿Puede agarrar una sola llave de un conjunto de llaves?,
-Are you able to pick out a paper clip from group of clips?,¿Puede agarrar un solo clip de un conjunto de clips?,
+Are you able to pick out one key from a group of keys?,¿Puede agarrar una sola llave de un conjunto de llaves?,
+Are you able to pick out a paper clip from a group of clips?,¿Puede agarrar un solo clip de un conjunto de clips?,
 Are you able to cut a piece of paper with scissors?,¿Puede cortar una hoja de papel con tijeras?,
 Are you able to peel 15 potatoes?,¿Puede pelar 15 papas?,
 Are you able to peel an orange?,¿Puede pelar una naranja?,
@@ -320,7 +320,7 @@ Are you able to reach behind you to get your seatbelt? Hint: A shoulder harness 
 Are you able to staple 2 sheets of paper together?,¿Puede engrapar dos hojas de papel?,
 Are you able to tie a knot?,¿Puede atar un nudo?,
 Are you able to tighten screws by hand with a screwdriver?,¿Puede ajustar tornillos a mano usando un destornillador?,
-Are you able to use your finger to select options on a touch screen? (for example a cellphone or tablet),"¿Puede usar el dedo para seleccionar opciones en una pantalla táctil? (Por ejemplo, en un teléfono celular o una tableta electrónica)",
+Are you able to use your finger to select options on a touch screen? (For example a cellphone or tablet),"¿Puede usar el dedo para seleccionar opciones en una pantalla táctil? (Por ejemplo, en un teléfono celular o una tableta electrónica)",
 Are you able to use the trigger on a spray bottle?,¿Puede usar el rociador de una botella?,
 Are you able to turn a dial? For example on a stove.,"¿Puede girar una perilla? Por ejemplo, para encender una estufa.",
 Are you able to turn a door knob?,¿Puede girar el pomo de una puerta?,
