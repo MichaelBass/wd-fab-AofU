@@ -27673,16 +27673,20 @@ const start = async () => {
       const countForm = await Form.where({}).countDocuments();
       const countLocale = await Locale.where({}).countDocuments();
 
-      if(countAdmin == 0 && countForm == 0 && countLocale == 0){
-        const insertedforms = await Form.insertMany(Forms);
-        const insertedAdmins = await Admin.insertMany(Admins);
+      if(countLocale == 0){
         const insertedlocales = await Locale.insertMany(Locales);
-
-        const insertedAdmin = await Admin.where({}).countDocuments();
-        const insertedForm = await Form.where({}).countDocuments();
         const insertedLocale = await Locale.where({}).countDocuments();
-
-        console.log("Admin: " + insertedAdmin + ", " + "Form: " + insertedForm + ", " + "Locale: " + insertedLocale + ", " );
+        console.log("inserted Locale: " + insertedLocale + "." );
+      }
+      if(countForm == 0){
+        const insertedforms = await Form.insertMany(Forms);
+        const insertedForm = await Form.where({}).countDocuments();
+        console.log("inserted Form: " + insertedForm + ".");
+      }
+      if(countAdmin == 0){
+        const insertedAdmins = await Admin.insertMany(Admins);
+        const insertedAdmin = await Admin.where({}).countDocuments();
+        console.log("inserted Admin: " + insertedAdmin + ".");
       }
 
     server.listen(port, () => console.log(`API running on localhost:${port}`));
